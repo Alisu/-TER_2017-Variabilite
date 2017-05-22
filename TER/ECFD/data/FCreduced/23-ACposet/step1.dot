@@ -1,0 +1,36 @@
+digraph G { 
+	rankdir=BT;
+subgraph 23 { 
+label="23";
+1 [shape=record,label="{Concept_23_0|IRC:Yes\n|Mozilla\nOpera\nSeaMonkey\n}"];
+2 [shape=record,label="{Concept_23_1|BitTorrent:Yes\n|ELinks\nKonqueror\nOpera\n}"];
+3 [shape=record,label="{Concept_23_2|NNTP:Yes\n|ELinks\nLynx\nMosaic\nNetscape\nNetscapeNavigator\nWorldWideWeb\n}"];
+4 [shape=record,label="{Concept_23_3|EV:Yes\n|AOLExplorer\nAvant\nGaleon\nGoogleChrome\nInternetExplorer\nMaxthon\nMozillaFirefox\nOpera\nQupZilla\nSafari\nSeaMonkey\nSleipnir\nsurf\nWeb\n}"];
+5 [shape=record,label="{Concept_23_4|Gopher:Yes\n|Camino\nELinks\nFlock\nGaleon\nInternetExplorerforMac\nK-Meleon\nLynx\nMosaic\nMozilla\nNetscape\nNetscapeNavigator\nNetscapeNavigator9\nOmniWeb\nSeaMonkey\nw3m\n}"];
+6 [shape=record,label="{Concept_23_6|data:URI:Yes\n|Camino\nDillo\nFlock\nGaleon\nGoogleChrome\nInternetExplorer\nK-Meleon\nMozillaFirefox\nNetscape\nNetscapeNavigator9\nNetSurf\nOmniWeb\nQupZilla\nSafari\nsurf\nWeb\n}"];
+7 [shape=record,label="{Concept_23_7|IDN:Yes\n|Camino\nFlock\nGaleon\nGoogleChrome\niCab\nInternetExplorer\nK-Meleon\nMaxthon\nMozillaFirefox\nNetscape\nNetscapeNavigator9\nOmniWeb\nQupZilla\nSafari\nShiira\nSleipnir\nsurf\nWeb\n}"];
+8 [shape=record,label="{Concept_23_8|IPv6:Yes\n|AOLExplorer\nAvant\nCamino\nDillo\nFlock\nGaleon\niCab\nInternetExplorer\nK-Meleon\nLynx\nMaxthon\nMozillaFirefox\nNetscapeNavigator9\nNetSurf\nOmniWeb\nQupZilla\nSafari\nSeaMonkey\nShiira\nSleipnir\nsurf\nWeb\nw3m\n}"];
+9 [shape=record,label="{Concept_23_10|FTP:Yes\n|AOLExplorer\nAvant\nDillo\nGoogleChrome\niCab\nInternetExplorer\nLinks\nMaxthon\nMozillaFirefox\nNetscapeBrowser\nNetSurf\nQupZilla\nSafari\nSleipnir\n}"];
+10 [shape=record,label="{Concept_23_9|SSL:Yes\n|InternetExplorerforMac\nNetscapeBrowser\nNetscapeNavigator\nNetSurf\nw3m\n}"];
+11 [shape=record,label="{Concept_23_11|HTTP:Yes\n|Amaya\n}"];
+12 [shape=record,label="{Concept_23_5|Proxy:Yes\n|Galeon\nGoogleChrome\nInternetExplorer\nK-Meleon\nLinks\nLynx\nMaxthon\nMozillaFirefox\nQupZilla\nSafari\nsurf\nWeb\n}"];
+	1 -> 3
+	1 -> 6
+	2 -> 6
+	1 -> 7
+	2 -> 7
+	2 -> 8
+	3 -> 9
+	2 -> 9
+	5 -> 9
+	7 -> 10
+	4 -> 10
+	12 -> 10
+	9 -> 11
+	6 -> 11
+	8 -> 11
+	10 -> 11
+	2 -> 12
+	1 -> 12
+}
+}

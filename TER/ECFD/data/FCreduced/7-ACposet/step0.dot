@@ -1,0 +1,31 @@
+digraph G { 
+	rankdir=BT;
+subgraph 7 { 
+label="7";
+1 [shape=record,label="{Concept_7_1|Other:MorphOS\nOther:AmigaOS4\nOther:Solaris\n|Blender\n}"];
+2 [shape=record,label="{Concept_7_0|Other:AtariTOS\n|POV-Ray\n}"];
+3 [shape=record,label="{Concept_7_2|BSD:Yes\n|Clara.io\n}"];
+4 [shape=record,label="{Concept_7_5|Other:ChromeOS\n|3DView\nClara.io\n}"];
+5 [shape=record,label="{Concept_7_4|Other:Android\n|Afanche3D\nClara.io\n}"];
+6 [shape=record,label="{Concept_7_3|Other:IOS\n|Afanche3D\nVertoStudio3D\n}"];
+7 [shape=record,label="{Concept_7_6|Unix:Yes\n|ArtofIllusion\n}"];
+8 [shape=record,label="{Concept_7_7|Other:AmigaOS\nOther:AmigaOS\n|Cinema4D\nLightWave3D\ntrueSpace\n}"];
+9 [shape=record,label="{Concept_7_8|Linux:Yes\n|AC3D\nHoudini\nMakeHuman\nMassive\nMaya\nModo\nRemo3D\nSoftimage\nWings3D\n}"];
+10 [shape=record,label="{Concept_7_9|MacOSX:Yes\n|AC3D\nCarrara\nCheetah3D\nCinema4D\nElectricImageAnimationSystem\nform-Z\nHoudini\nLightWave3D\nMakeHuman\nMaya\nModo\nShade\nSilo\nSketchUp\nSketchUpPro\nsolidThinking\nSwift3D\nVue[disambiguationneeded]\nWings3D\nZBrush\n}"];
+11 [shape=record,label="{Concept_7_10|Windows:Yes\n|3dsMax\nCarrara\nElectricImageAnimationSystem\nform-Z\nMetasequoia\nShade\nSilo\nSketchUp\nSketchUpPro\nSolidEdge\nsolidThinking\nsolidWorks\nSpaceClaim\nSwift3D\nVue[disambiguationneeded]\nZBrush\n}"];
+	1 -> 3
+	3 -> 7
+	2 -> 8
+	7 -> 9
+	5 -> 9
+	2 -> 9
+	4 -> 9
+	7 -> 10
+	6 -> 10
+	5 -> 10
+	2 -> 10
+	4 -> 10
+	9 -> 11
+	8 -> 11
+}
+}

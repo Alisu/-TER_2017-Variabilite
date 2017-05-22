@@ -1,0 +1,12 @@
+digraph G { 
+	rankdir=BT;
+subgraph 40 { 
+label="40";
+1 [shape=record,label="{Concept_40_1|Forwardengineering:Yes\n|AltovaDatabaseSpy\nOracleSQLDeveloper\nSQLyog\nToad\nToadDataModeler\n}"];
+2 [shape=record,label="{Concept_40_2|Visualquerybuilder:Yes\n|Adminer\nAltovaDatabaseSpy\nDaDaBIK\nDatabaseDeploymentManager\nNavicat\nMySQLWorkbench\nOracleSQLDeveloper\npgAdminIII\nphpMyAdmin\nSQLyog\nSQuirreLSQL\nToad\n}"];
+3 [shape=record,label="{Concept_40_3|Visualschema/model/E-Rdiagramdesign:Yes\nReverseengineering:Yes\n|Adminer\nDatabaseDeploymentManager\nphpMyAdmin\nSQLServerManagementStudio\nSQuirreLSQL\n}"];
+4 [shape=record,label="{Concept_40_0|ERdiagramgroupboxes:Yes\n|DevgemsDataModeler\nDeZignforDatabases\nModelRight\nNavicat\nNavicatDataModeler\nMySQLWorkbench\n}"];
+	4 -> 1
+	1 -> 3
+}
+}

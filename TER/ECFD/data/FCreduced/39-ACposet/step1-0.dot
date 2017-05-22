@@ -1,0 +1,49 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:39,concept number:14,object number:16,attribute number:16"
+17 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_0</td></tr><tr><td>IntegrationwithIMservice:Yes<br/></td></tr><tr><td><br/></td></tr></table>>];
+22 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_1</td></tr><tr><td>Interfacescripttechnique:Java<br/>Serverhostedpublickeyring(forencryption):Yes<br/>Sharedkeyencryption:Yes<br/></td></tr><tr><td>Hushmail<br/></td></tr></table>>];
+20 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_3</td></tr><tr><td>Interfacescripttechnique:CSS<br/></td></tr><tr><td>BigfootCommunications<br/>FastMail.FM<br/>Outlook.com<br/>Runbox<br/>Yahoo!Mail<br/>YandexMail<br/></td></tr></table>>];
+27 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_2</td></tr><tr><td>Addressmodifiers(subaddressing):Yes<br/></td></tr><tr><td>FastMail.FM<br/>Gmail<br/>Outlook.com<br/>Runbox<br/>Yahoo!Mail<br/>YandexMail<br/></td></tr></table>>];
+25 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_4</td></tr><tr><td>Filtersoutemailswithexecutableattachments:Yes<br/></td></tr><tr><td>GMXMail<br/>Mail.com<br/>Rackspace<br/></td></tr></table>>];
+14 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_5</td></tr><tr><td>Automaticforwarding:Yes<br/></td></tr><tr><td>Mail.com<br/>Mail.ru<br/>Rackspace<br/>Seznam.cz<br/>Zoho<br/></td></tr></table>>];
+18 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_6</td></tr><tr><td>DomainNamecustomization:Yes<br/></td></tr><tr><td>BigfootCommunications<br/>FastMail.FM<br/>Gmail<br/>GMXMail<br/>Mail.ru<br/>Rackspace<br/>rediff<br/>Runbox<br/>Yahoo!Mail<br/>YandexMail<br/>Zoho<br/></td></tr></table>>];
+16 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_9</td></tr><tr><td>clientE-mailforotherserver:Yes<br/></td></tr><tr><td>AOLMail<br/>GMXMail<br/>Mail.com<br/>Mail.ru<br/>Seznam.cz<br/>Zoho<br/></td></tr></table>>];
+19 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_7</td></tr><tr><td>Interfacescripttechnique:HTML<br/></td></tr><tr><td>Mail.ru<br/>Seznam.cz<br/></td></tr></table>>];
+23 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_8</td></tr><tr><td>Interfacescripttechnique:JavaScript<br/></td></tr><tr><td>AOLMail<br/>rediff<br/>Seznam.cz<br/></td></tr></table>>];
+21 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_11</td></tr><tr><td>Interfacescripttechnique:Ajax<br/></td></tr><tr><td>AOLMail<br/>Mail.ru<br/>rediff<br/>Zoho<br/></td></tr></table>>];
+26 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_10</td></tr><tr><td>Custom"From:"Address:Yes<br/></td></tr><tr><td>GMXMail<br/>Mail.com<br/>Mail.ru<br/>rediff<br/>Seznam.cz<br/>Zoho<br/></td></tr></table>>];
+24 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_12</td></tr><tr><td>Virusscanning:Yes<br/></td></tr><tr><td><br/></td></tr></table>>];
+15 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_13</td></tr><tr><td>E-mailclientaccess:Yes<br/></td></tr><tr><td><br/></td></tr></table>>];
+	17:p -> 22:p
+	17:p -> 20:p
+	17:p -> 27:p
+	27:p -> 25:p
+	27:p -> 14:p
+	20:p -> 14:p
+	22:p -> 18:p
+	27:p -> 16:p
+	20:p -> 16:p
+	25:p -> 19:p
+	20:p -> 19:p
+	22:p -> 19:p
+	25:p -> 23:p
+	20:p -> 23:p
+	25:p -> 21:p
+	20:p -> 21:p
+	27:p -> 26:p
+	20:p -> 26:p
+	22:p -> 26:p
+	14:p -> 24:p
+	21:p -> 24:p
+	23:p -> 24:p
+	16:p -> 24:p
+	18:p -> 15:p
+	19:p -> 15:p
+	26:p -> 15:p
+	24:p -> 15:p
+}

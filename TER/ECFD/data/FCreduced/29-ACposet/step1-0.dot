@@ -1,0 +1,70 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:29,concept number:25,object number:11,attribute number:67"
+25 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_7</td></tr><tr><td>YearBegan:2008<br/>Description/Focus:Open-sourcesocialnetworkingplatform<br/>Registeredusers:2038232<br/>Updatedinpast30days:32798<br/>UserpicsFree:15<br/>UserpicsPaid:100<br/>YearlyCostforPaidAccount:35to50USD<br/>PermanentAccount:200USD<br/></td></tr><tr><td>Dreamwidth<br/></td></tr></table>>];
+27 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_1</td></tr><tr><td>YearBegan:2007<br/>Description/Focus:Generalcommunity<br/>Registeredusers:29094<br/>Updatedinpast30days:686<br/>YearlyCostforPaidAccount:20.00USD<br/></td></tr><tr><td>Scribbld<br/></td></tr></table>>];
+28 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_2</td></tr><tr><td>YearBegan:2005<br/>Registeredusers:49420<br/>Updatedinpast30days:1675<br/></td></tr><tr><td>Lj.Rossia.org<br/></td></tr></table>>];
+30 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_5</td></tr><tr><td>YearBegan:2003<br/>Description/Focus:Fandomfocusedcommunityfor18+<br/>Registeredusers:19963<br/>Updatedinpast30days:361<br/>UserpicsFree:10<br/>UserpicsPaid:500<br/>YearlyCostforPaidAccount:24USD<br/></td></tr><tr><td>JournalFen<br/></td></tr></table>>];
+31 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_3</td></tr><tr><td>YearBegan:1999<br/>Description/Focus:OriginalLiveJournalsite<br/>Registeredusers:42550922<br/>Updatedinpast30days:1150344<br/>UserpicsPaid:30<br/>YearlyCostforPaidAccount:19.95USD<br/>PermanentAccount:175USD<br/></td></tr><tr><td>LiveJournal<br/></td></tr></table>>];
+33 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_8</td></tr><tr><td>Description/Focus:Dark-themedcommunity<br/>Registeredusers:456302<br/>Updatedinpast30days:638<br/>UserpicsFree:5<br/>MonthlyCostforPaidAccount:2.5USD<br/>YearlyCostforPaidAccount:15USD<br/></td></tr><tr><td>DeadJournal<br/></td></tr></table>>];
+34 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_10</td></tr><tr><td>Description/Focus:Japanesecommunity<br/>Registeredusers:13127<br/>Updatedinpast30days:31<br/></td></tr><tr><td>Asks<br/></td></tr></table>>];
+35 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_6</td></tr><tr><td>Description/Focus:Insaneasylum-themedcommunity<br/>Registeredusers:3983438<br/>Updatedinpast30days:18653<br/>UserpicsPaid:250<br/>YearlyCostforPaidAccount:25USD<br/></td></tr><tr><td>InsaneJournal<br/></td></tr></table>>];
+36 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_9</td></tr><tr><td>Description/Focus:General18+community<br/>Registeredusers:2255607<br/>Updatedinpast30days:1899<br/></td></tr><tr><td>Blurty<br/></td></tr></table>>];
+38 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_0</td></tr><tr><td>Description/Focus:Latviancommunity<br/>Registeredusers:28919<br/>Updatedinpast30days:10324<br/></td></tr><tr><td>SviestaCiba<br/></td></tr></table>>];
+39 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_4</td></tr><tr><td>Registeredusers:2340<br/>Updatedinpast30days:141<br/></td></tr><tr><td>Kraslan<br/></td></tr></table>>];
+26 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_20</td></tr><tr><td>YearBegan:2006<br/></td></tr><tr><td><br/></td></tr></table>>];
+29 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_19</td></tr><tr><td>YearBegan:2002<br/></td></tr><tr><td><br/></td></tr></table>>];
+32 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_18</td></tr><tr><td>YearBegan:2001<br/></td></tr><tr><td><br/></td></tr></table>>];
+37 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_12</td></tr><tr><td>Description/Focus:Russiancommunity<br/></td></tr><tr><td><br/></td></tr></table>>];
+40 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_17</td></tr><tr><td>Registration:paid<br/>Registration:Invite-only<br/></td></tr><tr><td><br/></td></tr></table>>];
+44 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_21</td></tr><tr><td>UserpicsFree:3<br/></td></tr><tr><td><br/></td></tr></table>>];
+45 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_11</td></tr><tr><td>UserpicsFree:6<br/></td></tr><tr><td><br/></td></tr></table>>];
+46 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_14</td></tr><tr><td>UserpicsFree:100<br/></td></tr><tr><td><br/></td></tr></table>>];
+47 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_16</td></tr><tr><td>UserpicsPaid:50<br/></td></tr><tr><td><br/></td></tr></table>>];
+48 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_13</td></tr><tr><td>MonthlyCostforPaidAccount:5USD<br/></td></tr><tr><td><br/></td></tr></table>>];
+49 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_15</td></tr><tr><td>MonthlyCostforPaidAccount:3USD<br/></td></tr><tr><td><br/></td></tr></table>>];
+43 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_22</td></tr><tr><td>Abilitytosyndicateoff-sitefeeds:Allusers<br/></td></tr><tr><td><br/></td></tr></table>>];
+42 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_23</td></tr><tr><td>Abilitytosyndicateoff-sitefeeds:Paidonly<br/></td></tr><tr><td><br/></td></tr></table>>];
+41 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_29_24</td></tr><tr><td>Registration:Open<br/></td></tr><tr><td><br/></td></tr></table>>];
+	39:p -> 26:p
+	34:p -> 26:p
+	38:p -> 29:p
+	36:p -> 29:p
+	33:p -> 32:p
+	35:p -> 32:p
+	28:p -> 37:p
+	39:p -> 37:p
+	33:p -> 40:p
+	30:p -> 40:p
+	36:p -> 44:p
+	34:p -> 44:p
+	27:p -> 45:p
+	31:p -> 45:p
+	28:p -> 46:p
+	35:p -> 46:p
+	33:p -> 47:p
+	27:p -> 47:p
+	27:p -> 48:p
+	35:p -> 48:p
+	31:p -> 49:p
+	25:p -> 49:p
+	33:p -> 43:p
+	28:p -> 43:p
+	25:p -> 43:p
+	36:p -> 42:p
+	30:p -> 42:p
+	48:p -> 42:p
+	45:p -> 42:p
+	29:p -> 41:p
+	44:p -> 41:p
+	45:p -> 41:p
+	46:p -> 41:p
+	49:p -> 41:p
+	37:p -> 41:p
+	26:p -> 41:p
+	48:p -> 41:p
+}

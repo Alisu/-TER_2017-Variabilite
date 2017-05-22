@@ -1,0 +1,33 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:7,concept number:11,object number:36,attribute number:14"
+16 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_1</td></tr><tr><td>Other:MorphOS<br/>Other:AmigaOS4<br/>Other:Solaris<br/></td></tr><tr><td>Blender<br/></td></tr></table>>];
+17 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_0</td></tr><tr><td>Other:AtariTOS<br/></td></tr><tr><td>POV-Ray<br/></td></tr></table>>];
+15 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_2</td></tr><tr><td>BSD:Yes<br/></td></tr><tr><td>Clara.io<br/></td></tr></table>>];
+18 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_5</td></tr><tr><td>Other:ChromeOS<br/></td></tr><tr><td>3DView<br/>Clara.io<br/></td></tr></table>>];
+19 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_4</td></tr><tr><td>Other:Android<br/></td></tr><tr><td>Afanche3D<br/>Clara.io<br/></td></tr></table>>];
+20 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_3</td></tr><tr><td>Other:IOS<br/></td></tr><tr><td>Afanche3D<br/>VertoStudio3D<br/></td></tr></table>>];
+14 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_6</td></tr><tr><td>Unix:Yes<br/></td></tr><tr><td>ArtofIllusion<br/></td></tr></table>>];
+21 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_7</td></tr><tr><td>Other:AmigaOS<br/>Other:AmigaOS<br/></td></tr><tr><td>Cinema4D<br/>LightWave3D<br/>trueSpace<br/></td></tr></table>>];
+13 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_8</td></tr><tr><td>Linux:Yes<br/></td></tr><tr><td>AC3D<br/>Houdini<br/>MakeHuman<br/>Massive<br/>Maya<br/>Modo<br/>Remo3D<br/>Softimage<br/>Wings3D<br/></td></tr></table>>];
+12 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_9</td></tr><tr><td>MacOSX:Yes<br/></td></tr><tr><td>AC3D<br/>Carrara<br/>Cheetah3D<br/>Cinema4D<br/>ElectricImageAnimationSystem<br/>form-Z<br/>Houdini<br/>LightWave3D<br/>MakeHuman<br/>Maya<br/>Modo<br/>Shade<br/>Silo<br/>SketchUp<br/>SketchUpPro<br/>solidThinking<br/>Swift3D<br/>Vue[disambiguationneeded]<br/>Wings3D<br/>ZBrush<br/></td></tr></table>>];
+11 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_10</td></tr><tr><td>Windows:Yes<br/></td></tr><tr><td>3dsMax<br/>Carrara<br/>ElectricImageAnimationSystem<br/>form-Z<br/>Metasequoia<br/>Shade<br/>Silo<br/>SketchUp<br/>SketchUpPro<br/>SolidEdge<br/>solidThinking<br/>solidWorks<br/>SpaceClaim<br/>Swift3D<br/>Vue[disambiguationneeded]<br/>ZBrush<br/></td></tr></table>>];
+	16:p -> 15:p
+	15:p -> 14:p
+	17:p -> 21:p
+	14:p -> 13:p
+	19:p -> 13:p
+	17:p -> 13:p
+	18:p -> 13:p
+	14:p -> 12:p
+	20:p -> 12:p
+	19:p -> 12:p
+	17:p -> 12:p
+	18:p -> 12:p
+	13:p -> 11:p
+	21:p -> 11:p
+}

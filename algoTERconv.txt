@@ -1,0 +1,37 @@
+Ecrire 'digraph Ecfd.id {
+	ratio = "auto";
+	label = ' Ecfd.name';
+Pour chaque Boite:
+	Ecrire ses features entre guillemets
+	Si c'est la racine:
+		Ecrire '[root=true,'
+	Sinon
+		Ecrire '['
+	Ecrire 'shape=box, regular=1, style = filled, fillcollor=white];'
+FinPour
+Pour chaque EstMereDe:
+	Si ça n'est pas un GroupeBoite:
+		Ecrire fils '->' mere '[color=' couleurChoisie '];'
+	Sinon
+		Si c'est un Or
+			Ecrire nomDuOr '[shape=box, style=filled, label="OR", height=.1,width=.1];'
+			Ecrire mere '->' nomDuOr '[dir=back, color=' couleurChoisie '];'
+			Pour chaque fils:
+				Ecrire nomDuOr '->' fils '[dir = none, color=' couleurChoisie '];'
+			FinPour
+		Sinon
+			Ecrire nomDuXor '[shape=box, style=filled, label="XOR", height=.1,width=.1];'
+			Ecrire mere '->' nomDuXor '[dir=back, color=' couleurChoisie '];'
+			Pour chaque fils:
+				Ecrire nomDuXor '->' fils '[dir = none, color=' couleurChoisie '];'
+			FinPour
+		FinSi
+	FinSi
+FinPour
+Pour chaque Mutex:
+	Ecrire nomDuMutex '[shape=box, style=filled, label="MX", height=0, width=0]
+	Pour chaque Boite du mutex:
+		Ecrire nomDeLaBoite '->' nomDuMutex [dir=none];'
+	FinPour
+FinPour
+}

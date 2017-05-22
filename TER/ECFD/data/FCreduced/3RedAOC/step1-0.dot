@@ -1,0 +1,17 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:3,concept number:5,object number:38,attribute number:6"
+6 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_3_0</td></tr><tr><td>Spamprevention:Yes<br/></td></tr><tr><td>BrainKeeper<br/>BlueSpiceforMediaWiki<br/>CentralDesktop<br/>MindTouch<br/>DokuWiki<br/>EditMe<br/>FlexWiki<br/>Foswiki<br/>Gitit<br/>IBMConnections<br/>Jive<br/>MediaWiki<br/>MoinMoin<br/>MojoMojo<br/>PBworks<br/>PhpWiki<br/>PmWiki<br/>Qontext<br/>SamePage<br/>SharePointFoundation<br/>SharePointServer<br/>Socialtext<br/>Swiki<br/>TikiWikiCMSGroupware<br/>TractionTeamPage<br/>TWiki<br/>UseModWiki<br/>WackoWiki<br/>Wagn<br/>Wikiwig<br/>WikkaWiki<br/>XWiki<br/>ZWiki<br/></td></tr></table>>];
+7 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_3_1</td></tr><tr><td>Pageaccesscontrol:Yes<br/></td></tr><tr><td>BlueSpiceforMediaWiki<br/>MindTouch<br/>DokuWiki<br/>EditMe<br/>eXoPlatform<br/>FlexWiki<br/>Foswiki<br/>Gitit<br/>Jive<br/>JotSpot<br/>MediaWiki<br/>MidgardWiki<br/>MoinMoin<br/>MojoMojo<br/>PBworks<br/>PhpWiki<br/>PmWiki<br/>Qontext<br/>SamePage<br/>SharePointFoundation<br/>SharePointServer<br/>Socialtext<br/>Swiki<br/>ThoughtFarmer<br/>TikiWikiCMSGroupware<br/>TractionTeamPage<br/>TWiki<br/>UseModWiki<br/>WackoWiki<br/>Wagn<br/>Wikiwig<br/>WikkaWiki<br/>XWiki<br/>ZWiki<br/></td></tr></table>>];
+8 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_3_3</td></tr><tr><td>InlineHTML:Yes<br/></td></tr><tr><td>BrainKeeper<br/>BlueSpiceforMediaWiki<br/>CentralDesktop<br/>MindTouch<br/>DokuWiki<br/>EditMe<br/>eXoPlatform<br/>FlexWiki<br/>Foswiki<br/>Gitit<br/>IBMConnections<br/>Jive<br/>JotSpot<br/>MediaWiki<br/>MidgardWiki<br/>MoinMoin<br/>MojoMojo<br/>PBworks<br/>PhpWiki<br/>PmWiki<br/>SamePage<br/>SharePointFoundation<br/>SharePointServer<br/>Socialtext<br/>Swiki<br/>ThoughtFarmer<br/>TiddlyWiki<br/>TikiWikiCMSGroupware<br/>TractionTeamPage<br/>TWiki<br/>UseModWiki<br/>WackoWiki<br/>Wagn<br/>Wikiwig<br/>WikkaWiki<br/>XWiki<br/>ZWiki<br/></td></tr></table>>];
+5 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_3_4</td></tr><tr><td>Fileuploading/attachments:Yes<br/>User-customizableinterface:Yes<br/></td></tr><tr><td><br/></td></tr></table>>];
+9 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_3_2</td></tr><tr><td>Documentrenaming:Yes<br/></td></tr><tr><td>BrainKeeper<br/>BlueSpiceforMediaWiki<br/>MindTouch<br/>DokuWiki<br/>EditMe<br/>eXoPlatform<br/>FlexWiki<br/>Foswiki<br/>Gitit<br/>IBMConnections<br/>JotSpot<br/>MediaWiki<br/>MoinMoin<br/>MojoMojo<br/>PhpWiki<br/>PmWiki<br/>Qontext<br/>SamePage<br/>SharePointFoundation<br/>SharePointServer<br/>Socialtext<br/>Swiki<br/>ThoughtFarmer<br/>TiddlyWiki<br/>TikiWikiCMSGroupware<br/>TractionTeamPage<br/>TWiki<br/>UseModWiki<br/>WackoWiki<br/>Wagn<br/>Wikiwig<br/>WikkaWiki<br/>XWiki<br/>ZWiki<br/></td></tr></table>>];
+	8:p -> 5:p
+	6:p -> 5:p
+	9:p -> 5:p
+	7:p -> 5:p
+}

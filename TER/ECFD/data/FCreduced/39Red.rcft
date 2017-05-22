@@ -1,0 +1,18 @@
+FormalContext 39
+||Automaticforwarding:Yes|E-mailclientaccess:Yes|clientE-mailforotherserver:Yes|IntegrationwithIMservice:Yes|DomainNamecustomization:Yes|Interfacescripttechnique:HTML|Interfacescripttechnique:CSS|Interfacescripttechnique:Ajax|Interfacescripttechnique:Java|Interfacescripttechnique:JavaScript|Virusscanning:Yes|Filtersoutemailswithexecutableattachments:Yes|Custom"From:"Address:Yes|Addressmodifiers(subaddressing):Yes|Serverhostedpublickeyring(forencryption):Yes|Sharedkeyencryption:Yes|
+|AOLMail||x|x|||||x||x|x||||||
+|BigfootCommunications|x|x|x||x|x|x|x||x|x||x||||
+|FastMail.FM|x|x|x||x|x|x|x||x|x|x|x|x|||
+|Gmail|x|x|x||x|x||x||x|x|x|x|x|||
+|GMXMail||x|x||x|x||x||x|x|x|x||||
+|Hushmail||x|||x|x|||x||||x||x|x|
+|Mail.com|x|x|x|||x||x||x|x|x|x||||
+|Mail.ru|x|x|x||x|x||x|||x||x||||
+|Outlook.com|x|x|x|||x|x|x||x|x|x|x|x|||
+|Rackspace|x|x|||x|x||x||x|x|x|||||
+|rediff||x|||x|||x||x|x||x||||
+|Runbox|x|x|x||x|x|x|x||x|x|x|x|x|||
+|Seznam.cz|x|x|x|||x||||x|x||x||||
+|Yahoo!Mail|x|x|x||x|x|x|x||x|x|x|x|x|||
+|YandexMail|x|x|x||x|x|x|x||x|x|x|x|x|||
+|Zoho|x|x|x||x|||x|||x||x||||

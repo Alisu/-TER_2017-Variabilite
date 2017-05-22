@@ -1,0 +1,75 @@
+package FIM;
+
+import java.util.Vector;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//ECFD ecfd = new ECFD();
+		
+		ECFD ecfd= new ECFD("2Red.rcft"); //doublon toujours non géré
+		
+		System.out.println("");
+		System.out.println("Mutex :");
+		
+		ecfd.InfrequentMining();
+		
+		if(ecfd.getMutex().isEmpty()){
+			System.out.println("Empty groupe");
+		}else{
+			for(NodeLattice nl : ecfd.getMutex()){
+
+				System.out.println(nl);
+			}
+		}
+		
+		
+		
+		System.out.println("");
+		System.out.println("Groupe :");
+		
+		ecfd.GroupeMining();
+		
+		if(ecfd.getGroupe().isEmpty()){
+			System.out.println("Empty groupe");
+		}else{
+			for(NodeLattice nl : ecfd.getGroupe()){
+
+				System.out.println(nl);
+			}
+		}
+		
+		ecfd.GroupeDetermination();
+		
+		System.out.println("");
+		System.out.println("Groupe OR :");
+		//int i=0;
+		if(ecfd.getGroupeOr().isEmpty()){
+			System.out.println("Empty groupe");
+		}else{
+			for(NodeLattice nl : ecfd.getGroupeOr()){
+				//System.out.println(i);
+				System.out.println(nl);
+				//i++;
+			}
+		}
+		
+		System.out.println("");
+		System.out.println("Groupe XOR :");
+		if(ecfd.getGroupeXor().isEmpty()){
+			System.out.println("Empty groupe");
+		}else{
+			for(NodeLattice nl : ecfd.getGroupeXor()){
+
+				System.out.println(nl);
+			}
+		}
+		
+		/*for(NodeLattice node : lattice.getLattice()){
+			System.out.println(node);
+		}*/
+
+	}
+
+}

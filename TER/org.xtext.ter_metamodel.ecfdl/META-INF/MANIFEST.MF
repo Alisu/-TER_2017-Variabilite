@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: org.xtext.ter_metamodel.ecfdl
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: org.xtext.ter_metamodel.ecfdl; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: ter_metamodel,
+ org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.xbase.lib,
+ org.antlr.runtime,
+ org.eclipse.xtext.util,
+ org.eclipse.xtend.lib,
+ org.eclipse.emf.common
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.xtext.ter_metamodel.ecfdl.ecfd.util,
+ org.xtext.ter_metamodel.ecfdl.parser.antlr,
+ org.xtext.ter_metamodel.ecfdl.parser.antlr.internal,
+ org.xtext.ter_metamodel.ecfdl,
+ org.xtext.ter_metamodel.ecfdl.serializer,
+ org.xtext.ter_metamodel.ecfdl.ecfd.impl,
+ org.xtext.ter_metamodel.ecfdl.generator,
+ org.xtext.ter_metamodel.ecfdl.ecfd,
+ org.xtext.ter_metamodel.ecfdl.services,
+ org.xtext.ter_metamodel.ecfdl.validation,
+ org.xtext.ter_metamodel.ecfdl.scoping,
+ org.xtext.ter_metamodel.ecfdl.formatting
+Import-Package: org.apache.log4j

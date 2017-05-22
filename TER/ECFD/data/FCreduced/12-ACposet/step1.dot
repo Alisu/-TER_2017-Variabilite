@@ -1,0 +1,19 @@
+digraph G { 
+	rankdir=BT;
+subgraph 12 { 
+label="12";
+1 [shape=record,label="{Concept_12_0|pback:Yes\n|Amarok\nMediaMonkey\nMPXPLAY\nSonique\nWinamp\nXMMS\nXMPlay\n}"];
+2 [shape=record,label="{Concept_12_1|Outboundstreaming:Yes\n|AIMP\nAmarok\nfoobar2000\nMediaMonkey\nMusicPlayerDaemon\nWinamp\nXMMS\nXMPlay\n}"];
+3 [shape=record,label="{Concept_12_3|Skinnable:Yes\n|Audacious\nAudion\ncmus\nMusicBee\nMusicmatchJukebox\nZinf\n}"];
+4 [shape=record,label="{Concept_12_5|Gaplessaudiodecoding:Yes\n|AIMP\nAmarok\nAudacious\ncmus\nCog\nClementine\nExaile\nfoobar2000\nMediaMonkey\nMPXPLAY\nMusicPlayerDaemon\nMusicBee\nQuodLibet\nRhythmbox\nSpotify\nXMMS\nXMPlay\n}"];
+5 [shape=record,label="{Concept_12_6|Visualizer:Yes\n|Audacious\nAudion\nClementine\nMusicBee\nMusicmatchJukebox\nmusikCube\nRhythmbox\n}"];
+6 [shape=record,label="{Concept_12_4|Remotecontrollable:Yes\n|AIMP\nAmarok\nAudacious\ncmus\nCog\nClementine\nfoobar2000\nJuK\nMediaMonkey\nMPXPLAY\nMusicPlayerDaemon\nMusicBee\nMusicmatchJukebox\nQuodLibet\nRhythmbox\nWinamp\nXMMS\n}"];
+7 [shape=record,label="{Concept_12_7|Mediadatabase:Yes\n|AIMP\ncmus\nJuK\nMPXPLAY\nMusicmatchJukebox\nRhapsody\nZinf\n}"];
+8 [shape=record,label="{Concept_12_2|Intelligentplaylistsfromdatabase(basedoncriteria):Yes\n|Amarok\nClementine\nExaile\nfoobar2000\nMediaMonkey\nMusicPlayerDaemon\nMusicBee\nmusikCube\nQuodLibet\nRhythmbox\nWinamp\n}"];
+	1 -> 3
+	2 -> 3
+	1 -> 5
+	2 -> 5
+	8 -> 7
+}
+}

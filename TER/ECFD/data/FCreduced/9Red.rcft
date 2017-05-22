@@ -1,0 +1,24 @@
+FormalContext 9
+||Company:Dr.Web|Company:PandaSecurity|Company:TrendMicro|Company:SourcefireVRT|Company:Symantec|Company:AviraOperations|Company:Webroot|Company:ProtectMac|Company:F-Secure|Company:KasperskyLab|Company:ComodoGroup|Company:Intego|Company:ESET|Company:Sophos|Company:avast!|Company:QuickHeal|Company:Zeobit|Company:Bitdefender|On-demandscan:Yes|On-accessscan:Yes|Firewall:Yes|Emailsecurity:Yes|AntiSpam:Yes|Webprotection:Yes|Live-Update:Yes|Support:Yes|AVComparatives:Yes|License:GPL|License:Proprietary|Price:Non-free|Price:Trialware|Price:Free|Firstrelease:2008|Firstrelease:2009|Firstrelease:1997|Firstrelease:2007|Firstrelease:2013|Firstrelease:2002|Firstrelease:2012|Firstrelease:2011|Firstrelease:2010|Firstrelease:2000|Countryoforigin:UnitedStates|Countryoforigin:CzechRepublic|Countryoforigin:Slovakia|Countryoforigin:Finland|Countryoforigin:Spain|Countryoforigin:Romania|Countryoforigin:Russia|Countryoforigin:Germany|Countryoforigin:Japan|Countryoforigin:UnitedKingdom|Countryoforigin:India|
+|avast!FreeAntivirusforMac|||||||||||||||x||||x|x||x||x|x|x|x||x|||x|||||||||x|||x||||||||||
+|AviraFreeMacSecurity||||||x|||||||||||||x|x||x|x|x|x|x|x||x|||x|||||||x|||||||||||x||||
+|ClamAntiVirus||||x|||||||||||||||x|x|||||x|||x||||x||||||||||x|x|||||||||||
+|ComodoInternetSecurityMac|||||||||||x||||||||x|x|||||x||||x|||x|x||||||||||x|||||||||||
+|Dr.WebAnti-virusforMacOSX|x||||||||||||||||||x|x|||||x|x|||x||x|||||||x|||||||||||x|||||
+|ESETCyberSecurity|||||||||||||x||||||x|x||||x|x|x|||x|x||||||||||x|||||x|||||||||
+|ESETCyberSecurityPro|||||||||||||x||||||x|x|x|x||x|x|x|||x|x|||||||x||||||||x|||||||||
+|F-SecureAnti-VirusforMac|||||||||x||||||||||x|x|x|||x|x|x|x||x|x|||x|||||||||||||x||||||||
+|VirusBarrier||||||||||||x|||||||x|x|||||x|x|||x|x|||||x||||||||x|||||||||||
+|MacInternetSecurity||||||||||||x|||||||x|x|x|||x|x|x|||x|x||||||||||||x|x|||||||||||
+|KasperskyInternetSecurity||||||||||x|||||||||x|x||||x|x|x|x||x|x|||||||||||x||||||||x|||||
+|PandaAntivirusforMac||x|||||||||||||||||x|x||||x|x|x|x||x|x||||x|||||||||||||x|||||||
+|ProtectMacAntiVirus||||||||x|||||||||||x|x|x|||x|x|x|x||x|x||||||x||||||||||||||||x||
+|QuickHeal]TotalSecurityforMac||||||||||||||||x|||x|x|x|x|x|x|x|x|||x|x|||||||||x||||||||||||||x|
+|BitdefenderAntivirusforMac||||||||||||||||||x|x|x||||x|x|x|||x|x|||||||||||x|||||||x||||||
+|SophosAnti-VirusforMac||||||||||||||x|||||x|x|x|||x|x||x||x|||x|||||||||x|||||||||||x||
+|SymantecEndpointProtection|||||x||||||||||||||x|x|x|x|x|x|x|x|x||x|x|||||||||x||||x|||||||||||
+|NortonAntiVirusforMac|||||x||||||||||||||x|x|||||x|x|||x|x|||||||||x||||x|||||||||||
+|TitaniumInternetSecurityforMac|||x||||||||||||||||x|x||||x|x|x|||x|x||||||||||x|||||||||||x|||
+|SecureAnywhereAntiVirus|||||||x||||||||||||x|x||||x|x|x|||x||x||||||||x||||x|||||||||||
+|SecureAnywhereInternetSecurityPlus|||||||x||||||||||||x|x||||x|x|x|||x||x||||||||x||||x|||||||||||
+|MacKeeper|||||||||||||||||x||x|x||||x|x||x||x||x||||||||||x||x|||||||||||

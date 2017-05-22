@@ -1,0 +1,33 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:7,concept number:11,object number:36,attribute number:14"
+5 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_1</td></tr><tr><td>Other:MorphOS<br/>Other:AmigaOS4<br/>Other:Solaris<br/></td></tr><tr><td>Blender<br/></td></tr></table>>];
+6 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_0</td></tr><tr><td>Other:AtariTOS<br/></td></tr><tr><td>POV-Ray<br/></td></tr></table>>];
+4 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_2</td></tr><tr><td>BSD:Yes<br/></td></tr><tr><td>Clara.io<br/></td></tr></table>>];
+7 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_5</td></tr><tr><td>Other:ChromeOS<br/></td></tr><tr><td>3DView<br/>Clara.io<br/></td></tr></table>>];
+8 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_4</td></tr><tr><td>Other:Android<br/></td></tr><tr><td>Afanche3D<br/>Clara.io<br/></td></tr></table>>];
+9 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_3</td></tr><tr><td>Other:IOS<br/></td></tr><tr><td>Afanche3D<br/>VertoStudio3D<br/></td></tr></table>>];
+3 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_6</td></tr><tr><td>Unix:Yes<br/></td></tr><tr><td>ArtofIllusion<br/></td></tr></table>>];
+10 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_7</td></tr><tr><td>Other:AmigaOS<br/>Other:AmigaOS<br/></td></tr><tr><td>Cinema4D<br/>LightWave3D<br/>trueSpace<br/></td></tr></table>>];
+2 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_8</td></tr><tr><td>Linux:Yes<br/></td></tr><tr><td>AC3D<br/>Houdini<br/>MakeHuman<br/>Massive<br/>Maya<br/>Modo<br/>Remo3D<br/>Softimage<br/>Wings3D<br/></td></tr></table>>];
+1 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_9</td></tr><tr><td>MacOSX:Yes<br/></td></tr><tr><td>AC3D<br/>Carrara<br/>Cheetah3D<br/>Cinema4D<br/>ElectricImageAnimationSystem<br/>form-Z<br/>Houdini<br/>LightWave3D<br/>MakeHuman<br/>Maya<br/>Modo<br/>Shade<br/>Silo<br/>SketchUp<br/>SketchUpPro<br/>solidThinking<br/>Swift3D<br/>Vue[disambiguationneeded]<br/>Wings3D<br/>ZBrush<br/></td></tr></table>>];
+0 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_7_10</td></tr><tr><td>Windows:Yes<br/></td></tr><tr><td>3dsMax<br/>Carrara<br/>ElectricImageAnimationSystem<br/>form-Z<br/>Metasequoia<br/>Shade<br/>Silo<br/>SketchUp<br/>SketchUpPro<br/>SolidEdge<br/>solidThinking<br/>solidWorks<br/>SpaceClaim<br/>Swift3D<br/>Vue[disambiguationneeded]<br/>ZBrush<br/></td></tr></table>>];
+	5:p -> 4:p
+	4:p -> 3:p
+	6:p -> 10:p
+	3:p -> 2:p
+	8:p -> 2:p
+	6:p -> 2:p
+	7:p -> 2:p
+	3:p -> 1:p
+	9:p -> 1:p
+	8:p -> 1:p
+	6:p -> 1:p
+	7:p -> 1:p
+	2:p -> 0:p
+	10:p -> 0:p
+}

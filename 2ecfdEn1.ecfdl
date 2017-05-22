@@ -1,0 +1,123 @@
+listEcfd{
+Ecfd : ECFD1 { 
+	boxes{ 
+		Box : b1 {
+			Root
+			motherOf(b2) 
+			motherOfGroup(gb1,gb3)
+			features(C,G,D,A)
+		},
+		Box : b2 {
+			superBox(b1)
+			motherOf(b3)
+			motherOfGroup(gb2) 
+			mutex(m1)
+			features(W)
+		},
+		Box : b3 {
+			superBox(b2)
+			groupbox(gb1)
+			features(Mu)
+		},
+		Box : b4 {
+			groupbox(gb1)
+			motherOf(b5)
+			features(Si,Ar)
+		},
+		Box : b5 {
+			superBox(b4)
+			groupbox(gb3)
+			mutex(m1)
+			features(We)
+		},
+		Box : b6 {
+			groupbox(gb3)
+			features(M)
+		},
+		Box : b7 {
+			groupbox(gb3)
+			motherOf(b9)
+			features(S)
+		},
+		Box : b8 {
+			groupbox(gb2)
+			features(I)
+		},
+		Box : b9 {
+			superBox(b7)
+			groupbox(gb2)
+			features(B)
+		} 
+		}
+		groups{
+		GroupBox : gb1 {
+			superBox(b1)
+			boxes(b3, b4)
+		},
+		GroupBox : gb2 {
+			superBox(b2)
+			boxes(b8,b9)
+		},
+		GroupBox : gb3 {
+			Exclusif 
+			superBox(b1)
+			boxes(b5,b6,b7)
+		} 
+		
+	}
+	mutex{
+		Mutex : m1 {
+			boxes(b3,b5)
+		}
+	}
+}, 
+Ecfd : ECFD2{
+  boxes { 
+  		Box : b1 { 
+  			motherOf(b4)
+  			motherOfGroup (gb1)
+		    features(Mi,Mo,F,A)
+		},
+
+  		Box : b2 { 
+  			 groupbox(gb1)
+		     features(CT)
+	    },
+		Box : b3 { 
+			groupbox(gb1)
+		 	features(MRI)
+	    },
+
+		Box : b4 { 
+			superBox(b1)
+		  	motherOfGroup(gb2)
+		    features(H)
+	    },
+	 	Box : b5 {
+			groupbox(gb2)
+			features(D)
+		},
+
+		Box : b6 {
+			groupbox(gb2)
+			features(N)
+	    }
+	    }
+	    groups{
+		GroupBox : gb1 { 
+			Exclusif
+			superBox(b1)
+			boxes(b2,b3)
+		},
+		
+		GroupBox : gb2 { 
+			Exclusif
+			superBox(b4)
+			boxes(b5,b6)
+		}
+		 
+	}
+}
+}
+
+

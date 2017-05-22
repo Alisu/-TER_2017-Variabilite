@@ -1,0 +1,20 @@
+digraph G { 
+	rankdir=BT;
+subgraph 11 { 
+label="11";
+1 [shape=record,label="{Concept_11_1|iOS:Yes\n|Ecoute\nGuayadequeMusicPlayer\nRhapsody\nSpotify\n}"];
+2 [shape=record,label="{Concept_11_2|Android:Yes\n|AIMP\nMediaMonkey\nRhapsody\nSongbird\nSpotify\nWinamp\n}"];
+3 [shape=record,label="{Concept_11_3|OtherUnix:Yes\n|Amarok\nAudacious\ncmus\nClementine\nJuK\nMusicPlayerDaemon\nQuodLibet\nRhythmbox\nSMplayer\nUMplayer\nXMMS\nZinf\n}"];
+4 [shape=record,label="{Concept_11_4|Solaris:Yes\n|aTunes\n}"];
+5 [shape=record,label="{Concept_11_5|OSX:Yes\n|aTunes\nAudion\ncmus\nCog\nClementine\nEcoute\nGuayadequeMusicPlayer\nG-Ear\nMusicPlayerDaemon\nQuodLibet\nSongbird\nSpotify\nUMplayer\nXMMS\n}"];
+6 [shape=record,label="{Concept_11_6|BSDUnix:Yes\n|Banshee\nExaile\n}"];
+7 [shape=record,label="{Concept_11_7|Linux:Yes\n|GuayadequeMusicPlayer\nRhapsody\nSpotify\n}"];
+8 [shape=record,label="{Concept_11_8|Windows:Yes\n|Amarok\naTunes\nAudacious\nClementine\nExaile\nfoobar2000\nMusicPlayerDaemon\nMusicBee\nMusicmatchJukebox\nmusikCube\nQuodLibet\nSMplayer\nSonique\nUMplayer\nXMPlay\nZinf\n}"];
+9 [shape=record,label="{Concept_11_0|DOS:Yes\n|MPXPLAY\n}"];
+	3 -> 4
+	4 -> 6
+	6 -> 7
+	2 -> 8
+	9 -> 8
+}
+}

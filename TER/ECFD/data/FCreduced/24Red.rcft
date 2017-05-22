@@ -1,0 +1,17 @@
+FormalContext 24
+||Developer(s):Ritlabs|Developer(s):Opera|Developer(s):BlackBerry|Developer(s):MozillaFoundation|Developer(s):AlexanderClauss|Developer(s):Apple|Developer(s):AndrewSidwell|Developer(s):Microsoft|Developer(s):YesLogicPvtLtd|Developer(s):Intel|Developer(s):Nokia|Developer(s):Dillodevelopers|Developer(s):Netscape|Developer(s):GNOME|Developer(s):RenderX|Developer(s):Palm|Developer(s):AccessCo.|Developer(s):KDE|Developer(s):Google|Developer(s):Samsung|Softwarelicense:BSD|Softwarelicense:Proprietary|Softwarelicense:GNULGPL|Softwarelicense:MIT|Softwarelicense:MPL|Leadingapplication:XEP|Leadingapplication:MozillaFirefox|Leadingapplication:PrinceXML|Leadingapplication:Opera|Leadingapplication:GoogleChrome|Leadingapplication:Dillo|Leadingapplication:NovellEvolution|Leadingapplication:AppleSafari|Leadingapplication:iCab|Leadingapplication:Konqueror|Leadingapplication:TheBat!|Leadingapplication:InternetExplorer|Leadingapplication:NetFront|Leadingapplication:MicrosoftEntourage|Leadingapplication:NetSurf|Targetapplication(s):XEP|Targetapplication(s):MozillaFirefox|Targetapplication(s):PrinceXML|Targetapplication(s):Opera|Targetapplication(s):GoogleChrome|Targetapplication(s):Dillo|Targetapplication(s):NovellEvolution|Targetapplication(s):KMail|Targetapplication(s):AppleSafari|Targetapplication(s):iCab|Targetapplication(s):MozillaThunderbird|Targetapplication(s):Konqueror|Targetapplication(s):TheBat!|Targetapplication(s):InternetExplorer|Targetapplication(s):NetFront|Targetapplication(s):NetSurf|Programminglanguage:C|Programminglanguage:Mercury|Programminglanguage:C++|Programminglanguage:Java|Programminglanguage:Delphi|
+|Blink||x||||||||x|||||||||x|x|x||x|||||||x||||||||||||||x|x||||||||||||||x|||
+|Dillo||||||||||||x|||||||||||x||||||||x|||||||||||||||x|||||||||||x|||||
+|Gecko||||x|||||||||x||||||||||||x||x|||||||||||||||x|||||||||x||||||||x|||
+|GtkHTML||||||||||||||x|||||||||x|||||||||x|||||||||||||||x||||||||||x|||||
+|Hubbub|||||||x|||||||||||||||||x||||||||||||||||x||||||||||||||||x|x|||||
+|iCab|||||x|||||||||||||||||x||||||||||||x||||||||||||||||x||||||||||||
+|KHTML||||||||||||||||||x|||||x||||||||||||x|||||||||||||x||||x|||||||x|||
+|NetFront|||||||||||||||||x|||||x||||||||||||||||x|||||||||||||||||x|||||||
+|Presto||x||||||||||||||||||||x|||||||x|||||||||||||||x|||||||||||||||x|||
+|PrinceXML|||||||||x|||||||||||||x||||||x|||||||||||||||x|||||||||||||||x||||
+|Robin|x|||||||||||||||||||||x||||||||||||||x|||||||||||||||||x||||||||x|
+|Tasman||||||||x||||||||||||||x|||||||||||||||||x|||||||||||||||x||||||||
+|Trident||||||||x||||||||||||||x|||||||||||||||x|||||||||||||||||x|||||x|||
+|WebKit|||x|||x|||||x|||||x||x|||x||x||||||||||x||||||||||||||||x||||||||||x|||
+|XEP|||||||||||||||x|||||||x||||x|||||||||||||||x|||||||||||||||||||x||

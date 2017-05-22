@@ -1,0 +1,20 @@
+digraph G { 
+	rankdir=BT;
+subgraph 32 { 
+label="32";
+1 [shape=record,label="{Concept_32_0|static/dynamic:dependent\n|Cayenne\n}"];
+2 [shape=record,label="{Concept_32_1|safety:unsafe\n|Assemblylanguage\nC\nC++\nC#\nD\nObjective-C\nYa\n}"];
+3 [shape=record,label="{Concept_32_3|nominative/structural:duck\n|Clipper\nE\nGroovy\nIo\nJavaScript\nObjective-C\nPerl6\nPython\nRuby\nSmalltalk\nWindowsPowerShell\nxHarbour\n}"];
+4 [shape=record,label="{Concept_32_4|strong/weak:weak\n|APL\nBASIC\nC\nCentura\nClipper\nJavaScript\nLua\nPerl1-5\nPerl6\nPHP\nVisualBasic\nWindowsPowerShell\nxHarbour\n}"];
+5 [shape=record,label="{Concept_32_5|nominative/structural:nominative\n|Ada\nAPL\nBASIC\nC\nC++\nC#\nCentura\nD\nDelphi\nE\nEiffel\nErlang\nFortran\nHaskell\nJava\nPascal\nPerl1-5\nScheme\nVisualBasic\nYa\n}"];
+6 [shape=record,label="{Concept_32_6|static/dynamic:dynamic\n|APL\nErlang\nLisp\nLua\nPerl1-5\nPHP\nPike\nScheme\nVisualBasic\n}"];
+7 [shape=record,label="{Concept_32_7|static/dynamic:static\n|Ada\nBASIC\nC\nC++\nC#\nCentura\nD\nDelphi\nEiffel\nFortran\nGo\nHaskell\nJava\nML\nPascal\nPerl6\nPike\nScala\nVisualBasic\nWindowsPowerShell\nYa\n}"];
+8 [shape=record,label="{Concept_32_8|strong/weak:strong\n|Ada\nAssemblylanguage\nC++\nC#\nD\nDelphi\nE\nEiffel\nErlang\nFortran\nGo\nGroovy\nHaskell\nIo\nJava\nLisp\nML\nObjective-C\nPascal\nPerl6\nPike\nPython\nRuby\nScala\nScheme\nSmalltalk\nVisualBasic\nWindowsPowerShell\nYa\n}"];
+9 [shape=record,label="{Concept_32_9|safety:safe\n|Ada\nAPL\nBASIC\nC#\nCentura\nClipper\nD\nDelphi\nE\nEiffel\nErlang\nFortran\nGo\nGroovy\nHaskell\nIo\nJava\nJavaScript\nLisp\nLua\nML\nPascal\nPerl1-5\nPerl6\nPHP\nPike\nPython\nRuby\nScala\nScheme\nSmalltalk\nVisualBasic\nWindowsPowerShell\nxHarbour\n}"];
+10 [shape=record,label="{Concept_32_2|nominative/structural:structural\n|Assemblylanguage\nGo\nLisp\nLua\nML\nPike\nScala\n}"];
+	3 -> 6
+	1 -> 8
+	1 -> 9
+	1 -> 10
+}
+}

@@ -1,0 +1,21 @@
+digraph G { 
+	rankdir=BT;
+subgraph 33 { 
+label="33";
+1 [shape=record,label="{Concept_33_0|Typechecking:statis\n|Objective-C\n}"];
+2 [shape=record,label="{Concept_33_1|Typesafety:typeless\n|AutoHotkey\nBLISS\nForth\n}"];
+3 [shape=record,label="{Concept_33_2|Typesafety:unsafe\n|Aldor\nC\nC++(ISO/IEC14882)\nC#\nD\nModula-2\nModula-3\nOxygene\nPascal\nIBMRPG\nVisualBasic.NET\n}"];
+4 [shape=record,label="{Concept_33_3|Typecompatibilityandequivalence:structural\n|ALGOL68\nCython\nFalcon\nGo\nGosu\nHaskell\nHaxe\nJavaScript\nModula-3\nOCaml\nOpa\nOz\nPlus\nPython\nRuby\nScala\nStandardML\n}"];
+5 [shape=record,label="{Concept_33_4|Typecompatibilityandequivalence:nominal\n|Ada\nAtejiPX\nBASIC\nBeanShell\nBro\nC\nC++(ISO/IEC14882)\nC#\nCOBOL\nCurl\nCython\nD\nEiffel\nEuphoria\nF#\nFortran\nGambas\nGLBasic\nGosu\nHaxe\nJava\nKotlin\nModula-2\nOberon\nObjectPascal(Delphi)\nPascal\nScala\nSeed7\nVisualBasic\nVisualProlog\nXL\nXojo\n}"];
+6 [shape=record,label="{Concept_33_5|Typeexpression:explicit\n|ActionScript3.0\nAda\nALGOL58\nALGOL60\nALGOL68\nAtejiPX\nBASIC\nBoo\nBro\nC\nC++(ISO/IEC14882)\nC#\nClojure\nCOBOL\nCommonLisp\nCython\nD\nEuphoria\nFortran\nGambas\nGLBasic\nGo\nGroovy\nHarbour\nHaskell\nHaxe\nJava\nModula-2\nModula-3\nOberon\nOCaml\nObjectPascal(Delphi)\nOpa\nPascal\nPlus\nRust\nSeed7\nStandardML\nVisualBasic\nVisualBasic.NET\nXojo\n}"];
+7 [shape=record,label="{Concept_33_6|Typechecking:dynamic\n|APL\nBeanShell\nBoo\nClojure\nColdFusion(CFML)\nCommonLisp\nCython\nDylan\nDynace\nErlang\nEuphoria\nFalcon\nGroovy\nHarbour\nHaxe\nIo\nISLISP\nJ\nJavaScript\nJoy\nLua\nMaple\nMathematica\nMATLABM-code\nOberon\nOz\nPerl5\nPerl6\nPHP\nPlus\nProlog\nPure\nPython\nREBOL\nRuby\nRust\nS\nS-Lang\nScheme\nSmalltalk\nTcl\nWindowsPowerShell\n}"];
+8 [shape=record,label="{Concept_33_7|Typeexpression:implicit\n|ActionScript3.0\nAldor\nBoo\nBro\nC#\nClean\nClojure\nColdFusion(CFML)\nCommonLisp\nCython\nDynace\nErlang\nEuphoria\nF#\nFalcon\nGo\nGosu\nGroovy\nHarbour\nHaskell\nHaxe\nIo\nJavaScript\nKotlin\nLua\nOCaml\nOpa\nOxygene\nOz\nPerl5\nPerl6\nPHP\nPython\nREBOL\nRuby\nRust\nS-Lang\nScala\nScheme\nSmalltalk\nStandardML\nVisualBasic\nVisualProlog\nWindowsPowerShell\n}"];
+9 [shape=record,label="{Concept_33_9|Typesafety:safe\n|ActionScript3.0\nAda\nALGOL58\nALGOL60\nALGOL68\nAPL\nAtejiPX\nBASIC\nBeanShell\nBoo\nBro\nClean\nClojure\nCOBOL\nColdFusion(CFML)\nCommonLisp\nCurl\nCython\nDylan\nDynace\nEiffel\nErlang\nEuphoria\nF#\nFalcon\nFortran\nGambas\nGLBasic\nGo\nGosu\nGroovy\nHarbour\nHaskell\nHaxe\nIo\nISLISP\nJ\nJava\nJavaScript\nJoy\nKotlin\nLabVIEW\nLua\nMaple\nMathematica\nMATLABM-code\nOberon\nOCaml\nObjectPascal(Delphi)\nOpa\nOz\nPlus\nPython\nREBOL\nRuby\nRust\nS-Lang\nScala\nScheme\nSeed7\nSimula\nSmalltalk\nStandardML\nVisualBasic\nVisualProlog\nWindowsPowerShell\nXL\nXojo\n}"];
+10 [shape=record,label="{Concept_33_8|Typechecking:static\n|ActionScript3.0\nAda\nALGOL58\nALGOL60\nALGOL68\nAtejiPX\nBASIC\nBoo\nBro\nClean\nCOBOL\nCython\nEiffel\nEuphoria\nF#\nFortran\nGLBasic\nGo\nGosu\nGroovy\nHaskell\nHaxe\nJava\nKotlin\nOberon\nOCaml\nObjectPascal(Delphi)\nOpa\nPerl6\nPlus\nRust\nScala\nSeed7\nSimula\nStandardML\nVisualBasic\nVisualProlog\nXL\nXojo\n}"];
+	1 -> 5
+	1 -> 6
+	1 -> 7
+	1 -> 9
+	3 -> 10
+}
+}

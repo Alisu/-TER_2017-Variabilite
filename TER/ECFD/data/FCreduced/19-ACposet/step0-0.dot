@@ -1,0 +1,18 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:19,concept number:5,object number:9,attribute number:8"
+0 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_19_0</td></tr><tr><td>Standaloneexecutablescreationsupport:Yes<br/></td></tr><tr><td>DyalogAPL<br/>GNUOctave<br/>PDL<br/>SCaVis<br/></td></tr></table>>];
+1 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_19_3</td></tr><tr><td>Symboliccomputationsupport:Yes<br/></td></tr><tr><td>DyalogAPL<br/>J<br/>Maple<br/>mpmath<br/>GNUOctave<br/>Sage<br/>SCaVis<br/></td></tr></table>>];
+3 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_19_2</td></tr><tr><td>GUIcreationsupport:Yes<br/></td></tr><tr><td>J<br/>Maple<br/>GNUDataLanguage<br/></td></tr></table>>];
+4 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_19_1</td></tr><tr><td>Centralizedextensionlibrarywebsite:Yes<br/></td></tr><tr><td>J<br/>Maple<br/>Sage<br/></td></tr></table>>];
+2 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_19_4</td></tr><tr><td>OOPsupport:Yes<br/>Multi-dimensionalarraysasprimitivedatatype:Yes<br/>Cancallcodeinotherlanguages:Yes<br/>Canbecalledfromotherlanguages:Yes<br/></td></tr><tr><td><br/></td></tr></table>>];
+	0:p -> 3:p
+	0:p -> 4:p
+	1:p -> 2:p
+	3:p -> 2:p
+	4:p -> 2:p
+}

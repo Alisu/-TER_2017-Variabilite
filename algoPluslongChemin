@@ -1,0 +1,34 @@
+Plus long chemin vers un sommet
+Au lieu de calculer des plus courts
+chemins depuis s vers tous les sommets, on peut calculer la distance des plus
+longs chemins. Bien evidemment, l’algorithme a maintenant des limitations
+différentes : il n’a de sens que dans un graphe sans circuit strictement positif
+
+Algorithme 4: Autre variante de Bellman-Ford (plus long chemin)
+Données:
+
+G un graphe orienté valué sans circuit de longueur strictement positive
+s un sommet de G
+
+Variables locales
+L tableau des distances depuis un sommet s
+P red tableau des successeurs sur un plus court chemin à t
+(u, v) un arc
+
+début
+initialisation
+L[s] := 0
+pour tous les sommet v 6=s faire
+L[v] :=−∞
+tant que L change faire
+     pour chaque arc(u, v) de G faire
+     	  si L(v)<L(u)+length((u, v,−→G)) alors
+	     L(v) :=L(u)+length((u, v,−→G))
+	     Pred[v] :=u
+	  finsi
+     finprch
+fintq
+fin
+
+Sorties:
+L, Pred

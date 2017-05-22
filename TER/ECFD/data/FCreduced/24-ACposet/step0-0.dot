@@ -1,0 +1,58 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:24,concept number:23,object number:15,attribute number:61"
+0 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_4</td></tr><tr><td>Developer(s):Ritlabs<br/>Leadingapplication:TheBat!<br/>Targetapplication(s):TheBat!<br/>Programminglanguage:Delphi<br/></td></tr><tr><td>Robin<br/></td></tr></table>>];
+10 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_11</td></tr><tr><td>Developer(s):GNOME<br/>Leadingapplication:NovellEvolution<br/>Targetapplication(s):NovellEvolution<br/></td></tr><tr><td>GtkHTML<br/></td></tr></table>>];
+11 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_0</td></tr><tr><td>Developer(s):RenderX<br/>Leadingapplication:XEP<br/>Targetapplication(s):XEP<br/>Programminglanguage:Java<br/></td></tr><tr><td>XEP<br/></td></tr></table>>];
+12 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_7</td></tr><tr><td>Developer(s):AccessCo.<br/>Leadingapplication:NetFront<br/>Targetapplication(s):NetFront<br/></td></tr><tr><td>NetFront<br/></td></tr></table>>];
+17 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_6</td></tr><tr><td>Leadingapplication:Opera<br/></td></tr><tr><td>Presto<br/></td></tr></table>>];
+18 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_8</td></tr><tr><td>Leadingapplication:Konqueror<br/>Targetapplication(s):KMail<br/>Targetapplication(s):Konqueror<br/></td></tr><tr><td>KHTML<br/></td></tr></table>>];
+19 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_2</td></tr><tr><td>Leadingapplication:InternetExplorer<br/></td></tr><tr><td>Trident<br/></td></tr></table>>];
+2 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_1</td></tr><tr><td>Developer(s):BlackBerry<br/>Developer(s):Apple<br/>Developer(s):Nokia<br/>Developer(s):Palm<br/>Leadingapplication:AppleSafari<br/>Targetapplication(s):AppleSafari<br/></td></tr><tr><td>WebKit<br/></td></tr></table>>];
+20 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_3</td></tr><tr><td>Leadingapplication:MicrosoftEntourage<br/></td></tr><tr><td>Tasman<br/></td></tr></table>>];
+3 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_12</td></tr><tr><td>Developer(s):MozillaFoundation<br/>Developer(s):Netscape<br/>Softwarelicense:MPL<br/>Leadingapplication:MozillaFirefox<br/>Targetapplication(s):MozillaFirefox<br/>Targetapplication(s):MozillaThunderbird<br/></td></tr><tr><td>Gecko<br/></td></tr></table>>];
+4 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_9</td></tr><tr><td>Developer(s):AlexanderClauss<br/>Leadingapplication:iCab<br/>Targetapplication(s):iCab<br/></td></tr><tr><td>iCab<br/></td></tr></table>>];
+5 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_10</td></tr><tr><td>Developer(s):AndrewSidwell<br/>Softwarelicense:MIT<br/>Leadingapplication:NetSurf<br/>Targetapplication(s):NetSurf<br/></td></tr><tr><td>Hubbub<br/></td></tr></table>>];
+7 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_5</td></tr><tr><td>Developer(s):YesLogicPvtLtd<br/>Leadingapplication:PrinceXML<br/>Targetapplication(s):PrinceXML<br/>Programminglanguage:Mercury<br/></td></tr><tr><td>PrinceXML<br/></td></tr></table>>];
+8 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_14</td></tr><tr><td>Developer(s):Intel<br/>Developer(s):Google<br/>Developer(s):Samsung<br/>Leadingapplication:GoogleChrome<br/>Targetapplication(s):GoogleChrome<br/></td></tr><tr><td>Blink<br/></td></tr></table>>];
+9 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_13</td></tr><tr><td>Developer(s):Dillodevelopers<br/>Leadingapplication:Dillo<br/>Targetapplication(s):Dillo<br/></td></tr><tr><td>Dillo<br/></td></tr></table>>];
+1 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_18</td></tr><tr><td>Developer(s):Opera<br/>Targetapplication(s):Opera<br/></td></tr><tr><td><br/></td></tr></table>>];
+13 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_16</td></tr><tr><td>Developer(s):KDE<br/></td></tr><tr><td><br/></td></tr></table>>];
+14 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_17</td></tr><tr><td>Softwarelicense:BSD<br/></td></tr><tr><td><br/></td></tr></table>>];
+6 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_15</td></tr><tr><td>Developer(s):Microsoft<br/>Targetapplication(s):InternetExplorer<br/></td></tr><tr><td><br/></td></tr></table>>];
+21 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_19</td></tr><tr><td>Programminglanguage:C<br/></td></tr><tr><td><br/></td></tr></table>>];
+16 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_20</td></tr><tr><td>Softwarelicense:GNULGPL<br/></td></tr><tr><td><br/></td></tr></table>>];
+22 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_21</td></tr><tr><td>Programminglanguage:C++<br/></td></tr><tr><td><br/></td></tr></table>>];
+15 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_24_22</td></tr><tr><td>Softwarelicense:Proprietary<br/></td></tr><tr><td><br/></td></tr></table>>];
+	8:p -> 1:p
+	17:p -> 1:p
+	18:p -> 13:p
+	2:p -> 13:p
+	8:p -> 14:p
+	2:p -> 14:p
+	19:p -> 6:p
+	20:p -> 6:p
+	9:p -> 21:p
+	5:p -> 21:p
+	10:p -> 21:p
+	10:p -> 16:p
+	9:p -> 16:p
+	13:p -> 16:p
+	14:p -> 16:p
+	19:p -> 22:p
+	13:p -> 22:p
+	3:p -> 22:p
+	1:p -> 22:p
+	14:p -> 22:p
+	0:p -> 15:p
+	7:p -> 15:p
+	4:p -> 15:p
+	17:p -> 15:p
+	12:p -> 15:p
+	11:p -> 15:p
+	6:p -> 15:p
+}

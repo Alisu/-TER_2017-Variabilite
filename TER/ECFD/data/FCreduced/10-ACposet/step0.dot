@@ -1,0 +1,138 @@
+digraph G { 
+	rankdir=BT;
+subgraph 10 { 
+label="10";
+1 [shape=record,label="{Concept_10_24|Author:ClementineTeam\nFirstpublicrelease:March12011\nstableversion:1.2.3\n|Clementine\n}"];
+2 [shape=record,label="{Concept_10_30|Author:MarkKretschmann\nFirstpublicrelease:June12003\nstableversion:2.8\nBasedframework:VLC\nBasedframework:xine\nBasedframework:MPlayer\nBasedframework:DirectShow\n|Amarok\n}"];
+3 [shape=record,label="{Concept_10_2|Author:Nullsoft\nFirstpublicrelease:April211997\nstableversion:5.666.3516\nBasedframework:Wasabi\n|Winamp\n}"];
+4 [shape=record,label="{Concept_10_31|Author:AIMPDevTeam\nFirstpublicrelease:August82006\nstableversion:3.55\n|AIMP\n}"];
+5 [shape=record,label="{Concept_10_16|Author:ScottWheeler\n|JuK\n}"];
+6 [shape=record,label="{Concept_10_7|Author:ColinWalters\nFirstpublicrelease:April12004\nstableversion:3.0.3\n|Rhythmbox\n}"];
+7 [shape=record,label="{Concept_10_22|Author:VincentSpader\nFirstpublicrelease:May12006\nstableversion:0.07\n|Cog\n}"];
+8 [shape=record,label="{Concept_10_20|Author:LoukaDesroziers\nAuthor:JulienSagot\nFirstpublicrelease:September2008\nstableversion:3.0.8\nBasedframework:AVFoundation\n|Ecoute\n}"];
+9 [shape=record,label="{Concept_10_15|Author:MPXPLAY\nFirstpublicrelease:January11998\nstableversion:1.59\n|MPXPLAY\n}"];
+10 [shape=record,label="{Concept_10_6|Author:POTIInc.\nFirstpublicrelease:February82006\nstableversion:2.2.0\n|Songbird\n}"];
+11 [shape=record,label="{Concept_10_0|Author:Un4seenDevelopments\nFirstpublicrelease:1998\nstableversion:3.8\n|XMPlay\n}"];
+12 [shape=record,label="{Concept_10_9|Author:QuodLibetTeam\nFirstpublicrelease:November82004\nstableversion:2.5\n|QuodLibet\n}"];
+13 [shape=record,label="{Concept_10_13|Author:WarrenDukes\nFirstpublicrelease:May12003\nstableversion:0.18.9\n|MusicPlayerDaemon\n}"];
+14 [shape=record,label="{Concept_10_28|Author:AlexArandaetal.\nstableversion:3.1.1\nWrittenin:Java\n|aTunes\n}"];
+15 [shape=record,label="{Concept_10_11|Author:CaseyLangen\nFirstpublicrelease:January12005\nstableversion:1.1\n|musikCube\n}"];
+16 [shape=record,label="{Concept_10_4|Author:SpotifyLTD\nFirstpublicrelease:2008\nstableversion:0.9.8.296\n|Spotify\n}"];
+17 [shape=record,label="{Concept_10_8|Author:RealNetworks\nFirstpublicrelease:January12003\nstableversion:14.0\n|Rhapsody\n}"];
+18 [shape=record,label="{Concept_10_1|Author:XMMSTeam\nFirstpublicrelease:November11997\nstableversion:1.2.11\n|XMMS\n}"];
+19 [shape=record,label="{Concept_10_3|Author:AntiuM.IonutAlexandru\nFirstpublicrelease:July12009\nstableversion:1.0.7\n|StyleJukebox\n}"];
+20 [shape=record,label="{Concept_10_12|Author:StevenMayall\nFirstpublicrelease:December42008\nstableversion:2.3\nWrittenin:VisualBasic.NET\n|MusicBee\n}"];
+21 [shape=record,label="{Concept_10_21|Author:AdamOlsen\nFirstpublicrelease:May242006\nstableversion:3.3.2\n|Exaile\n}"];
+22 [shape=record,label="{Concept_10_17|Author:ZsoltSzatmári\nFirstpublicrelease:April2012\nstableversion:1.4.29\nBasedframework:CoreAudio\n|GearPlayer\n}"];
+23 [shape=record,label="{Concept_10_25|Author:MiloszDerezynski\nFirstpublicrelease:June62004\nstableversion:0.9.7.1\n|BeepMediaPlayer\n}"];
+24 [shape=record,label="{Concept_10_23|Author:TimoHirvonen\nFirstpublicrelease:January182005\nstableversion:2.5.1\n|cmus\n}"];
+25 [shape=record,label="{Concept_10_10|Author:WilliamChristopherGorog\nFirstpublicrelease:October12003\nstableversion:4.6.3.4\n|Napster\n}"];
+26 [shape=record,label="{Concept_10_5|Author:MediaScience\nFirstpublicrelease:November11998\nstableversion:1.96\n|Sonique\n}"];
+27 [shape=record,label="{Concept_10_26|Author:AaronBockover\nFirstpublicrelease:February172005\nstableversion:2.6.2\nSoftwarelicense:MIT\n|Banshee\n}"];
+28 [shape=record,label="{Concept_10_29|Author:TomSzilagyietal.\nstableversion:0.9\n|Aqualung\n}"];
+29 [shape=record,label="{Concept_10_18|Author:PeterPawlowski\nFirstpublicrelease:November292002\nstableversion:1.3.3\n|foobar2000\n}"];
+30 [shape=record,label="{Concept_10_27|Author:AudaciousDevelopmentTeam\nFirstpublicrelease:October302005\nstableversion:3.5\n|Audacious\n}"];
+31 [shape=record,label="{Concept_10_19|Author:RealitySoftware\nFirstpublicrelease:March112008\nstableversion:1.00\n|FlashMP3Player\n}"];
+32 [shape=record,label="{Concept_10_14|Author:DamianPietras\nFirstpublicrelease:January12002\nstableversion:2.4.4\n|MusiconConsole\n}"];
+33 [shape=record,label="{Concept_10_33|Firstpublicrelease:February12003\nstableversion:3.11\n|GuayadequeMusicPlayer\n}"];
+34 [shape=record,label="{Concept_10_38|Firstpublicrelease:January12006\n|}"];
+35 [shape=record,label="{Concept_10_34|Softwarelicense:BSD\n|}"];
+36 [shape=record,label="{Concept_10_37|Basedframework:XMMSbased\n|}"];
+37 [shape=record,label="{Concept_10_39|Basedframework:QuickTime\n|}"];
+38 [shape=record,label="{Concept_10_32|Basedframework:original\n|}"];
+39 [shape=record,label="{Concept_10_40|Basedframework:BASSaudiolibrary\n|}"];
+40 [shape=record,label="{Concept_10_36|Writtenin:C#\n|}"];
+41 [shape=record,label="{Concept_10_35|Writtenin:Python\n|}"];
+42 [shape=record,label="{Concept_10_41|Author:VentisMediaInc.\nFirstpublicrelease:August252003\nstableversion:4.1.4.1709\n|MediaMonkeyStandard\nMediaMonkeyGold\nMediaMonkeyLifetime\n}"];
+43 [shape=record,label="{Concept_10_42|Writtenin:Objective-C\n|}"];
+44 [shape=record,label="{Concept_10_44|Cost:Non-free\n|MediaMonkeyGold\nMediaMonkeyLifetime\n}"];
+45 [shape=record,label="{Concept_10_45|Writtenin:C++\n|}"];
+46 [shape=record,label="{Concept_10_46|Basedframework:GStreamer\n|GuayadequeMusicPlayer\n}"];
+47 [shape=record,label="{Concept_10_47|Writtenin:C\n|}"];
+48 [shape=record,label="{Concept_10_48|Softwarelicense:Proprietary\n|}"];
+49 [shape=record,label="{Concept_10_49|Softwarelicense:GPL\n|}"];
+50 [shape=record,label="{Concept_10_50|Cost:Free\n|MediaMonkeyStandard\n}"];
+51 [shape=record,label="{Concept_10_43|Writtenin:Delphi\n|}"];
+	5 -> 33
+	14 -> 34
+	28 -> 34
+	29 -> 35
+	15 -> 35
+	30 -> 36
+	23 -> 36
+	8 -> 37
+	2 -> 37
+	11 -> 38
+	18 -> 38
+	20 -> 39
+	4 -> 39
+	19 -> 40
+	27 -> 40
+	21 -> 41
+	12 -> 41
+	22 -> 43
+	7 -> 43
+	8 -> 43
+	25 -> 44
+	22 -> 44
+	16 -> 44
+	29 -> 45
+	30 -> 45
+	33 -> 45
+	2 -> 45
+	3 -> 45
+	1 -> 45
+	10 -> 46
+	1 -> 46
+	27 -> 46
+	2 -> 46
+	6 -> 46
+	41 -> 46
+	32 -> 47
+	13 -> 47
+	24 -> 47
+	36 -> 47
+	28 -> 47
+	3 -> 47
+	6 -> 47
+	18 -> 47
+	42 -> 47
+	11 -> 48
+	8 -> 48
+	29 -> 48
+	26 -> 48
+	19 -> 48
+	51 -> 48
+	3 -> 48
+	17 -> 48
+	44 -> 48
+	39 -> 48
+	31 -> 48
+	32 -> 49
+	10 -> 49
+	13 -> 49
+	33 -> 49
+	24 -> 49
+	36 -> 49
+	1 -> 49
+	2 -> 49
+	9 -> 49
+	6 -> 49
+	41 -> 49
+	7 -> 49
+	34 -> 49
+	18 -> 49
+	37 -> 50
+	40 -> 50
+	35 -> 50
+	49 -> 50
+	26 -> 50
+	38 -> 50
+	45 -> 50
+	39 -> 50
+	31 -> 50
+	46 -> 50
+	4 -> 51
+	42 -> 51
+}
+}

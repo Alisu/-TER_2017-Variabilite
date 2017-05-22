@@ -1,0 +1,27 @@
+digraph G {
+
+"C G D A" [shape=box , root=true, regular=1,style=filled,fillcolor=white ] ;
+
+"W" [shape=box , regular=1,style=filled,fillcolor=white ] ;
+
+"Mu" [shape=box , regular=1,style=filled,fillcolor=white ] ;
+
+"Si Ar" [shape=box , regular=1,style=filled,fillcolor=white ] ;
+
+subgraph ref1 {
+    "C G D A" -> "W" [dir=back]; 
+    }
+
+subgraph orsub1 {
+"or1" [shape=box,style=filled,label="OR",height=.1,width=.1] ;
+
+"C G D A" -> "or1" [dir=back,weight=1,color=red] ;
+
+"or1" -> "Mu" [dir=none,weight=1,color=red] ;
+
+"or1" -> "Si Ar" [dir=none,weight=1,color=red]; 
+    }
+
+{rank=same; ref1 orsub1}
+
+}

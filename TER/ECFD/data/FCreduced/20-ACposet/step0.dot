@@ -1,0 +1,40 @@
+digraph G { 
+	rankdir=BT;
+subgraph 20 { 
+label="20";
+1 [shape=record,label="{Concept_20_0|hppa:Yes\ns390:Yes\nalpha:Yes\nm68k:Yes\n|Gentoo\n}"];
+2 [shape=record,label="{Concept_20_2|sh:Yes\n|OpenWrt\n}"];
+3 [shape=record,label="{Concept_20_1|ia64:Yes\n|SUSELinuxEnterpriseServer\n}"];
+4 [shape=record,label="{Concept_20_3|sparc32:Yes\n|CentOS\n}"];
+5 [shape=record,label="{Concept_20_4|sparc64:Yes\n|Fedora\nopenSUSE\n}"];
+6 [shape=record,label="{Concept_20_5|loongson:Yes\n|Debian\ngNewSense\nParabolaGNU\n}"];
+7 [shape=record,label="{Concept_20_6|s390x:Yes\n|Debian\nFedora\nRedHatEnterpriseLinux\n}"];
+8 [shape=record,label="{Concept_20_7|mips:Yes\n|LibreWRT\nTor-ramdisk\n}"];
+9 [shape=record,label="{Concept_20_8|ppc64:Yes\n|BOSSLinux\nFinnix\nYellowDogLinux\n}"];
+10 [shape=record,label="{Concept_20_9|ppc:Yes\n|CRUX\nSourceMageGNU/Linux\nUbuntu/Kubuntu/Xubuntu/Lubuntu\n}"];
+11 [shape=record,label="{Concept_20_10|arm:Yes\n|ArchLinux\nBackTrack\nDebian\nKaliLinux\nMEPIS\nOpenELEC\nSHR\nSlackware\nUbuntu/Kubuntu/Xubuntu/Lubuntu\nXBMCbuntu\n}"];
+12 [shape=record,label="{Concept_20_11|x86:Yes\n|ArchLinux\nBackTrack\nBodhiLinux\nBOSSLinux\nCRUX\nDragoraGNU\nFinnix\nKaliLinux\nMEPIS\nOpenELEC\nOracleLinux\nRedFlagLinux\nRedHatLinux\nScientificLinux\nSlackware\nSourceMageGNU/Linux\nTor-ramdisk\nUbuntu/Kubuntu/Xubuntu/Lubuntu\nUtuto\nXBMCbuntu\n}"];
+13 [shape=record,label="{Concept_20_12|x86-64:Yes\n|ArchLinux\nBackTrack\nBodhiLinux\nBOSSLinux\nChakra\nCRUX\nDragoraGNU\nFinnix\nKaliLinux\nMEPIS\nOpenELEC\nOracleLinux\nRedFlagLinux\nScientificLinux\nSlackware\nSourceMageGNU/Linux\nTor-ramdisk\nUbuntu/Kubuntu/Xubuntu/Lubuntu\nUtuto\n}"];
+	1 -> 2
+	1 -> 3
+	1 -> 4
+	1 -> 5
+	3 -> 7
+	2 -> 8
+	6 -> 8
+	7 -> 9
+	4 -> 10
+	2 -> 10
+	9 -> 10
+	2 -> 11
+	5 -> 11
+	3 -> 12
+	5 -> 12
+	2 -> 12
+	6 -> 12
+	5 -> 13
+	7 -> 13
+	4 -> 13
+	6 -> 13
+}
+}

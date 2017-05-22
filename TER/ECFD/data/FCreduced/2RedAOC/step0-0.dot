@@ -1,0 +1,21 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:2,concept number:7,object number:40,attribute number:7"
+5 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_2_1</td></tr><tr><td>Personal:Yes<br/></td></tr><tr><td>BrainKeeper<br/>DokuWiki<br/>EditMe<br/>Foswiki<br/>Gitit<br/>IBMConnections<br/>MoinMoin<br/>MojoMojo<br/>PmWiki<br/>Qontext<br/>SharePointServer<br/>TiddlyWiki<br/>TikiWikiCMSGroupware<br/>TWiki<br/>Wagn<br/>Wikispaces<br/>WikkaWiki<br/>XWiki<br/></td></tr></table>>];
+4 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_2_2</td></tr><tr><td>Intranet:Yes<br/></td></tr><tr><td>BrainKeeper<br/>CentralDesktop<br/>MindTouch<br/>EditMe<br/>eXoPlatform<br/>Jive<br/>MoinMoin<br/>MojoMojo<br/>PBworks<br/>PhpWiki<br/>SamePage<br/>Socialtext<br/>ThoughtFarmer<br/>TikiWikiCMSGroupware<br/>TractionTeamPage<br/>UseModWiki<br/>WackoWiki<br/>Wagn<br/>Wikispaces<br/>Wikiwig<br/>WikkaWiki<br/>ZWiki<br/></td></tr></table>>];
+3 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_2_3</td></tr><tr><td>Education:Yes<br/></td></tr><tr><td>BrainKeeper<br/>CentralDesktop<br/>MindTouch<br/>EditMe<br/>eXoPlatform<br/>Jive<br/>MoinMoin<br/>MojoMojo<br/>PBworks<br/>PhpWiki<br/>SamePage<br/>SharePointFoundation<br/>Socialtext<br/>Swiki<br/>TikiWikiCMSGroupware<br/>TractionTeamPage<br/>UseModWiki<br/>WackoWiki<br/>Wagn<br/>Wikispaces<br/>Wikiwig<br/>WikkaWiki<br/>ZWiki<br/></td></tr></table>>];
+0 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_2_5</td></tr><tr><td>Public:Yes<br/></td></tr><tr><td>BrainKeeper<br/>CentralDesktop<br/>MindTouch<br/>EditMe<br/>eXoPlatform<br/>FlexWiki<br/>Jive<br/>JotSpot<br/>MediaWiki<br/>MidgardWiki<br/>MoinMoin<br/>MojoMojo<br/>PBworks<br/>PhpWiki<br/>SamePage<br/>Socialtext<br/>Swiki<br/>TikiWikiCMSGroupware<br/>TractionTeamPage<br/>UseModWiki<br/>WackoWiki<br/>Wagn<br/>Wikispaces<br/>Wikiwig<br/>WikkaWiki<br/>ZWiki<br/></td></tr></table>>];
+2 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_2_4</td></tr><tr><td>Corporate/Enterprise:Yes<br/></td></tr><tr><td>BrainKeeper<br/>CentralDesktop<br/>MindTouch<br/>eXoPlatform<br/>FlexWiki<br/>Jive<br/>JotSpot<br/>MediaWiki<br/>MidgardWiki<br/>MoinMoin<br/>MojoMojo<br/>PBworks<br/>PhpWiki<br/>SamePage<br/>SharePointFoundation<br/>Socialtext<br/>ThoughtFarmer<br/>TikiWikiCMSGroupware<br/>TractionTeamPage<br/>UseModWiki<br/>WackoWiki<br/>Wagn<br/>Wikispaces<br/>Wikiwig<br/>WikkaWiki<br/>ZWiki<br/></td></tr></table>>];
+1 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_2_6</td></tr><tr><td>Private:Yes<br/></td></tr><tr><td><br/></td></tr></table>>];
+6 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_2_0</td></tr><tr><td>Scientific/Technical/Mathematical:Yes<br/></td></tr><tr><td>BlueSpiceforMediaWiki<br/>DokuWiki<br/>Foswiki<br/>Gitit<br/>IBMConnections<br/>Noösphere<br/>PmWiki<br/>Qontext<br/>SharePointServer<br/>TWiki<br/>XWiki<br/></td></tr></table>>];
+	6:p -> 4:p
+	6:p -> 3:p
+	6:p -> 0:p
+	6:p -> 2:p
+	0:p -> 1:p
+	5:p -> 1:p
+}

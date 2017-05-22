@@ -1,0 +1,89 @@
+##"A few people in the field of genetics are using dot to draw "marriage node diagram" pedigree drawings. Here is one I have done of a test pedigree from the FTREE pedigree drawing package (Lion Share was a racehorse)." Contributed by David Duffy.
+
+
+##Command to get the layout: "dot -Tpng thisfile > thisfile.png"
+
+
+
+digraph ECFD {
+
+# page = "8.2677165,11.692913" ;
+
+ratio = "auto" ;
+
+mincross = 2.0 ;
+
+label = "Test d'ECFD" ;
+
+{rank=same; W Mu We M S "Si Ar"}
+{rank=same; I B}
+
+
+"C G D A" [shape=box , root=true, regular=1,style=filled,fillcolor=white ] ;
+
+"W" [shape=box , regular=1,style=filled,fillcolor=white ] ;
+
+"Mu" [shape=box , regular=1,style=filled,fillcolor=white ] ;
+
+"Si Ar" [shape=box , regular=1,style=filled,fillcolor=white ] ;
+
+"We" [shape=box , regular=1,style=filled,fillcolor=white ] ;
+
+"M" [shape=box , regular=1,style=filled,fillcolor=white ] ;
+
+"S" [shape=box , regular=1,style=filled,fillcolor=white ] ;
+
+"I" [shape=box , regular=1,style=filled,fillcolor=white ] ;
+
+"B" [shape=box , regular=1,style=filled,fillcolor=white ] ;
+
+
+
+"C G D A" -> "W" [dir=back,weight=1] ;
+
+
+"or1" [shape=box,style=filled,label="OR",height=.1,width=.1] ;
+
+"C G D A" -> "or1" [dir=back,weight=1,color=red] ;
+
+"or1" -> "Mu" [dir=none,weight=1,color=red] ;
+
+"or1" -> "Si Ar" [dir=none,weight=1,color=red];
+
+
+"xor1" [shape=box,style=filled,label="XOR",height=.1,width=.1] ;
+
+"C G D A" -> "xor1" [dir=back,weight=1,color=blue] ;
+
+"xor1" -> "We" [dir=none,weight=1,color=blue] ;
+
+"xor1" -> "M" [dir=none,weight=1,color=blue] ;
+
+"xor1"-> "S" [dir=none,weight=1, color=blue] ;
+
+
+"xor2" [shape=box,style=filled,label="XOR",height=.1,width=.1] ;
+
+"W" -> "xor2" [dir=back,weight=1, color = chartreuse2] ;
+
+"xor2" -> "I" [dir=none,weight=1, color = chartreuse2] ;
+
+"xor2" -> "B" [dir=none,weight=1, color = chartreuse2] ;
+
+
+"Mu"->"W" [color = deeppink3];
+
+
+"We"->"Si Ar" [color= gold];
+
+
+"B"->"S" [color=tomato];
+
+
+"mutex1" [shape=circle, style=filled, label="MX",height=.1,width=.1]
+
+"Mu"->"mutex1" [dir=none]
+"We"->"mutex1" [dir=none]
+
+
+}

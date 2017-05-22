@@ -1,0 +1,21 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:12,concept number:8,object number:25,attribute number:8"
+0 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_12_0</td></tr><tr><td>pback:Yes<br/></td></tr><tr><td>Amarok<br/>MediaMonkey<br/>MPXPLAY<br/>Sonique<br/>Winamp<br/>XMMS<br/>XMPlay<br/></td></tr></table>>];
+1 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_12_1</td></tr><tr><td>Outboundstreaming:Yes<br/></td></tr><tr><td>AIMP<br/>Amarok<br/>foobar2000<br/>MediaMonkey<br/>MusicPlayerDaemon<br/>Winamp<br/>XMMS<br/>XMPlay<br/></td></tr></table>>];
+2 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_12_3</td></tr><tr><td>Skinnable:Yes<br/></td></tr><tr><td>Audacious<br/>Audion<br/>cmus<br/>MusicBee<br/>MusicmatchJukebox<br/>Zinf<br/></td></tr></table>>];
+4 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_12_5</td></tr><tr><td>Gaplessaudiodecoding:Yes<br/></td></tr><tr><td>AIMP<br/>Amarok<br/>Audacious<br/>cmus<br/>Cog<br/>Clementine<br/>Exaile<br/>foobar2000<br/>MediaMonkey<br/>MPXPLAY<br/>MusicPlayerDaemon<br/>MusicBee<br/>QuodLibet<br/>Rhythmbox<br/>Spotify<br/>XMMS<br/>XMPlay<br/></td></tr></table>>];
+5 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_12_6</td></tr><tr><td>Visualizer:Yes<br/></td></tr><tr><td>Audacious<br/>Audion<br/>Clementine<br/>MusicBee<br/>MusicmatchJukebox<br/>musikCube<br/>Rhythmbox<br/></td></tr></table>>];
+6 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_12_4</td></tr><tr><td>Remotecontrollable:Yes<br/></td></tr><tr><td>AIMP<br/>Amarok<br/>Audacious<br/>cmus<br/>Cog<br/>Clementine<br/>foobar2000<br/>JuK<br/>MediaMonkey<br/>MPXPLAY<br/>MusicPlayerDaemon<br/>MusicBee<br/>MusicmatchJukebox<br/>QuodLibet<br/>Rhythmbox<br/>Winamp<br/>XMMS<br/></td></tr></table>>];
+3 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_12_7</td></tr><tr><td>Mediadatabase:Yes<br/></td></tr><tr><td>AIMP<br/>cmus<br/>JuK<br/>MPXPLAY<br/>MusicmatchJukebox<br/>Rhapsody<br/>Zinf<br/></td></tr></table>>];
+7 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_12_2</td></tr><tr><td>Intelligentplaylistsfromdatabase(basedoncriteria):Yes<br/></td></tr><tr><td>Amarok<br/>Clementine<br/>Exaile<br/>foobar2000<br/>MediaMonkey<br/>MusicPlayerDaemon<br/>MusicBee<br/>musikCube<br/>QuodLibet<br/>Rhythmbox<br/>Winamp<br/></td></tr></table>>];
+	0:p -> 2:p
+	1:p -> 2:p
+	0:p -> 5:p
+	1:p -> 5:p
+	7:p -> 3:p
+}

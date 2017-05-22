@@ -1,0 +1,42 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:20,concept number:13,object number:34,attribute number:16"
+21 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_20_0</td></tr><tr><td>hppa:Yes<br/>s390:Yes<br/>alpha:Yes<br/>m68k:Yes<br/></td></tr><tr><td>Gentoo<br/></td></tr></table>>];
+15 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_20_1</td></tr><tr><td>ia64:Yes<br/></td></tr><tr><td>SUSELinuxEnterpriseServer<br/></td></tr></table>>];
+18 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_20_3</td></tr><tr><td>sparc32:Yes<br/></td></tr><tr><td>CentOS<br/></td></tr></table>>];
+24 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_20_2</td></tr><tr><td>sh:Yes<br/></td></tr><tr><td>OpenWrt<br/></td></tr></table>>];
+19 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_20_4</td></tr><tr><td>sparc64:Yes<br/></td></tr><tr><td>Fedora<br/>openSUSE<br/></td></tr></table>>];
+22 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_20_5</td></tr><tr><td>loongson:Yes<br/></td></tr><tr><td>Debian<br/>gNewSense<br/>ParabolaGNU<br/></td></tr></table>>];
+25 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_20_6</td></tr><tr><td>s390x:Yes<br/></td></tr><tr><td>Debian<br/>Fedora<br/>RedHatEnterpriseLinux<br/></td></tr></table>>];
+23 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_20_7</td></tr><tr><td>mips:Yes<br/></td></tr><tr><td>LibreWRT<br/>Tor-ramdisk<br/></td></tr></table>>];
+17 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_20_8</td></tr><tr><td>ppc64:Yes<br/></td></tr><tr><td>BOSSLinux<br/>Finnix<br/>YellowDogLinux<br/></td></tr></table>>];
+16 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_20_9</td></tr><tr><td>ppc:Yes<br/></td></tr><tr><td>CRUX<br/>SourceMageGNU/Linux<br/>Ubuntu/Kubuntu/Xubuntu/Lubuntu<br/></td></tr></table>>];
+20 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_20_10</td></tr><tr><td>arm:Yes<br/></td></tr><tr><td>ArchLinux<br/>BackTrack<br/>Debian<br/>KaliLinux<br/>MEPIS<br/>OpenELEC<br/>SHR<br/>Slackware<br/>Ubuntu/Kubuntu/Xubuntu/Lubuntu<br/>XBMCbuntu<br/></td></tr></table>>];
+13 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_20_11</td></tr><tr><td>x86:Yes<br/></td></tr><tr><td>ArchLinux<br/>BackTrack<br/>BodhiLinux<br/>BOSSLinux<br/>CRUX<br/>DragoraGNU<br/>Finnix<br/>KaliLinux<br/>MEPIS<br/>OpenELEC<br/>OracleLinux<br/>RedFlagLinux<br/>RedHatLinux<br/>ScientificLinux<br/>Slackware<br/>SourceMageGNU/Linux<br/>Tor-ramdisk<br/>Ubuntu/Kubuntu/Xubuntu/Lubuntu<br/>Ututo<br/>XBMCbuntu<br/></td></tr></table>>];
+14 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_20_12</td></tr><tr><td>x86-64:Yes<br/></td></tr><tr><td>ArchLinux<br/>BackTrack<br/>BodhiLinux<br/>BOSSLinux<br/>Chakra<br/>CRUX<br/>DragoraGNU<br/>Finnix<br/>KaliLinux<br/>MEPIS<br/>OpenELEC<br/>OracleLinux<br/>RedFlagLinux<br/>ScientificLinux<br/>Slackware<br/>SourceMageGNU/Linux<br/>Tor-ramdisk<br/>Ubuntu/Kubuntu/Xubuntu/Lubuntu<br/>Ututo<br/></td></tr></table>>];
+	21:p -> 15:p
+	21:p -> 18:p
+	21:p -> 24:p
+	21:p -> 19:p
+	15:p -> 25:p
+	24:p -> 23:p
+	22:p -> 23:p
+	25:p -> 17:p
+	18:p -> 16:p
+	24:p -> 16:p
+	17:p -> 16:p
+	24:p -> 20:p
+	19:p -> 20:p
+	15:p -> 13:p
+	19:p -> 13:p
+	24:p -> 13:p
+	22:p -> 13:p
+	19:p -> 14:p
+	25:p -> 14:p
+	18:p -> 14:p
+	22:p -> 14:p
+}

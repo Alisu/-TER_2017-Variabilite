@@ -1,0 +1,69 @@
+digraph G { 
+	rankdir=BT;
+subgraph 31 { 
+label="31";
+1 [shape=record,label="{Concept_31_1|Num­berofPara­digms:8\n|Perl\n}"];
+2 [shape=record,label="{Concept_31_0|Num­berofPara­digms:12\n|Mathematica\n}"];
+3 [shape=record,label="{Concept_31_3|Num­berofPara­digms:7\n|D(version2.0)\nNemerle\nF#\n}"];
+4 [shape=record,label="{Concept_31_2|Pipe­lines:Yes\n|WindowsPowerShell\nC++\n}"];
+5 [shape=record,label="{Concept_31_5|De­clar­at­ive:Yes\n|C++\nF#\nScala\n}"];
+6 [shape=record,label="{Concept_31_6|Num­berofPara­digms:5\n|Ada\nCommonLisp(someotherparadigmsareimplementedaslibraries)\nD(version2.0)\nCurl\n}"];
+7 [shape=record,label="{Concept_31_4|Num­berofPara­digms:9\n|Scala\nMATLAB\nOz\nLispWorks(version6.0withsupportforsymmetricmulti-processing,rules,logic(Prolog),CORBA)\n}"];
+8 [shape=record,label="{Concept_31_9|Rule-based:Yes\n|ROOP\nC++\nOz\nLispWorks(version6.0withsupportforsymmetricmulti-processing,rules,logic(Prolog),CORBA)\n}"];
+9 [shape=record,label="{Concept_31_8|Num­berofPara­digms:6\n|Java\nWindowsPowerShell\nC#\nVisualBasic.NET\nC++\n}"];
+10 [shape=record,label="{Concept_31_10|Visu­al:Yes\n|LabVIEW\nSpreadsheets\nLava\nPointDragon\nPrograph\nMATLAB\n}"];
+11 [shape=record,label="{Concept_31_11|Con­straints:Yes\n|Curry\nD(version2.0)\nC++\nMATLAB\nOz\n}"];
+12 [shape=record,label="{Concept_31_12|Dis­trib­uted:Yes\n|Erlang\nE\nAda\nC++\nMATLAB\nOz\nLispWorks(version6.0withsupportforsymmetricmulti-processing,rules,logic(Prolog),CORBA)\n}"];
+13 [shape=record,label="{Concept_31_13|Lo­gic:Yes\n|ALF\nPoplog\nCurry\nLeda\n}"];
+14 [shape=record,label="{Concept_31_15|Num­berofPara­digms:2\n|LabVIEW\nAPL\nALF\nDylan\nSather\nClaire\nSpreadsheets\nAmigaE\nSimula\nLava\n}"];
+15 [shape=record,label="{Concept_31_14|Num­berofPara­digms:4\n|PHP\nCurry\nPython\nRuby\nOCaml\nLeda\nIo\nFortran\nFalcon\nObjectPascal\n}"];
+16 [shape=record,label="{Concept_31_16|Meta­pro­gram­ming:Yes\n|Python\nFalcon\nCommonLisp(someotherparadigmsareimplementedaslibraries)\nD(version2.0)\nC++\nNemerle\nScala\nMATLAB\nLispWorks(version6.0withsupportforsymmetricmulti-processing,rules,logic(Prolog),CORBA)\n}"];
+17 [shape=record,label="{Concept_31_17|Data­flow:Yes\n|LabVIEW\nSISAL\nPrograph\nC#\nVisualBasic.NET\nMATLAB\nOz\n}"];
+18 [shape=record,label="{Concept_31_19|Gen­er­ic:Yes\n|D(version1.0)\nEmbarcaderoDelphi\nOCaml\nFortran\nAda\nCurl\nMATLAB\n}"];
+19 [shape=record,label="{Concept_31_18|Re­flec­tion:Yes\n|PHP\nRuby\nFalcon\nCommonLisp(someotherparadigmsareimplementedaslibraries)\nCurl\nNemerle\nScala\nMATLAB\nLispWorks(version6.0withsupportforsymmetricmulti-processing,rules,logic(Prolog),CORBA)\n}"];
+20 [shape=record,label="{Concept_31_20|Num­berofPara­digms:3\n|PointDragon\nSISAL\nErlang\nChucK\nPrograph\nPoplog\nBETA\nJ\nPliant\nTclwithitclorXOTclextensions\nECMAScript(ActionScript,E4X,JavaScript,JScript)\nLua\nTclwithSnitextension\nD(version1.0)\nEmbarcaderoDelphi\nE\nREBOL\nROOP\n}"];
+21 [shape=record,label="{Concept_31_21|Con­cur­rent:Yes\n|SISAL\nChucK\nIo\nFortran\nObjectPascal\nJava\nC#\nVisualBasic.NET\n}"];
+22 [shape=record,label="{Concept_31_22|Im­per­at­ive:Yes\n|APL\nAmigaE\nSimula\nPointDragon\nChucK\nPoplog\nBETA\nJ\nPliant\nTclwithitclorXOTclextensions\nECMAScript(ActionScript,E4X,JavaScript,JScript)\nLua\nTclwithSnitextension\nD(version1.0)\nEmbarcaderoDelphi\nREBOL\nPHP\nRuby\nOCaml\nLeda\nIo\nObjectPascal\n}"];
+23 [shape=record,label="{Concept_31_23|Func­tion­al:Yes\n|APL\nALF\nDylan\nSather\nClaire\nSpreadsheets\nSISAL\nErlang\nPoplog\nBETA\nJ\nPliant\nTclwithitclorXOTclextensions\nECMAScript(ActionScript,E4X,JavaScript,JScript)\nLua\nTclwithSnitextension\nREBOL\nPHP\nCurry\nRuby\nOCaml\nLeda\nIo\nFortran\nFalcon\nObjectPascal\nCommonLisp(someotherparadigmsareimplementedaslibraries)\nCurl\nOz\nLispWorks(version6.0withsupportforsymmetricmulti-processing,rules,logic(Prolog),CORBA)\n}"];
+24 [shape=record,label="{Concept_31_24|Ob­ject-ori­ented:Yes\n|Dylan\nSather\nClaire\nAmigaE\nSimula\nLava\nPointDragon\nChucK\nPrograph\nBETA\nJ\nPliant\nTclwithitclorXOTclextensions\nECMAScript(ActionScript,E4X,JavaScript,JScript)\nLua\nTclwithSnitextension\nE\nREBOL\nLeda\nIo\nObjectPascal\n}"];
+25 [shape=record,label="{Concept_31_7|Oth­erpara­digms:Yes\n|Python\nC#\nVisualBasic.NET\nF#\n}"];
+	1 -> 4
+	2 -> 5
+	2 -> 8
+	2 -> 11
+	1 -> 11
+	2 -> 12
+	8 -> 13
+	2 -> 16
+	1 -> 16
+	5 -> 17
+	1 -> 17
+	9 -> 18
+	3 -> 18
+	5 -> 18
+	9 -> 19
+	4 -> 19
+	25 -> 19
+	3 -> 21
+	5 -> 21
+	7 -> 21
+	11 -> 21
+	12 -> 21
+	5 -> 22
+	25 -> 22
+	6 -> 22
+	9 -> 22
+	4 -> 22
+	3 -> 22
+	8 -> 22
+	9 -> 23
+	4 -> 23
+	3 -> 23
+	5 -> 23
+	6 -> 24
+	18 -> 24
+	19 -> 24
+	7 -> 24
+	16 -> 24
+}
+}

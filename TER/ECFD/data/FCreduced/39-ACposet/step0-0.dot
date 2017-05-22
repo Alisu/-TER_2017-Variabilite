@@ -1,0 +1,49 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:39,concept number:14,object number:16,attribute number:16"
+3 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_0</td></tr><tr><td>IntegrationwithIMservice:Yes<br/></td></tr><tr><td><br/></td></tr></table>>];
+8 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_1</td></tr><tr><td>Interfacescripttechnique:Java<br/>Serverhostedpublickeyring(forencryption):Yes<br/>Sharedkeyencryption:Yes<br/></td></tr><tr><td>Hushmail<br/></td></tr></table>>];
+13 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_2</td></tr><tr><td>Addressmodifiers(subaddressing):Yes<br/></td></tr><tr><td>FastMail.FM<br/>Gmail<br/>Outlook.com<br/>Runbox<br/>Yahoo!Mail<br/>YandexMail<br/></td></tr></table>>];
+6 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_3</td></tr><tr><td>Interfacescripttechnique:CSS<br/></td></tr><tr><td>BigfootCommunications<br/>FastMail.FM<br/>Outlook.com<br/>Runbox<br/>Yahoo!Mail<br/>YandexMail<br/></td></tr></table>>];
+11 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_4</td></tr><tr><td>Filtersoutemailswithexecutableattachments:Yes<br/></td></tr><tr><td>GMXMail<br/>Mail.com<br/>Rackspace<br/></td></tr></table>>];
+0 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_5</td></tr><tr><td>Automaticforwarding:Yes<br/></td></tr><tr><td>Mail.com<br/>Mail.ru<br/>Rackspace<br/>Seznam.cz<br/>Zoho<br/></td></tr></table>>];
+4 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_6</td></tr><tr><td>DomainNamecustomization:Yes<br/></td></tr><tr><td>BigfootCommunications<br/>FastMail.FM<br/>Gmail<br/>GMXMail<br/>Mail.ru<br/>Rackspace<br/>rediff<br/>Runbox<br/>Yahoo!Mail<br/>YandexMail<br/>Zoho<br/></td></tr></table>>];
+2 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_9</td></tr><tr><td>clientE-mailforotherserver:Yes<br/></td></tr><tr><td>AOLMail<br/>GMXMail<br/>Mail.com<br/>Mail.ru<br/>Seznam.cz<br/>Zoho<br/></td></tr></table>>];
+5 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_7</td></tr><tr><td>Interfacescripttechnique:HTML<br/></td></tr><tr><td>Mail.ru<br/>Seznam.cz<br/></td></tr></table>>];
+9 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_8</td></tr><tr><td>Interfacescripttechnique:JavaScript<br/></td></tr><tr><td>AOLMail<br/>rediff<br/>Seznam.cz<br/></td></tr></table>>];
+12 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_10</td></tr><tr><td>Custom"From:"Address:Yes<br/></td></tr><tr><td>GMXMail<br/>Mail.com<br/>Mail.ru<br/>rediff<br/>Seznam.cz<br/>Zoho<br/></td></tr></table>>];
+7 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_11</td></tr><tr><td>Interfacescripttechnique:Ajax<br/></td></tr><tr><td>AOLMail<br/>Mail.ru<br/>rediff<br/>Zoho<br/></td></tr></table>>];
+10 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_12</td></tr><tr><td>Virusscanning:Yes<br/></td></tr><tr><td><br/></td></tr></table>>];
+1 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_39_13</td></tr><tr><td>E-mailclientaccess:Yes<br/></td></tr><tr><td><br/></td></tr></table>>];
+	3:p -> 8:p
+	3:p -> 13:p
+	3:p -> 6:p
+	13:p -> 11:p
+	13:p -> 0:p
+	6:p -> 0:p
+	8:p -> 4:p
+	13:p -> 2:p
+	6:p -> 2:p
+	11:p -> 5:p
+	6:p -> 5:p
+	8:p -> 5:p
+	11:p -> 9:p
+	6:p -> 9:p
+	13:p -> 12:p
+	6:p -> 12:p
+	8:p -> 12:p
+	11:p -> 7:p
+	6:p -> 7:p
+	0:p -> 10:p
+	7:p -> 10:p
+	9:p -> 10:p
+	2:p -> 10:p
+	4:p -> 1:p
+	5:p -> 1:p
+	12:p -> 1:p
+	10:p -> 1:p
+}

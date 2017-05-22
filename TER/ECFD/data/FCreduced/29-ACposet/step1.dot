@@ -1,0 +1,68 @@
+digraph G { 
+	rankdir=BT;
+subgraph 29 { 
+label="29";
+1 [shape=record,label="{Concept_29_7|YearBegan:2008\nDescription/Focus:Open-sourcesocialnetworkingplatform\nRegisteredusers:2038232\nUpdatedinpast30days:32798\nUserpicsFree:15\nUserpicsPaid:100\nYearlyCostforPaidAccount:35to50USD\nPermanentAccount:200USD\n|Dreamwidth\n}"];
+2 [shape=record,label="{Concept_29_1|YearBegan:2007\nDescription/Focus:Generalcommunity\nRegisteredusers:29094\nUpdatedinpast30days:686\nYearlyCostforPaidAccount:20.00USD\n|Scribbld\n}"];
+3 [shape=record,label="{Concept_29_2|YearBegan:2005\nRegisteredusers:49420\nUpdatedinpast30days:1675\n|Lj.Rossia.org\n}"];
+4 [shape=record,label="{Concept_29_5|YearBegan:2003\nDescription/Focus:Fandomfocusedcommunityfor18+\nRegisteredusers:19963\nUpdatedinpast30days:361\nUserpicsFree:10\nUserpicsPaid:500\nYearlyCostforPaidAccount:24USD\n|JournalFen\n}"];
+5 [shape=record,label="{Concept_29_3|YearBegan:1999\nDescription/Focus:OriginalLiveJournalsite\nRegisteredusers:42550922\nUpdatedinpast30days:1150344\nUserpicsPaid:30\nYearlyCostforPaidAccount:19.95USD\nPermanentAccount:175USD\n|LiveJournal\n}"];
+6 [shape=record,label="{Concept_29_8|Description/Focus:Dark-themedcommunity\nRegisteredusers:456302\nUpdatedinpast30days:638\nUserpicsFree:5\nMonthlyCostforPaidAccount:2.5USD\nYearlyCostforPaidAccount:15USD\n|DeadJournal\n}"];
+7 [shape=record,label="{Concept_29_10|Description/Focus:Japanesecommunity\nRegisteredusers:13127\nUpdatedinpast30days:31\n|Asks\n}"];
+8 [shape=record,label="{Concept_29_6|Description/Focus:Insaneasylum-themedcommunity\nRegisteredusers:3983438\nUpdatedinpast30days:18653\nUserpicsPaid:250\nYearlyCostforPaidAccount:25USD\n|InsaneJournal\n}"];
+9 [shape=record,label="{Concept_29_9|Description/Focus:General18+community\nRegisteredusers:2255607\nUpdatedinpast30days:1899\n|Blurty\n}"];
+10 [shape=record,label="{Concept_29_0|Description/Focus:Latviancommunity\nRegisteredusers:28919\nUpdatedinpast30days:10324\n|SviestaCiba\n}"];
+11 [shape=record,label="{Concept_29_4|Registeredusers:2340\nUpdatedinpast30days:141\n|Kraslan\n}"];
+12 [shape=record,label="{Concept_29_20|YearBegan:2006\n|}"];
+13 [shape=record,label="{Concept_29_19|YearBegan:2002\n|}"];
+14 [shape=record,label="{Concept_29_18|YearBegan:2001\n|}"];
+15 [shape=record,label="{Concept_29_12|Description/Focus:Russiancommunity\n|}"];
+16 [shape=record,label="{Concept_29_17|Registration:paid\nRegistration:Invite-only\n|}"];
+17 [shape=record,label="{Concept_29_21|UserpicsFree:3\n|}"];
+18 [shape=record,label="{Concept_29_11|UserpicsFree:6\n|}"];
+19 [shape=record,label="{Concept_29_14|UserpicsFree:100\n|}"];
+20 [shape=record,label="{Concept_29_16|UserpicsPaid:50\n|}"];
+21 [shape=record,label="{Concept_29_13|MonthlyCostforPaidAccount:5USD\n|}"];
+22 [shape=record,label="{Concept_29_15|MonthlyCostforPaidAccount:3USD\n|}"];
+23 [shape=record,label="{Concept_29_22|Abilitytosyndicateoff-sitefeeds:Allusers\n|}"];
+24 [shape=record,label="{Concept_29_23|Abilitytosyndicateoff-sitefeeds:Paidonly\n|}"];
+25 [shape=record,label="{Concept_29_24|Registration:Open\n|}"];
+	11 -> 12
+	7 -> 12
+	10 -> 13
+	9 -> 13
+	6 -> 14
+	8 -> 14
+	3 -> 15
+	11 -> 15
+	6 -> 16
+	4 -> 16
+	9 -> 17
+	7 -> 17
+	2 -> 18
+	5 -> 18
+	3 -> 19
+	8 -> 19
+	6 -> 20
+	2 -> 20
+	2 -> 21
+	8 -> 21
+	5 -> 22
+	1 -> 22
+	6 -> 23
+	3 -> 23
+	1 -> 23
+	9 -> 24
+	4 -> 24
+	21 -> 24
+	18 -> 24
+	13 -> 25
+	17 -> 25
+	18 -> 25
+	19 -> 25
+	22 -> 25
+	15 -> 25
+	12 -> 25
+	21 -> 25
+}
+}

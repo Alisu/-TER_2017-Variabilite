@@ -1,0 +1,14 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:5,concept number:4,object number:22,attribute number:5"
+6 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_5_1</td></tr><tr><td>Forwardengineering:Yes<br/></td></tr><tr><td>AltovaDatabaseSpy<br/>OracleSQLDeveloper<br/>SQLyog<br/>Toad<br/>ToadDataModeler<br/></td></tr></table>>];
+4 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_5_2</td></tr><tr><td>Visualquerybuilder:Yes<br/></td></tr><tr><td>Adminer<br/>AltovaDatabaseSpy<br/>DaDaBIK<br/>DatabaseDeploymentManager<br/>Navicat<br/>MySQLWorkbench<br/>OracleSQLDeveloper<br/>pgAdminIII<br/>phpMyAdmin<br/>SQLyog<br/>SQuirreLSQL<br/>Toad<br/></td></tr></table>>];
+5 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_5_3</td></tr><tr><td>Visualschema/model/E-Rdiagramdesign:Yes<br/>Reverseengineering:Yes<br/></td></tr><tr><td>Adminer<br/>DatabaseDeploymentManager<br/>phpMyAdmin<br/>SQLServerManagementStudio<br/>SQuirreLSQL<br/></td></tr></table>>];
+7 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_5_0</td></tr><tr><td>ERdiagramgroupboxes:Yes<br/></td></tr><tr><td>DevgemsDataModeler<br/>DeZignforDatabases<br/>ModelRight<br/>Navicat<br/>NavicatDataModeler<br/>MySQLWorkbench<br/></td></tr></table>>];
+	7:p -> 6:p
+	6:p -> 5:p
+}

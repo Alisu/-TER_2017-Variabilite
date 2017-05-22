@@ -1,0 +1,22 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:32,concept number:10,object number:40,attribute number:10"
+2 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_32_0</td></tr><tr><td>static/dynamic:dependent<br/></td></tr><tr><td>Cayenne<br/></td></tr></table>>];
+6 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_32_1</td></tr><tr><td>safety:unsafe<br/></td></tr><tr><td>Assemblylanguage<br/>C<br/>C++<br/>C#<br/>D<br/>Objective-C<br/>Ya<br/></td></tr></table>>];
+8 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_32_3</td></tr><tr><td>nominative/structural:duck<br/></td></tr><tr><td>Clipper<br/>E<br/>Groovy<br/>Io<br/>JavaScript<br/>Objective-C<br/>Perl6<br/>Python<br/>Ruby<br/>Smalltalk<br/>WindowsPowerShell<br/>xHarbour<br/></td></tr></table>>];
+4 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_32_4</td></tr><tr><td>strong/weak:weak<br/></td></tr><tr><td>APL<br/>BASIC<br/>C<br/>Centura<br/>Clipper<br/>JavaScript<br/>Lua<br/>Perl1-5<br/>Perl6<br/>PHP<br/>VisualBasic<br/>WindowsPowerShell<br/>xHarbour<br/></td></tr></table>>];
+7 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_32_5</td></tr><tr><td>nominative/structural:nominative<br/></td></tr><tr><td>Ada<br/>APL<br/>BASIC<br/>C<br/>C++<br/>C#<br/>Centura<br/>D<br/>Delphi<br/>E<br/>Eiffel<br/>Erlang<br/>Fortran<br/>Haskell<br/>Java<br/>Pascal<br/>Perl1-5<br/>Scheme<br/>VisualBasic<br/>Ya<br/></td></tr></table>>];
+0 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_32_6</td></tr><tr><td>static/dynamic:dynamic<br/></td></tr><tr><td>APL<br/>Erlang<br/>Lisp<br/>Lua<br/>Perl1-5<br/>PHP<br/>Pike<br/>Scheme<br/>VisualBasic<br/></td></tr></table>>];
+1 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_32_7</td></tr><tr><td>static/dynamic:static<br/></td></tr><tr><td>Ada<br/>BASIC<br/>C<br/>C++<br/>C#<br/>Centura<br/>D<br/>Delphi<br/>Eiffel<br/>Fortran<br/>Go<br/>Haskell<br/>Java<br/>ML<br/>Pascal<br/>Perl6<br/>Pike<br/>Scala<br/>VisualBasic<br/>WindowsPowerShell<br/>Ya<br/></td></tr></table>>];
+3 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_32_8</td></tr><tr><td>strong/weak:strong<br/></td></tr><tr><td>Ada<br/>Assemblylanguage<br/>C++<br/>C#<br/>D<br/>Delphi<br/>E<br/>Eiffel<br/>Erlang<br/>Fortran<br/>Go<br/>Groovy<br/>Haskell<br/>Io<br/>Java<br/>Lisp<br/>ML<br/>Objective-C<br/>Pascal<br/>Perl6<br/>Pike<br/>Python<br/>Ruby<br/>Scala<br/>Scheme<br/>Smalltalk<br/>VisualBasic<br/>WindowsPowerShell<br/>Ya<br/></td></tr></table>>];
+5 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_32_9</td></tr><tr><td>safety:safe<br/></td></tr><tr><td>Ada<br/>APL<br/>BASIC<br/>C#<br/>Centura<br/>Clipper<br/>D<br/>Delphi<br/>E<br/>Eiffel<br/>Erlang<br/>Fortran<br/>Go<br/>Groovy<br/>Haskell<br/>Io<br/>Java<br/>JavaScript<br/>Lisp<br/>Lua<br/>ML<br/>Pascal<br/>Perl1-5<br/>Perl6<br/>PHP<br/>Pike<br/>Python<br/>Ruby<br/>Scala<br/>Scheme<br/>Smalltalk<br/>VisualBasic<br/>WindowsPowerShell<br/>xHarbour<br/></td></tr></table>>];
+9 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_32_2</td></tr><tr><td>nominative/structural:structural<br/></td></tr><tr><td>Assemblylanguage<br/>Go<br/>Lisp<br/>Lua<br/>ML<br/>Pike<br/>Scala<br/></td></tr></table>>];
+	8:p -> 0:p
+	2:p -> 3:p
+	2:p -> 5:p
+	2:p -> 9:p
+}

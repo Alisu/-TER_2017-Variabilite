@@ -1,0 +1,27 @@
+digraph G { 
+	rankdir=BT;
+subgraph 27 { 
+label="27";
+1 [shape=record,label="{Concept_27_0|Version:1.0\n|EclipsePublicLicense\n}"];
+2 [shape=record,label="{Concept_27_1|Version:2.1\nLinking:Yes\n|GNULesserGeneralPublicLicense\n}"];
+3 [shape=record,label="{Concept_27_2|Version:3.0\n|GNUGeneralPublicLicense\n}"];
+4 [shape=record,label="{Concept_27_4|Version:2.0\n|ApacheLicense\nGNUGeneralPublicLicense\nMozillaPublicLicense\n}"];
+5 [shape=record,label="{Concept_27_3|Statechanges:Yes\n|ApacheLicense\nGNUGeneralPublicLicense\nAfferoGeneralPublicLicense\n}"];
+6 [shape=record,label="{Concept_27_6|Includesource:Yes\n|MozillaPublicLicense\nAfferoGeneralPublicLicense\n}"];
+7 [shape=record,label="{Concept_27_7|Patentgrant:Yes\n|}"];
+8 [shape=record,label="{Concept_27_8|Distribution:Yes\nModification:Yes\nSublicensing:Yes\nNoliability:Yes\n|BSD2-ClauseLicense\nMITLicense\n}"];
+9 [shape=record,label="{Concept_27_9|Includelicense:Yes\nCommercialuse:Yes\nPrivateuse:Yes\n|Genericcopyright\n}"];
+10 [shape=record,label="{Concept_27_5|Notrademark:Yes\n|ApacheLicense\nBSD3-ClauseLicense\nMozillaPublicLicense\n}"];
+	2 -> 3
+	1 -> 6
+	3 -> 6
+	1 -> 7
+	3 -> 7
+	4 -> 7
+	7 -> 8
+	5 -> 8
+	10 -> 8
+	6 -> 8
+	8 -> 9
+}
+}

@@ -1,0 +1,15 @@
+FormalContext TangEshop
+||BankTransfer|Catalogue|CreditCard|High|Payment|PublicReport|Search|Security|Standard|Webshop|
+|TangEshopc0|x|x|x|x|x|||x||x|
+|TangEshopc1||x|x||x|x|x|x|x|x|
+|TangEshopc2|x|x|||x|||x|x|x|
+|TangEshopc3||x|x||x||x|x|x|x|
+|TangEshopc4|x|x|||x||x|x|x|x|
+|TangEshopc5|x|x|x||x||x|x|x|x|
+|TangEshopc6|x|x|||x|x|x|x|x|x|
+|TangEshopc7||x|x||x|||x|x|x|
+|TangEshopc8||x|x|x|x|||x||x|
+|TangEshopc9|x|x|x|x|x||x|x||x|
+|TangEshopc10||x|x|x|x||x|x||x|
+|TangEshopc11|x|x|x||x|||x|x|x|
+|TangEshopc12|x|x|x||x|x|x|x|x|x|

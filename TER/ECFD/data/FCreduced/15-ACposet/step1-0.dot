@@ -1,0 +1,67 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:15,concept number:24,object number:34,attribute number:27"
+27 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_3</td></tr><tr><td>Other:RESTfulWebAPI<br/></td></tr><tr><td>µTorrent<br/></td></tr></table>>];
+28 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_2</td></tr><tr><td>Other:SCGI<br/>Basedon:libTorrent<br/></td></tr><tr><td>rTorrent<br/></td></tr></table>>];
+30 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_0</td></tr><tr><td>Other:JSON<br/>Programminglanguage:C<br/></td></tr><tr><td>Transmission<br/></td></tr></table>>];
+34 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_4</td></tr><tr><td>Programminglanguage:OCaml<br/></td></tr><tr><td>MLDonkey<br/></td></tr></table>>];
+35 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_1</td></tr><tr><td>Programminglanguage:PHP<br/></td></tr><tr><td>TorrentFlux<br/></td></tr></table>>];
+40 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_5</td></tr><tr><td>Basedon:µTorrent<br/></td></tr><tr><td>BitTorrent6<br/></td></tr></table>>];
+41 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_6</td></tr><tr><td>Basedon:Limewire<br/></td></tr><tr><td>Acquisition<br/></td></tr></table>>];
+31 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_7</td></tr><tr><td>Other:Daemon<br/></td></tr><tr><td>Deluge<br/></td></tr></table>>];
+32 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_8</td></tr><tr><td>Other:XML<br/>Programminglanguage:SWT<br/></td></tr><tr><td>BitTyrant<br/>Vuze<br/></td></tr></table>>];
+36 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_11</td></tr><tr><td>Programminglanguage:Objective-C<br/></td></tr><tr><td>BitsonWheels<br/></td></tr></table>>];
+42 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_9</td></tr><tr><td>Basedon:Azureus<br/></td></tr><tr><td>BitTyrant<br/>OneSwarm<br/></td></tr></table>>];
+43 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_10</td></tr><tr><td>Basedon:BitTorrent<br/></td></tr><tr><td>BitTornado<br/>TomatoTorrent<br/></td></tr></table>>];
+45 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_12</td></tr><tr><td>Basedon:BitTornado<br/></td></tr><tr><td>ABC<br/></td></tr></table>>];
+29 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_13</td></tr><tr><td>Other:Telnet<br/></td></tr><tr><td><br/></td></tr></table>>];
+33 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_14</td></tr><tr><td>Programminglanguage:Cocoa<br/></td></tr><tr><td>TomatoTorrent<br/></td></tr></table>>];
+39 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_15</td></tr><tr><td>Programminglanguage:Java<br/></td></tr><tr><td>BitLet<br/>LimeWire<br/></td></tr></table>>];
+37 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_16</td></tr><tr><td>Programminglanguage:Python<br/></td></tr><tr><td>ABC<br/>BitLord<br/>BitTornado<br/>BitTorrent5<br/>Deluge<br/>Tribler<br/></td></tr></table>>];
+44 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_18</td></tr><tr><td>Basedon:libtorrent<br/></td></tr><tr><td>BitLord<br/>Deluge<br/>FreeDownloadManager<br/>LimeWire<br/>Miro<br/>qBittorrent<br/>TonidoTorrent<br/>Tribler<br/></td></tr></table>>];
+46 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_19</td></tr><tr><td>IPv6:Yes<br/></td></tr><tr><td>BitLord<br/>BitTornado<br/>BitsonWheels<br/>KGet<br/>KTorrent<br/>Opera12<br/>qBittorrent<br/>Tixati<br/></td></tr></table>>];
+26 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_20</td></tr><tr><td>CLI:Yes<br/></td></tr><tr><td>BitComet<br/>BitTornado<br/>BitTorrent5<br/>FreeDownloadManager<br/>KGet<br/>KTorrent<br/>qBittorrent<br/>Shareaza<br/>Tribler<br/></td></tr></table>>];
+38 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_21</td></tr><tr><td>Programminglanguage:C++<br/></td></tr><tr><td>BitComet<br/>BitLord<br/>Deluge<br/>FreeDownloadManager<br/>KGet<br/>KTorrent<br/>MeerkatBittorrentClient<br/>Miro<br/>Opera12<br/>qBittorrent<br/>Shareaza<br/>Tixati<br/>TonidoTorrent<br/>Tribler<br/></td></tr></table>>];
+25 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_22</td></tr><tr><td>Web:Yes<br/></td></tr><tr><td>BitComet<br/>BitLet<br/>FreeDownloadManager<br/>KGet<br/>Shareaza<br/>TonidoTorrent<br/></td></tr></table>>];
+24 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_23</td></tr><tr><td>GUI:Yes<br/></td></tr><tr><td>BitComet<br/>BlogTorrent<br/>FlashGet<br/>FreeDownloadManager<br/>LimeWire<br/>MeerkatBittorrentClient<br/>Miro<br/>Shareaza<br/>SymTorrent<br/></td></tr></table>>];
+47 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_17</td></tr><tr><td>µTP:Yes<br/></td></tr><tr><td>KTorrent<br/>qBittorrent<br/>Tixati<br/>Tribler<br/>Vuze<br/></td></tr></table>>];
+	30:p -> 31:p
+	41:p -> 36:p
+	35:p -> 45:p
+	34:p -> 29:p
+	32:p -> 29:p
+	36:p -> 33:p
+	32:p -> 39:p
+	42:p -> 39:p
+	40:p -> 46:p
+	27:p -> 46:p
+	32:p -> 46:p
+	31:p -> 46:p
+	42:p -> 46:p
+	28:p -> 26:p
+	40:p -> 26:p
+	29:p -> 26:p
+	31:p -> 26:p
+	28:p -> 38:p
+	40:p -> 38:p
+	27:p -> 38:p
+	28:p -> 25:p
+	29:p -> 25:p
+	45:p -> 25:p
+	31:p -> 25:p
+	42:p -> 25:p
+	47:p -> 25:p
+	29:p -> 24:p
+	33:p -> 24:p
+	46:p -> 24:p
+	37:p -> 24:p
+	47:p -> 24:p
+	43:p -> 24:p
+	40:p -> 47:p
+	27:p -> 47:p
+	30:p -> 47:p
+}

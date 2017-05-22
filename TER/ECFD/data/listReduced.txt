@@ -1,0 +1,4 @@
+MathSoft data/FCreduced/19Red.rcft
+Dbedition data/FCreduced/5Red.rcft
+PublicLicense data/FCreduced/27Red.rcft
+

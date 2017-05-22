@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/ecfd/src" modelPluginID="ecfd" modelName="Ecfd"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.emf.importer.ecore"
+    complianceLevel="8.0" copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>ecfd.ecore</foreignModel>
+  <genPackages prefix="Ecfd" disposableProviderFactory="true" ecorePackage="ecfd.ecore#/">
+    <genClasses ecoreClass="ecfd.ecore#//Ecfd">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ecfd.ecore#//Ecfd/element"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ecfd.ecore#//Ecfd/mutex"/>
+    </genClasses>
+    <genClasses ecoreClass="ecfd.ecore#//Boite">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ecfd.ecore#//Boite/groupeboite"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ecfd.ecore#//Boite/estMutex"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ecfd.ecore#//Boite/feature"/>
+    </genClasses>
+    <genClasses ecoreClass="ecfd.ecore#//Element">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ecfd.ecore#//Element/superBoite"/>
+    </genClasses>
+    <genClasses ecoreClass="ecfd.ecore#//Mutex">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ecfd.ecore#//Mutex/estBoite"/>
+    </genClasses>
+    <genClasses ecoreClass="ecfd.ecore#//Feature">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ecfd.ecore#//Feature/nom"/>
+    </genClasses>
+    <genClasses ecoreClass="ecfd.ecore#//GroupeBoite">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ecfd.ecore#//GroupeBoite/boite"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ecfd.ecore#//GroupeBoite/isExclusive"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

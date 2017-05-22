@@ -1,0 +1,65 @@
+digraph G { 
+	rankdir=BT;
+subgraph 15 { 
+label="15";
+1 [shape=record,label="{Concept_15_4|Programminglanguage:OCaml\n|MLDonkey\n}"];
+2 [shape=record,label="{Concept_15_1|Programminglanguage:PHP\n|TorrentFlux\n}"];
+3 [shape=record,label="{Concept_15_5|Basedon:µTorrent\n|BitTorrent6\n}"];
+4 [shape=record,label="{Concept_15_6|Basedon:Limewire\n|Acquisition\n}"];
+5 [shape=record,label="{Concept_15_3|Other:RESTfulWebAPI\n|µTorrent\n}"];
+6 [shape=record,label="{Concept_15_2|Other:SCGI\nBasedon:libTorrent\n|rTorrent\n}"];
+7 [shape=record,label="{Concept_15_0|Other:JSON\nProgramminglanguage:C\n|Transmission\n}"];
+8 [shape=record,label="{Concept_15_11|Programminglanguage:Objective-C\n|BitsonWheels\n}"];
+9 [shape=record,label="{Concept_15_9|Basedon:Azureus\n|BitTyrant\nOneSwarm\n}"];
+10 [shape=record,label="{Concept_15_10|Basedon:BitTorrent\n|BitTornado\nTomatoTorrent\n}"];
+11 [shape=record,label="{Concept_15_12|Basedon:BitTornado\n|ABC\n}"];
+12 [shape=record,label="{Concept_15_7|Other:Daemon\n|Deluge\n}"];
+13 [shape=record,label="{Concept_15_8|Other:XML\nProgramminglanguage:SWT\n|BitTyrant\nVuze\n}"];
+14 [shape=record,label="{Concept_15_13|Other:Telnet\n|}"];
+15 [shape=record,label="{Concept_15_14|Programminglanguage:Cocoa\n|TomatoTorrent\n}"];
+16 [shape=record,label="{Concept_15_15|Programminglanguage:Java\n|BitLet\nLimeWire\n}"];
+17 [shape=record,label="{Concept_15_16|Programminglanguage:Python\n|ABC\nBitLord\nBitTornado\nBitTorrent5\nDeluge\nTribler\n}"];
+18 [shape=record,label="{Concept_15_18|Basedon:libtorrent\n|BitLord\nDeluge\nFreeDownloadManager\nLimeWire\nMiro\nqBittorrent\nTonidoTorrent\nTribler\n}"];
+19 [shape=record,label="{Concept_15_19|IPv6:Yes\n|BitLord\nBitTornado\nBitsonWheels\nKGet\nKTorrent\nOpera12\nqBittorrent\nTixati\n}"];
+20 [shape=record,label="{Concept_15_20|CLI:Yes\n|BitComet\nBitTornado\nBitTorrent5\nFreeDownloadManager\nKGet\nKTorrent\nqBittorrent\nShareaza\nTribler\n}"];
+21 [shape=record,label="{Concept_15_21|Programminglanguage:C++\n|BitComet\nBitLord\nDeluge\nFreeDownloadManager\nKGet\nKTorrent\nMeerkatBittorrentClient\nMiro\nOpera12\nqBittorrent\nShareaza\nTixati\nTonidoTorrent\nTribler\n}"];
+22 [shape=record,label="{Concept_15_22|Web:Yes\n|BitComet\nBitLet\nFreeDownloadManager\nKGet\nShareaza\nTonidoTorrent\n}"];
+23 [shape=record,label="{Concept_15_23|GUI:Yes\n|BitComet\nBlogTorrent\nFlashGet\nFreeDownloadManager\nLimeWire\nMeerkatBittorrentClient\nMiro\nShareaza\nSymTorrent\n}"];
+24 [shape=record,label="{Concept_15_17|µTP:Yes\n|KTorrent\nqBittorrent\nTixati\nTribler\nVuze\n}"];
+	4 -> 8
+	2 -> 11
+	7 -> 12
+	1 -> 14
+	13 -> 14
+	8 -> 15
+	13 -> 16
+	9 -> 16
+	3 -> 19
+	5 -> 19
+	13 -> 19
+	9 -> 19
+	12 -> 19
+	6 -> 20
+	3 -> 20
+	14 -> 20
+	12 -> 20
+	6 -> 21
+	3 -> 21
+	5 -> 21
+	6 -> 22
+	14 -> 22
+	11 -> 22
+	12 -> 22
+	9 -> 22
+	24 -> 22
+	14 -> 23
+	15 -> 23
+	19 -> 23
+	17 -> 23
+	24 -> 23
+	10 -> 23
+	3 -> 24
+	5 -> 24
+	7 -> 24
+}
+}

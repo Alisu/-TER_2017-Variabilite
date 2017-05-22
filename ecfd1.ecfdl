@@ -1,0 +1,45 @@
+Ecfd
+{
+  elements { 
+  		Boite : b1 { 
+  			groupeboite(gb1)
+		    features(Mi,Mo,F,A)
+		}
+
+  		Boite : b2 { 
+  			 groupeboite(gb1)
+		     features(CT)
+	    }
+		Boite : b3 { 
+			groupeboite(gb1)
+		 	features(MRI)
+	    }
+
+		Boite : b4 { 
+			superBoite(b1)
+		  	groupeboite(gb2)
+		    features(H)
+	    }
+	 	Boite : b5 {
+			groupeboite(gb2)
+			features(D)
+		}
+
+		Boite : b6 {
+			groupeboite(gb2)
+			features(N)
+	    }
+		
+		GroupeBoite : gb1 { 
+			Exclusif
+			superBoite(b1)
+			boites(b2,b3)
+		}
+		
+		GroupeBoite : gb2 { 
+			Exclusif
+			superBoite(b4)
+			boites(b5,b6)
+		}
+	}
+}

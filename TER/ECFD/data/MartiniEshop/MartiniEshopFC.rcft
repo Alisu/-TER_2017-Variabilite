@@ -1,0 +1,10 @@
+FormalContext MartiniEshop
+||BankTransfer|Catalogue|Contacts|CreditCard|High|Home Page|Payment|Search|Security|Standard|Webshop|
+|c0|x|x|x|||x|x|x|x|x|x|
+|c1|x|x|x|x|x|x|x||x||x|
+|c2|x|x|x||x|x|x||x||x|
+|c3||x|x|x|x|x|x|x|x||x|
+|c4|x|x|x|||x|x||x|x|x|
+|c5|x|x|x|x|x|x|x|x|x||x|
+|c6||x|x|x|x|x|x||x||x|
+|c7|x|x|x||x|x|x|x|x||x|

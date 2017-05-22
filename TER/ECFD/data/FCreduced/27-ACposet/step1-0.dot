@@ -1,0 +1,29 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:27,concept number:10,object number:12,attribute number:16"
+11 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_27_0</td></tr><tr><td>Version:1.0<br/></td></tr><tr><td>EclipsePublicLicense<br/></td></tr></table>>];
+12 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_27_1</td></tr><tr><td>Version:2.1<br/>Linking:Yes<br/></td></tr><tr><td>GNULesserGeneralPublicLicense<br/></td></tr></table>>];
+10 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_27_2</td></tr><tr><td>Version:3.0<br/></td></tr><tr><td>GNUGeneralPublicLicense<br/></td></tr></table>>];
+13 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_27_4</td></tr><tr><td>Version:2.0<br/></td></tr><tr><td>ApacheLicense<br/>GNUGeneralPublicLicense<br/>MozillaPublicLicense<br/></td></tr></table>>];
+16 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_27_3</td></tr><tr><td>Statechanges:Yes<br/></td></tr><tr><td>ApacheLicense<br/>GNUGeneralPublicLicense<br/>AfferoGeneralPublicLicense<br/></td></tr></table>>];
+15 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_27_6</td></tr><tr><td>Includesource:Yes<br/></td></tr><tr><td>MozillaPublicLicense<br/>AfferoGeneralPublicLicense<br/></td></tr></table>>];
+18 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_27_7</td></tr><tr><td>Patentgrant:Yes<br/></td></tr><tr><td><br/></td></tr></table>>];
+17 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_27_8</td></tr><tr><td>Distribution:Yes<br/>Modification:Yes<br/>Sublicensing:Yes<br/>Noliability:Yes<br/></td></tr><tr><td>BSD2-ClauseLicense<br/>MITLicense<br/></td></tr></table>>];
+14 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_27_9</td></tr><tr><td>Includelicense:Yes<br/>Commercialuse:Yes<br/>Privateuse:Yes<br/></td></tr><tr><td>Genericcopyright<br/></td></tr></table>>];
+19 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_27_5</td></tr><tr><td>Notrademark:Yes<br/></td></tr><tr><td>ApacheLicense<br/>BSD3-ClauseLicense<br/>MozillaPublicLicense<br/></td></tr></table>>];
+	12:p -> 10:p
+	11:p -> 15:p
+	10:p -> 15:p
+	11:p -> 18:p
+	10:p -> 18:p
+	13:p -> 18:p
+	18:p -> 17:p
+	16:p -> 17:p
+	19:p -> 17:p
+	15:p -> 17:p
+	17:p -> 14:p
+}

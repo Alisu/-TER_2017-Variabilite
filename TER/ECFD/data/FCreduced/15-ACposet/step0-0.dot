@@ -1,0 +1,67 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:15,concept number:24,object number:34,attribute number:27"
+10 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_4</td></tr><tr><td>Programminglanguage:OCaml<br/></td></tr><tr><td>MLDonkey<br/></td></tr></table>>];
+11 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_1</td></tr><tr><td>Programminglanguage:PHP<br/></td></tr><tr><td>TorrentFlux<br/></td></tr></table>>];
+16 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_5</td></tr><tr><td>Basedon:µTorrent<br/></td></tr><tr><td>BitTorrent6<br/></td></tr></table>>];
+17 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_6</td></tr><tr><td>Basedon:Limewire<br/></td></tr><tr><td>Acquisition<br/></td></tr></table>>];
+3 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_3</td></tr><tr><td>Other:RESTfulWebAPI<br/></td></tr><tr><td>µTorrent<br/></td></tr></table>>];
+4 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_2</td></tr><tr><td>Other:SCGI<br/>Basedon:libTorrent<br/></td></tr><tr><td>rTorrent<br/></td></tr></table>>];
+6 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_0</td></tr><tr><td>Other:JSON<br/>Programminglanguage:C<br/></td></tr><tr><td>Transmission<br/></td></tr></table>>];
+12 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_11</td></tr><tr><td>Programminglanguage:Objective-C<br/></td></tr><tr><td>BitsonWheels<br/></td></tr></table>>];
+18 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_9</td></tr><tr><td>Basedon:Azureus<br/></td></tr><tr><td>BitTyrant<br/>OneSwarm<br/></td></tr></table>>];
+19 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_10</td></tr><tr><td>Basedon:BitTorrent<br/></td></tr><tr><td>BitTornado<br/>TomatoTorrent<br/></td></tr></table>>];
+21 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_12</td></tr><tr><td>Basedon:BitTornado<br/></td></tr><tr><td>ABC<br/></td></tr></table>>];
+7 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_7</td></tr><tr><td>Other:Daemon<br/></td></tr><tr><td>Deluge<br/></td></tr></table>>];
+8 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_8</td></tr><tr><td>Other:XML<br/>Programminglanguage:SWT<br/></td></tr><tr><td>BitTyrant<br/>Vuze<br/></td></tr></table>>];
+5 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_13</td></tr><tr><td>Other:Telnet<br/></td></tr><tr><td><br/></td></tr></table>>];
+9 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_14</td></tr><tr><td>Programminglanguage:Cocoa<br/></td></tr><tr><td>TomatoTorrent<br/></td></tr></table>>];
+15 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_15</td></tr><tr><td>Programminglanguage:Java<br/></td></tr><tr><td>BitLet<br/>LimeWire<br/></td></tr></table>>];
+13 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_16</td></tr><tr><td>Programminglanguage:Python<br/></td></tr><tr><td>ABC<br/>BitLord<br/>BitTornado<br/>BitTorrent5<br/>Deluge<br/>Tribler<br/></td></tr></table>>];
+20 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_18</td></tr><tr><td>Basedon:libtorrent<br/></td></tr><tr><td>BitLord<br/>Deluge<br/>FreeDownloadManager<br/>LimeWire<br/>Miro<br/>qBittorrent<br/>TonidoTorrent<br/>Tribler<br/></td></tr></table>>];
+22 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_19</td></tr><tr><td>IPv6:Yes<br/></td></tr><tr><td>BitLord<br/>BitTornado<br/>BitsonWheels<br/>KGet<br/>KTorrent<br/>Opera12<br/>qBittorrent<br/>Tixati<br/></td></tr></table>>];
+2 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_20</td></tr><tr><td>CLI:Yes<br/></td></tr><tr><td>BitComet<br/>BitTornado<br/>BitTorrent5<br/>FreeDownloadManager<br/>KGet<br/>KTorrent<br/>qBittorrent<br/>Shareaza<br/>Tribler<br/></td></tr></table>>];
+14 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_21</td></tr><tr><td>Programminglanguage:C++<br/></td></tr><tr><td>BitComet<br/>BitLord<br/>Deluge<br/>FreeDownloadManager<br/>KGet<br/>KTorrent<br/>MeerkatBittorrentClient<br/>Miro<br/>Opera12<br/>qBittorrent<br/>Shareaza<br/>Tixati<br/>TonidoTorrent<br/>Tribler<br/></td></tr></table>>];
+1 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_22</td></tr><tr><td>Web:Yes<br/></td></tr><tr><td>BitComet<br/>BitLet<br/>FreeDownloadManager<br/>KGet<br/>Shareaza<br/>TonidoTorrent<br/></td></tr></table>>];
+0 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_23</td></tr><tr><td>GUI:Yes<br/></td></tr><tr><td>BitComet<br/>BlogTorrent<br/>FlashGet<br/>FreeDownloadManager<br/>LimeWire<br/>MeerkatBittorrentClient<br/>Miro<br/>Shareaza<br/>SymTorrent<br/></td></tr></table>>];
+23 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_15_17</td></tr><tr><td>µTP:Yes<br/></td></tr><tr><td>KTorrent<br/>qBittorrent<br/>Tixati<br/>Tribler<br/>Vuze<br/></td></tr></table>>];
+	17:p -> 12:p
+	11:p -> 21:p
+	6:p -> 7:p
+	10:p -> 5:p
+	8:p -> 5:p
+	12:p -> 9:p
+	8:p -> 15:p
+	18:p -> 15:p
+	16:p -> 22:p
+	3:p -> 22:p
+	8:p -> 22:p
+	18:p -> 22:p
+	7:p -> 22:p
+	4:p -> 2:p
+	16:p -> 2:p
+	5:p -> 2:p
+	7:p -> 2:p
+	4:p -> 14:p
+	16:p -> 14:p
+	3:p -> 14:p
+	4:p -> 1:p
+	5:p -> 1:p
+	21:p -> 1:p
+	7:p -> 1:p
+	18:p -> 1:p
+	23:p -> 1:p
+	5:p -> 0:p
+	9:p -> 0:p
+	22:p -> 0:p
+	13:p -> 0:p
+	23:p -> 0:p
+	19:p -> 0:p
+	16:p -> 23:p
+	3:p -> 23:p
+	6:p -> 23:p
+}

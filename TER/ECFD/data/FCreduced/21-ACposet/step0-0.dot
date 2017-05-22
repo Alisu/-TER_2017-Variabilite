@@ -1,0 +1,26 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:21,concept number:9,object number:43,attribute number:9"
+7 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_21_0</td></tr><tr><td>Privacymode:Yes<br/></td></tr><tr><td>Arora<br/>Chromium<br/>Dooble<br/>GoogleChrome<br/>InternetExplorer<br/>K-Meleon<br/>Lunascape<br/>Maxthon<br/>Midori<br/>MozillaFirefox<br/>Opera<br/>QupZilla<br/>Rekonq<br/>Safari<br/>Shiira<br/>TorchBrowser<br/>Web<br/></td></tr></table>>];
+6 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_21_1</td></tr><tr><td>Per-sitesecurityconfiguration:Yes<br/></td></tr><tr><td>Chromium<br/>Flock<br/>GoogleChrome<br/>InternetExplorer<br/>K-Meleon<br/>Konqueror<br/>Lunascape<br/>Lynx<br/>Maxthon<br/>Mozilla<br/>MozillaFirefox<br/>OmniWeb<br/>Opera<br/>Rekonq<br/>Safari<br/>SeaMonkey<br/>Sleipnir<br/>TorchBrowser<br/></td></tr></table>>];
+4 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_21_3</td></tr><tr><td>Spellchecking:Yes<br/></td></tr><tr><td>Amaya<br/>Camino<br/>Chromium<br/>Flock<br/>GoogleChrome<br/>InternetExplorer<br/>InternetExplorerforMac<br/>Konqueror<br/>Lunascape<br/>Maxthon<br/>Midori<br/>Mozilla<br/>MozillaFirefox<br/>Netscape<br/>NetscapeNavigator9<br/>OmniWeb<br/>Opera<br/>QupZilla<br/>Rekonq<br/>Safari<br/>SeaMonkey<br/>Shiira<br/>Sleipnir<br/>TorchBrowser<br/>Web<br/>WorldWideWeb<br/></td></tr></table>>];
+3 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_21_4</td></tr><tr><td>Formmanaging:Yes<br/></td></tr><tr><td>AOLExplorer<br/>Arora<br/>Avant<br/>ELinks<br/>iCab<br/>InternetExplorerforMac<br/>K-Meleon<br/>Konqueror<br/>Midori<br/>Netscape<br/>Rekonq<br/>Shiira<br/>Web<br/></td></tr></table>>];
+2 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_21_5</td></tr><tr><td>Passwordmanaging:Yes<br/></td></tr><tr><td>Amaya<br/>Arora<br/>Avant<br/>Dooble<br/>ELinks<br/>Galeon<br/>iCab<br/>InternetExplorerforMac<br/>K-Meleon<br/>Konqueror<br/>Netscape<br/>Rekonq<br/>Shiira<br/>Web<br/></td></tr></table>>];
+1 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_21_6</td></tr><tr><td>Downloadmanagement:Yes<br/></td></tr><tr><td>Arora<br/>Dooble<br/>ELinks<br/>Galeon<br/>iCab<br/>InternetExplorerforMac<br/>Konqueror<br/>Links<br/>Lynx<br/>Midori<br/>Netscape<br/>NetSurf<br/>Rekonq<br/>Shiira<br/>Web<br/></td></tr></table>>];
+5 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_21_7</td></tr><tr><td>Searchenginetoolbar:Yes<br/></td></tr><tr><td>AOLExplorer<br/>Avant<br/>Dillo<br/>Galeon<br/>iCab<br/>InternetExplorerforMac<br/>Konqueror<br/>Netscape<br/>NetSurf<br/></td></tr></table>>];
+0 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_21_8</td></tr><tr><td>Bookmarkmanagement:Yes<br/></td></tr><tr><td>Mosaic<br/>NetscapeNavigator<br/>WorldWideWeb<br/>w3m<br/></td></tr></table>>];
+8 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_21_2</td></tr><tr><td>Auto-updater:Yes<br/></td></tr><tr><td>Camino<br/>Chromium<br/>Flock<br/>GoogleChrome<br/>InternetExplorer<br/>Lunascape<br/>Maxthon<br/>Mozilla<br/>MozillaFirefox<br/>NetscapeBrowser<br/>NetscapeNavigator9<br/>OmniWeb<br/>Opera<br/>QupZilla<br/>Safari<br/>SeaMonkey<br/>Sleipnir<br/>TorchBrowser<br/></td></tr></table>>];
+	8:p -> 3:p
+	8:p -> 2:p
+	8:p -> 1:p
+	7:p -> 5:p
+	8:p -> 5:p
+	3:p -> 0:p
+	1:p -> 0:p
+	5:p -> 0:p
+	6:p -> 0:p
+}

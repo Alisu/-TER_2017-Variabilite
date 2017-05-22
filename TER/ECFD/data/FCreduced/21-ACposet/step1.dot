@@ -1,0 +1,24 @@
+digraph G { 
+	rankdir=BT;
+subgraph 21 { 
+label="21";
+1 [shape=record,label="{Concept_21_0|Privacymode:Yes\n|Arora\nChromium\nDooble\nGoogleChrome\nInternetExplorer\nK-Meleon\nLunascape\nMaxthon\nMidori\nMozillaFirefox\nOpera\nQupZilla\nRekonq\nSafari\nShiira\nTorchBrowser\nWeb\n}"];
+2 [shape=record,label="{Concept_21_1|Per-sitesecurityconfiguration:Yes\n|Chromium\nFlock\nGoogleChrome\nInternetExplorer\nK-Meleon\nKonqueror\nLunascape\nLynx\nMaxthon\nMozilla\nMozillaFirefox\nOmniWeb\nOpera\nRekonq\nSafari\nSeaMonkey\nSleipnir\nTorchBrowser\n}"];
+3 [shape=record,label="{Concept_21_3|Spellchecking:Yes\n|Amaya\nCamino\nChromium\nFlock\nGoogleChrome\nInternetExplorer\nInternetExplorerforMac\nKonqueror\nLunascape\nMaxthon\nMidori\nMozilla\nMozillaFirefox\nNetscape\nNetscapeNavigator9\nOmniWeb\nOpera\nQupZilla\nRekonq\nSafari\nSeaMonkey\nShiira\nSleipnir\nTorchBrowser\nWeb\nWorldWideWeb\n}"];
+4 [shape=record,label="{Concept_21_4|Formmanaging:Yes\n|AOLExplorer\nArora\nAvant\nELinks\niCab\nInternetExplorerforMac\nK-Meleon\nKonqueror\nMidori\nNetscape\nRekonq\nShiira\nWeb\n}"];
+5 [shape=record,label="{Concept_21_5|Passwordmanaging:Yes\n|Amaya\nArora\nAvant\nDooble\nELinks\nGaleon\niCab\nInternetExplorerforMac\nK-Meleon\nKonqueror\nNetscape\nRekonq\nShiira\nWeb\n}"];
+6 [shape=record,label="{Concept_21_6|Downloadmanagement:Yes\n|Arora\nDooble\nELinks\nGaleon\niCab\nInternetExplorerforMac\nKonqueror\nLinks\nLynx\nMidori\nNetscape\nNetSurf\nRekonq\nShiira\nWeb\n}"];
+7 [shape=record,label="{Concept_21_7|Searchenginetoolbar:Yes\n|AOLExplorer\nAvant\nDillo\nGaleon\niCab\nInternetExplorerforMac\nKonqueror\nNetscape\nNetSurf\n}"];
+8 [shape=record,label="{Concept_21_8|Bookmarkmanagement:Yes\n|Mosaic\nNetscapeNavigator\nWorldWideWeb\nw3m\n}"];
+9 [shape=record,label="{Concept_21_2|Auto-updater:Yes\n|Camino\nChromium\nFlock\nGoogleChrome\nInternetExplorer\nLunascape\nMaxthon\nMozilla\nMozillaFirefox\nNetscapeBrowser\nNetscapeNavigator9\nOmniWeb\nOpera\nQupZilla\nSafari\nSeaMonkey\nSleipnir\nTorchBrowser\n}"];
+	9 -> 4
+	9 -> 5
+	9 -> 6
+	1 -> 7
+	9 -> 7
+	4 -> 8
+	6 -> 8
+	7 -> 8
+	2 -> 8
+}
+}

@@ -1,0 +1,67 @@
+Ecfd{
+	elements{
+		Boite : b1 {
+			Racine
+			estMereDuGroupe(gb1,gb3)
+			features(C,G,D,A)
+		},
+		Boite : b2 {
+			superBoite(b1)
+			estMereDe(b3)
+			estMereDuGroupe(gb2)
+			mutex(m1)
+			features(W)
+		},
+		Boite : b3 {
+			superBoite(b2)
+			groupeboite(gb1)
+			features(Mu)
+		},
+		Boite : b4 {
+			groupeboite(gb1)
+			estMereDe(b5)
+			features(Si,Ar)
+		},
+		Boite : b5 {
+			superBoite(b4)
+			groupeboite(gb3)
+			mutex(m1)
+			features(We)
+		},
+		Boite : b6 {
+			groupeboite(gb3)
+			features(M)
+		},
+		Boite : b7 {
+			groupeboite(gb3)
+			estMereDe(b9)
+			features(S)
+		},
+		Boite : b8 {
+			groupeboite(gb2)
+			features(I)
+		},
+		Boite : b9 {
+			superBoite(b7)
+			groupeboite(gb2)
+			features(B)
+		},
+		GroupeBoite : gb1 {
+			superBoite(b1)
+			boites(b3,b4)
+		},
+		GroupeBoite : gb2 {
+			superBoite(b2)
+			boites(b8,b9)
+		},
+		GroupeBoite : gb3 {
+			superBoite(b1)
+			boites(b5,b6,b7)
+		}
+	}
+	mutex{
+		Mutex : m1 {
+			boites(b3,b5)
+		}
+	}
+}

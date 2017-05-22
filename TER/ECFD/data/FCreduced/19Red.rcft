@@ -1,0 +1,11 @@
+FormalContext 19
+||Standaloneexecutablescreationsupport:Yes|Symboliccomputationsupport:Yes|OOPsupport:Yes|GUIcreationsupport:Yes|Multi-dimensionalarraysasprimitivedatatype:Yes|Centralizedextensionlibrarywebsite:Yes|Cancallcodeinotherlanguages:Yes|Canbecalledfromotherlanguages:Yes|
+|DyalogAPL|x|x|x|x|x|x|x|x|
+|J||x|x|x|x|x|x|x|
+|Maple||x|x|x|x|x|x|x|
+|mpmath||x|x||x||x|x|
+|GNUDataLanguage|||x|x|x||x|x|
+|GNUOctave|x|x|x|x|x|x|x|x|
+|PDL|x||x|x|x|x|x|x|
+|Sage||x|x||x|x|x|x|
+|SCaVis|x|x|x|x|x|x|x|x|

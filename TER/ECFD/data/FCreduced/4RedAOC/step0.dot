@@ -1,0 +1,249 @@
+digraph G { 
+	rankdir=BT;
+subgraph 4 { 
+label="4";
+1 [shape=record,label="{Concept_4_6|Creator:phpMyAdminDevelopmentTeam\nLateststablereleasedate:2014-07-31\nLateststablerelease:4.2.7\nOther:MariaDB\nOther:Drizzle\n|phpMyAdmin\n}"];
+2 [shape=record,label="{Concept_4_5|Creator:ThephpPgAdminProject\nLateststablereleasedate:2012-03-22\nLateststablerelease:5.0.4\n|phpPgAdmin\n}"];
+3 [shape=record,label="{Concept_4_23|Creator:JefVanDenOuweland\nLateststablereleasedate:2011-03-18\nLateststablerelease:2.4\n|DBEdit\n}"];
+4 [shape=record,label="{Concept_4_17|Creator:BaronSchwartz\nLateststablereleasedate:2010-06-01\nLateststablerelease:5247\nProgramminglanguage:Perl\n|Maatkit\n}"];
+5 [shape=record,label="{Concept_4_22|Creator:Devgems\nLateststablereleasedate:2009-04-30\nLateststablerelease:1.0.0\n|DevgemsDataModeler\n}"];
+6 [shape=record,label="{Concept_4_15|Creator:ModelRight\nLateststablerelease:3.6\nLatesttestingrelease:3.7\nOther:PostgreSQL\nOther:SQLServer\nOther:Oracle\nOther:MySQL\n|ModelRight\n}"];
+7 [shape=record,label="{Concept_4_0|Creator:Community\nLateststablereleasedate:2010-09-19\nLateststablerelease:2.1.3\n|TOra\n}"];
+8 [shape=record,label="{Concept_4_21|Creator:EmbarcaderoTechnologies\nLateststablerelease:8.6.3\nLatesttestingrelease:9.5\n|EmbarcaderoDBArtisan\n}"];
+9 [shape=record,label="{Concept_4_24|Creator:Altova\nLateststablereleasedate:2013-06-12\nLateststablerelease:v2013r2sp1\n|DatabaseSpy\n}"];
+10 [shape=record,label="{Concept_4_28|Creator:JakubVrána\nLateststablereleasedate:2014-04-18\nLateststablerelease:4.1.0\nLicense:Apachelicense\n|Adminer\n}"];
+11 [shape=record,label="{Concept_4_20|Creator:AntilogicSoftware\nLatesttestingrelease:1.0\n|Epictetus\n}"];
+12 [shape=record,label="{Concept_4_16|Creator:Microsoft\n|MicrosoftSQLServerManagementStudio\n}"];
+13 [shape=record,label="{Concept_4_8|Creator:pgAdminDevelopmentTeam\nLateststablereleasedate:2012-09-11\nLateststablerelease:1.18.0\nLicense:PostgreSQLLicense\n|pgAdminIII\n}"];
+14 [shape=record,label="{Concept_4_3|Creator:WebyogSoftworksPvt.Ltd.\nLateststablereleasedate:2014-07-18\nLateststablerelease:11.52\n|SQLyog\n}"];
+15 [shape=record,label="{Concept_4_19|Creator:ca.com\nLateststablerelease:7.3\nOther:Foxpro\n|ERwinDataModeler\n}"];
+16 [shape=record,label="{Concept_4_7|Creator:DaneIracleous\nLateststablereleasedate:2012-5-31\nLateststablerelease:1.9.2\n|phpLiteAdmin\n}"];
+17 [shape=record,label="{Concept_4_18|Creator:HeidiSQL\nLateststablereleasedate:2012-02-12\nLateststablerelease:7.0\n|HeidiSQL\n}"];
+18 [shape=record,label="{Concept_4_12|Lateststablereleasedate:2013-02-04\nLateststablerelease:1.0.11\nLatesttestingrelease:1.0.11\n|NavicatDataModeler\n}"];
+19 [shape=record,label="{Concept_4_13|Lateststablereleasedate:2013-07-03\nLateststablerelease:11.0.8\nLatesttestingrelease:11.0.8\n|Navicat\n}"];
+20 [shape=record,label="{Concept_4_10|Lateststablereleasedate:2010-03-01\nLateststablerelease:2.1.1\nLatesttestingrelease:3.0\n|OracleSQLDeveloper\n}"];
+21 [shape=record,label="{Concept_4_11|Lateststablereleasedate:2009-03-03\nLateststablerelease:10gR5\nOther:TimesTen\n|OracleEnterpriseManager\n}"];
+22 [shape=record,label="{Concept_4_26|Creator:EugenioTacchini\nLateststablereleasedate:2012-04-03\nLateststablerelease:4.4\n|DaDaBIK\n}"];
+23 [shape=record,label="{Concept_4_1|Lateststablereleasedate:2009-03-05\nLateststablerelease:3.3.8\n|ToadDataModeler\n}"];
+24 [shape=record,label="{Concept_4_14|Lateststablereleasedate:2014-05-16\nLateststablerelease:6.1.6\nProgramminglanguage:Python\n|MySQLWorkbench\n}"];
+25 [shape=record,label="{Concept_4_25|Creator:TheUnauthorizedFrogproject\nLateststablereleasedate:2012-05-29\nLateststablerelease:v0.1i\nLicense:LGPL\n|DatabaseDeploymentManager\n}"];
+26 [shape=record,label="{Concept_4_4|Creator:Vive\nLateststablereleasedate:2008-02-04\nLateststablerelease:1.4\n|SQLProSQLClient\n}"];
+27 [shape=record,label="{Concept_4_9|Creator:AndrzejKaua\nLateststablereleasedate:2011-02-08\nLateststablerelease:1.0.4.109\nLatesttestingrelease:1.0.4.109\nOther:HSQL\nOther:Interbase\nOther:Derby\n|Orbada\n}"];
+28 [shape=record,label="{Concept_4_2|Creator:ColinBell\nCreator:RobManning\nCreator:GerdWagner\nLateststablereleasedate:2013-05-06\nLateststablerelease:3.5.0\nLicense:LGPLv2\nOther:MckoiSQLDatabase\nOther:TeradataWarehouse\nOther:ThinkSQLRDBMS\nOther:HypersonicSQL\nOther:FrontBase\nOther:AxionJavaRDBMS\nOther:OpenIngres\nOther:Pointbase\nOther:FujitsuSiemensSESAM/SQL\nOther:MimerSQL\nOther:DaffodilDB\nOther:InstantDB\nOther:VerticaAnalyticDatabase\nOther:MicrosoftSQLServer\nOther:Netezza\nOther:SAPDB\nOther:SunopsisXMLDriver\nOther:Access\n|SQuirreLSQL\n}"];
+29 [shape=record,label="{Concept_4_27|Creator:CardettAssociatesLtd\nLateststablereleasedate:2009-08-31\nLateststablerelease:8.2.8\nLatesttestingrelease:8.2.8\n|AdvancedQueryTool(AQT)\n}"];
+30 [shape=record,label="{Concept_4_31|Creator:PremiumSoftCyberTechLtd\n|}"];
+31 [shape=record,label="{Concept_4_30|License:GPLv2\n|}"];
+32 [shape=record,label="{Concept_4_34|Other:Ingres\nOther:Informix\n|}"];
+33 [shape=record,label="{Concept_4_35|Other:ApacheDerby\n|}"];
+34 [shape=record,label="{Concept_4_36|Programminglanguage:Qt\n|}"];
+35 [shape=record,label="{Concept_4_32|Programminglanguage:C#\n|Toad\n}"];
+36 [shape=record,label="{Concept_4_33|Programminglanguage:.Net\n|Toad\n}"];
+37 [shape=record,label="{Concept_4_29|Creator:QuestSoftware\n|Toad\n}"];
+38 [shape=record,label="{Concept_4_37|Creator:OracleCorporation\n|}"];
+39 [shape=record,label="{Concept_4_40|Other:InterBase\n|}"];
+40 [shape=record,label="{Concept_4_39|Other:Teradata\n|}"];
+41 [shape=record,label="{Concept_4_41|Other:HSQLDB\nOther:H2\n|}"];
+42 [shape=record,label="{Concept_4_38|Programminglanguage:Objective-C\n|}"];
+43 [shape=record,label="{Concept_4_43|Other:Firebird\n|}"];
+44 [shape=record,label="{Concept_4_42|Other:DB2\n|}"];
+45 [shape=record,label="{Concept_4_44|Other:MicrosoftAccess\n|}"];
+46 [shape=record,label="{Concept_4_45|Programminglanguage:PHP\n|}"];
+47 [shape=record,label="{Concept_4_48|JDBC:Yes\n|}"];
+48 [shape=record,label="{Concept_4_47|Other:IBMDB2\n|}"];
+49 [shape=record,label="{Concept_4_46|Programminglanguage:Delphi\n|}"];
+50 [shape=record,label="{Concept_4_51|SQLite:Yes\n|}"];
+51 [shape=record,label="{Concept_4_50|Other:Sybase\n|}"];
+52 [shape=record,label="{Concept_4_53|License:GPL\n|}"];
+53 [shape=record,label="{Concept_4_52|Programminglanguage:C++\n|}"];
+54 [shape=record,label="{Concept_4_54|ODBC:Yes\n|Toad\n}"];
+55 [shape=record,label="{Concept_4_55|License:Proprietary\n|}"];
+56 [shape=record,label="{Concept_4_56|PostgreSQL:Yes\n|}"];
+57 [shape=record,label="{Concept_4_57|RunsonMacOSX:Yes\n|}"];
+58 [shape=record,label="{Concept_4_58|Oracle:Yes\n|}"];
+59 [shape=record,label="{Concept_4_59|RunsonLinux:Yes\n|}"];
+60 [shape=record,label="{Concept_4_60|SQLServer:Yes\n|}"];
+61 [shape=record,label="{Concept_4_61|MySQL:Yes\n|}"];
+62 [shape=record,label="{Concept_4_62|RunsonWindows:Yes\n|}"];
+63 [shape=record,label="{Concept_4_49|Programminglanguage:Java\n|}"];
+	18 -> 30
+	19 -> 30
+	14 -> 31
+	28 -> 31
+	15 -> 32
+	28 -> 32
+	3 -> 33
+	28 -> 33
+	7 -> 34
+	25 -> 34
+	24 -> 35
+	12 -> 36
+	23 -> 37
+	21 -> 38
+	20 -> 38
+	24 -> 38
+	5 -> 39
+	11 -> 39
+	28 -> 39
+	7 -> 40
+	20 -> 40
+	15 -> 40
+	11 -> 41
+	33 -> 41
+	24 -> 42
+	30 -> 42
+	39 -> 43
+	27 -> 43
+	15 -> 44
+	21 -> 44
+	20 -> 44
+	6 -> 44
+	23 -> 45
+	9 -> 45
+	15 -> 45
+	20 -> 45
+	6 -> 45
+	16 -> 46
+	2 -> 46
+	10 -> 46
+	22 -> 46
+	1 -> 46
+	27 -> 47
+	8 -> 47
+	33 -> 47
+	9 -> 47
+	20 -> 47
+	9 -> 48
+	8 -> 48
+	33 -> 48
+	37 -> 48
+	17 -> 49
+	5 -> 49
+	30 -> 49
+	37 -> 49
+	16 -> 50
+	27 -> 50
+	33 -> 50
+	10 -> 50
+	22 -> 50
+	26 -> 50
+	30 -> 50
+	32 -> 51
+	8 -> 51
+	11 -> 51
+	9 -> 51
+	21 -> 51
+	20 -> 51
+	37 -> 51
+	7 -> 52
+	16 -> 52
+	27 -> 52
+	17 -> 52
+	3 -> 52
+	1 -> 52
+	2 -> 52
+	4 -> 52
+	10 -> 52
+	24 -> 52
+	8 -> 53
+	34 -> 53
+	9 -> 53
+	14 -> 53
+	13 -> 53
+	29 -> 53
+	24 -> 53
+	26 -> 53
+	6 -> 53
+	32 -> 54
+	27 -> 54
+	8 -> 54
+	9 -> 54
+	29 -> 54
+	20 -> 54
+	30 -> 54
+	6 -> 54
+	8 -> 55
+	5 -> 55
+	45 -> 55
+	44 -> 55
+	29 -> 55
+	36 -> 55
+	30 -> 55
+	37 -> 55
+	11 -> 55
+	22 -> 55
+	26 -> 55
+	2 -> 56
+	29 -> 56
+	30 -> 56
+	7 -> 56
+	23 -> 56
+	32 -> 56
+	27 -> 56
+	41 -> 56
+	9 -> 56
+	10 -> 56
+	13 -> 56
+	22 -> 56
+	26 -> 56
+	40 -> 57
+	32 -> 57
+	42 -> 57
+	52 -> 57
+	41 -> 57
+	13 -> 57
+	46 -> 57
+	31 -> 57
+	45 -> 58
+	44 -> 58
+	40 -> 58
+	51 -> 58
+	48 -> 58
+	10 -> 58
+	63 -> 58
+	22 -> 58
+	26 -> 58
+	54 -> 58
+	47 -> 58
+	57 -> 59
+	38 -> 59
+	34 -> 59
+	43 -> 60
+	51 -> 60
+	55 -> 60
+	49 -> 60
+	48 -> 60
+	10 -> 60
+	63 -> 60
+	54 -> 60
+	47 -> 60
+	42 -> 61
+	45 -> 61
+	34 -> 61
+	1 -> 61
+	44 -> 61
+	31 -> 61
+	40 -> 61
+	38 -> 61
+	17 -> 61
+	4 -> 61
+	48 -> 61
+	10 -> 61
+	26 -> 61
+	22 -> 61
+	35 -> 61
+	54 -> 61
+	47 -> 61
+	61 -> 62
+	59 -> 62
+	60 -> 62
+	53 -> 62
+	50 -> 62
+	58 -> 62
+	56 -> 62
+	27 -> 63
+	8 -> 63
+	41 -> 63
+	21 -> 63
+	20 -> 63
+}
+}

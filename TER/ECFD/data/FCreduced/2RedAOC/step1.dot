@@ -1,0 +1,19 @@
+digraph G { 
+	rankdir=BT;
+subgraph 2 { 
+label="2";
+1 [shape=record,label="{Concept_2_1|Personal:Yes\n|BrainKeeper\nDokuWiki\nEditMe\nFoswiki\nGitit\nIBMConnections\nMoinMoin\nMojoMojo\nPmWiki\nQontext\nSharePointServer\nTiddlyWiki\nTikiWikiCMSGroupware\nTWiki\nWagn\nWikispaces\nWikkaWiki\nXWiki\n}"];
+2 [shape=record,label="{Concept_2_2|Intranet:Yes\n|BrainKeeper\nCentralDesktop\nMindTouch\nEditMe\neXoPlatform\nJive\nMoinMoin\nMojoMojo\nPBworks\nPhpWiki\nSamePage\nSocialtext\nThoughtFarmer\nTikiWikiCMSGroupware\nTractionTeamPage\nUseModWiki\nWackoWiki\nWagn\nWikispaces\nWikiwig\nWikkaWiki\nZWiki\n}"];
+3 [shape=record,label="{Concept_2_3|Education:Yes\n|BrainKeeper\nCentralDesktop\nMindTouch\nEditMe\neXoPlatform\nJive\nMoinMoin\nMojoMojo\nPBworks\nPhpWiki\nSamePage\nSharePointFoundation\nSocialtext\nSwiki\nTikiWikiCMSGroupware\nTractionTeamPage\nUseModWiki\nWackoWiki\nWagn\nWikispaces\nWikiwig\nWikkaWiki\nZWiki\n}"];
+4 [shape=record,label="{Concept_2_5|Public:Yes\n|BrainKeeper\nCentralDesktop\nMindTouch\nEditMe\neXoPlatform\nFlexWiki\nJive\nJotSpot\nMediaWiki\nMidgardWiki\nMoinMoin\nMojoMojo\nPBworks\nPhpWiki\nSamePage\nSocialtext\nSwiki\nTikiWikiCMSGroupware\nTractionTeamPage\nUseModWiki\nWackoWiki\nWagn\nWikispaces\nWikiwig\nWikkaWiki\nZWiki\n}"];
+5 [shape=record,label="{Concept_2_4|Corporate/Enterprise:Yes\n|BrainKeeper\nCentralDesktop\nMindTouch\neXoPlatform\nFlexWiki\nJive\nJotSpot\nMediaWiki\nMidgardWiki\nMoinMoin\nMojoMojo\nPBworks\nPhpWiki\nSamePage\nSharePointFoundation\nSocialtext\nThoughtFarmer\nTikiWikiCMSGroupware\nTractionTeamPage\nUseModWiki\nWackoWiki\nWagn\nWikispaces\nWikiwig\nWikkaWiki\nZWiki\n}"];
+6 [shape=record,label="{Concept_2_6|Private:Yes\n|}"];
+7 [shape=record,label="{Concept_2_0|Scientific/Technical/Mathematical:Yes\n|BlueSpiceforMediaWiki\nDokuWiki\nFoswiki\nGitit\nIBMConnections\nNoösphere\nPmWiki\nQontext\nSharePointServer\nTWiki\nXWiki\n}"];
+	7 -> 2
+	7 -> 3
+	7 -> 4
+	7 -> 5
+	4 -> 6
+	1 -> 6
+}
+}

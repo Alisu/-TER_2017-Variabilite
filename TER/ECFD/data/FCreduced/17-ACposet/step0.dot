@@ -1,0 +1,12 @@
+digraph G { 
+	rankdir=BT;
+subgraph 17 { 
+label="17";
+1 [shape=record,label="{Concept_17_0|MDI:overlappablewindows:Yes\n|AkelPad\nAlphatk\nAquamacs\nBBEdit\nBluefish\nCoda\nConTEXT\nCrimsonEditor\nEditPlus\nEmEditor\ngedit\nGNUEmacs\nKate\nKEDIT\nPolyEdit\nProgrammer'sNotepad\nPSPad\nRJTextEd\nRText\nSlickEdit\nSourceInsight\nTextPad\nTextWrangler\nUltraEdit\nVEDIT\nVim\nXEmacs\nYi\n}"];
+2 [shape=record,label="{Concept_17_2|Singledocumentwindowsplitting:Yes\n|Acme\nAkelPad\nAlphatk\nAquamacs\nBBEdit\nBluefish\nCoda\nCrimsonEditor\nEditPlus\nEditra\nEmEditor\ngedit\nGNUEmacs\nJED\njEdit\nJOE\nJOVE\nKate\nKomodoEdit\nKomodoIDE\nMS-DOSEditor\nNEdit\nNotepad++\nnvi\nProgrammer'sNotepad\nPSPad\nRJTextEd\nskEdit\nSlickEdit\nSmultron\nSourceInsight\nSubEthaEdit\nSublimeText\nTextPad\nTextWrangler\nTheSemWareEditor\nUltraEdit\nVEDIT\nVim\nXEmacs\nYi\n}"];
+3 [shape=record,label="{Concept_17_3|MDI:tabbeddocumentinterface:Yes\n|Acme\nAkelPad\nAlphatk\nAquamacs\nBBEdit\nBluefish\nCoda\nConTEXT\nCrimsonEditor\nETextEditor\nEditPlus\nEditra\nEmEditor\nGeany\ngedit\nGNUEmacs\nGobby\njEdit\nKate\nKomodoEdit\nKomodoIDE\nLightTable\nmined\nNEdit\nNotepad++\nNoteTab\nPolyEdit\nProgrammer'sNotepad\nPSPad\nRJTextEd\nRText\nSciTE\nskEdit\nSlickEdit\nSmultron\nSubEthaEdit\nSublimeText\nTextMate\nTextPad\nTextWrangler\nUltraEdit\nVEDIT\nVim\nXEmacs\nYi\n}"];
+4 [shape=record,label="{Concept_17_4|Multipleinstances:Yes\n|ConTEXT\nDiakonos\nETextEditor\ned\nGeany\nGobby\nKWrite\nLE\nLightTable\nMetapad\nmined\nNano\nNotepad\nNotepad2\nNoteTab\nPico\nRText\nSciTE\nTextEdit\nTextMate\nvi\n}"];
+5 [shape=record,label="{Concept_17_1|MDI:windowsplitting:Yes\n|Acme\nAkelPad\nAlphatk\nAquamacs\nBBEdit\nCoda\nCrimsonEditor\nETextEditor\nEditPlus\nEmEditor\ngedit\nGNUEmacs\nJED\njEdit\nJOE\nJOVE\nKate\nKomodoEdit\nKomodoIDE\nLightTable\nMS-DOSEditor\nNEdit\nNotepad++\nNoteTab\nPolyEdit\nProgrammer'sNotepad\nPSPad\nRJTextEd\nSlickEdit\nSmultron\nSublimeText\nTextPad\nTextWrangler\nTheSemWareEditor\nUltraEdit\nVEDIT\nVim\nXEmacs\nYi\n}"];
+	2 -> 4
+}
+}

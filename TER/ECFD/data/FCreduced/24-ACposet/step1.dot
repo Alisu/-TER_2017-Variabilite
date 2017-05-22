@@ -1,0 +1,56 @@
+digraph G { 
+	rankdir=BT;
+subgraph 24 { 
+label="24";
+1 [shape=record,label="{Concept_24_4|Developer(s):Ritlabs\nLeadingapplication:TheBat!\nTargetapplication(s):TheBat!\nProgramminglanguage:Delphi\n|Robin\n}"];
+2 [shape=record,label="{Concept_24_1|Developer(s):BlackBerry\nDeveloper(s):Apple\nDeveloper(s):Nokia\nDeveloper(s):Palm\nLeadingapplication:AppleSafari\nTargetapplication(s):AppleSafari\n|WebKit\n}"];
+3 [shape=record,label="{Concept_24_12|Developer(s):MozillaFoundation\nDeveloper(s):Netscape\nSoftwarelicense:MPL\nLeadingapplication:MozillaFirefox\nTargetapplication(s):MozillaFirefox\nTargetapplication(s):MozillaThunderbird\n|Gecko\n}"];
+4 [shape=record,label="{Concept_24_9|Developer(s):AlexanderClauss\nLeadingapplication:iCab\nTargetapplication(s):iCab\n|iCab\n}"];
+5 [shape=record,label="{Concept_24_10|Developer(s):AndrewSidwell\nSoftwarelicense:MIT\nLeadingapplication:NetSurf\nTargetapplication(s):NetSurf\n|Hubbub\n}"];
+6 [shape=record,label="{Concept_24_5|Developer(s):YesLogicPvtLtd\nLeadingapplication:PrinceXML\nTargetapplication(s):PrinceXML\nProgramminglanguage:Mercury\n|PrinceXML\n}"];
+7 [shape=record,label="{Concept_24_14|Developer(s):Intel\nDeveloper(s):Google\nDeveloper(s):Samsung\nLeadingapplication:GoogleChrome\nTargetapplication(s):GoogleChrome\n|Blink\n}"];
+8 [shape=record,label="{Concept_24_13|Developer(s):Dillodevelopers\nLeadingapplication:Dillo\nTargetapplication(s):Dillo\n|Dillo\n}"];
+9 [shape=record,label="{Concept_24_11|Developer(s):GNOME\nLeadingapplication:NovellEvolution\nTargetapplication(s):NovellEvolution\n|GtkHTML\n}"];
+10 [shape=record,label="{Concept_24_0|Developer(s):RenderX\nLeadingapplication:XEP\nTargetapplication(s):XEP\nProgramminglanguage:Java\n|XEP\n}"];
+11 [shape=record,label="{Concept_24_7|Developer(s):AccessCo.\nLeadingapplication:NetFront\nTargetapplication(s):NetFront\n|NetFront\n}"];
+12 [shape=record,label="{Concept_24_6|Leadingapplication:Opera\n|Presto\n}"];
+13 [shape=record,label="{Concept_24_8|Leadingapplication:Konqueror\nTargetapplication(s):KMail\nTargetapplication(s):Konqueror\n|KHTML\n}"];
+14 [shape=record,label="{Concept_24_2|Leadingapplication:InternetExplorer\n|Trident\n}"];
+15 [shape=record,label="{Concept_24_3|Leadingapplication:MicrosoftEntourage\n|Tasman\n}"];
+16 [shape=record,label="{Concept_24_18|Developer(s):Opera\nTargetapplication(s):Opera\n|}"];
+17 [shape=record,label="{Concept_24_15|Developer(s):Microsoft\nTargetapplication(s):InternetExplorer\n|}"];
+18 [shape=record,label="{Concept_24_16|Developer(s):KDE\n|}"];
+19 [shape=record,label="{Concept_24_17|Softwarelicense:BSD\n|}"];
+20 [shape=record,label="{Concept_24_19|Programminglanguage:C\n|}"];
+21 [shape=record,label="{Concept_24_20|Softwarelicense:GNULGPL\n|}"];
+22 [shape=record,label="{Concept_24_21|Programminglanguage:C++\n|}"];
+23 [shape=record,label="{Concept_24_22|Softwarelicense:Proprietary\n|}"];
+	7 -> 16
+	12 -> 16
+	14 -> 17
+	15 -> 17
+	13 -> 18
+	2 -> 18
+	7 -> 19
+	2 -> 19
+	8 -> 20
+	5 -> 20
+	9 -> 20
+	9 -> 21
+	8 -> 21
+	18 -> 21
+	19 -> 21
+	14 -> 22
+	18 -> 22
+	3 -> 22
+	16 -> 22
+	19 -> 22
+	1 -> 23
+	6 -> 23
+	4 -> 23
+	12 -> 23
+	11 -> 23
+	10 -> 23
+	17 -> 23
+}
+}

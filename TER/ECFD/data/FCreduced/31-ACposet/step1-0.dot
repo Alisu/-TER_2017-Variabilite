@@ -1,0 +1,71 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:31,concept number:25,object number:56,attribute number:25"
+32 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_1</td></tr><tr><td>Num­berofPara­digms:8<br/></td></tr><tr><td>Perl<br/></td></tr></table>>];
+33 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_0</td></tr><tr><td>Num­berofPara­digms:12<br/></td></tr><tr><td>Mathematica<br/></td></tr></table>>];
+27 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_3</td></tr><tr><td>Num­berofPara­digms:7<br/></td></tr><tr><td>D(version2.0)<br/>Nemerle<br/>F#<br/></td></tr></table>>];
+46 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_2</td></tr><tr><td>Pipe­lines:Yes<br/></td></tr><tr><td>WindowsPowerShell<br/>C++<br/></td></tr></table>>];
+29 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_6</td></tr><tr><td>Num­berofPara­digms:5<br/></td></tr><tr><td>Ada<br/>CommonLisp(someotherparadigmsareimplementedaslibraries)<br/>D(version2.0)<br/>Curl<br/></td></tr></table>>];
+31 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_4</td></tr><tr><td>Num­berofPara­digms:9<br/></td></tr><tr><td>Scala<br/>MATLAB<br/>Oz<br/>LispWorks(version6.0withsupportforsymmetricmulti-processing,rules,logic(Prolog),CORBA)<br/></td></tr></table>>];
+37 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_5</td></tr><tr><td>De­clar­at­ive:Yes<br/></td></tr><tr><td>C++<br/>F#<br/>Scala<br/></td></tr></table>>];
+28 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_8</td></tr><tr><td>Num­berofPara­digms:6<br/></td></tr><tr><td>Java<br/>WindowsPowerShell<br/>C#<br/>VisualBasic.NET<br/>C++<br/></td></tr></table>>];
+48 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_9</td></tr><tr><td>Rule-based:Yes<br/></td></tr><tr><td>ROOP<br/>C++<br/>Oz<br/>LispWorks(version6.0withsupportforsymmetricmulti-processing,rules,logic(Prolog),CORBA)<br/></td></tr></table>>];
+47 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_10</td></tr><tr><td>Visu­al:Yes<br/></td></tr><tr><td>LabVIEW<br/>Spreadsheets<br/>Lava<br/>PointDragon<br/>Prograph<br/>MATLAB<br/></td></tr></table>>];
+35 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_11</td></tr><tr><td>Con­straints:Yes<br/></td></tr><tr><td>Curry<br/>D(version2.0)<br/>C++<br/>MATLAB<br/>Oz<br/></td></tr></table>>];
+38 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_12</td></tr><tr><td>Dis­trib­uted:Yes<br/></td></tr><tr><td>Erlang<br/>E<br/>Ada<br/>C++<br/>MATLAB<br/>Oz<br/>LispWorks(version6.0withsupportforsymmetricmulti-processing,rules,logic(Prolog),CORBA)<br/></td></tr></table>>];
+43 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_13</td></tr><tr><td>Lo­gic:Yes<br/></td></tr><tr><td>ALF<br/>Poplog<br/>Curry<br/>Leda<br/></td></tr></table>>];
+26 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_15</td></tr><tr><td>Num­berofPara­digms:2<br/></td></tr><tr><td>LabVIEW<br/>APL<br/>ALF<br/>Dylan<br/>Sather<br/>Claire<br/>Spreadsheets<br/>AmigaE<br/>Simula<br/>Lava<br/></td></tr></table>>];
+30 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_14</td></tr><tr><td>Num­berofPara­digms:4<br/></td></tr><tr><td>PHP<br/>Curry<br/>Python<br/>Ruby<br/>OCaml<br/>Leda<br/>Io<br/>Fortran<br/>Falcon<br/>ObjectPascal<br/></td></tr></table>>];
+40 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_16</td></tr><tr><td>Meta­pro­gram­ming:Yes<br/></td></tr><tr><td>Python<br/>Falcon<br/>CommonLisp(someotherparadigmsareimplementedaslibraries)<br/>D(version2.0)<br/>C++<br/>Nemerle<br/>Scala<br/>MATLAB<br/>LispWorks(version6.0withsupportforsymmetricmulti-processing,rules,logic(Prolog),CORBA)<br/></td></tr></table>>];
+36 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_17</td></tr><tr><td>Data­flow:Yes<br/></td></tr><tr><td>LabVIEW<br/>SISAL<br/>Prograph<br/>C#<br/>VisualBasic.NET<br/>MATLAB<br/>Oz<br/></td></tr></table>>];
+41 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_19</td></tr><tr><td>Gen­er­ic:Yes<br/></td></tr><tr><td>D(version1.0)<br/>EmbarcaderoDelphi<br/>OCaml<br/>Fortran<br/>Ada<br/>Curl<br/>MATLAB<br/></td></tr></table>>];
+44 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_18</td></tr><tr><td>Re­flec­tion:Yes<br/></td></tr><tr><td>PHP<br/>Ruby<br/>Falcon<br/>CommonLisp(someotherparadigmsareimplementedaslibraries)<br/>Curl<br/>Nemerle<br/>Scala<br/>MATLAB<br/>LispWorks(version6.0withsupportforsymmetricmulti-processing,rules,logic(Prolog),CORBA)<br/></td></tr></table>>];
+25 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_20</td></tr><tr><td>Num­berofPara­digms:3<br/></td></tr><tr><td>PointDragon<br/>SISAL<br/>Erlang<br/>ChucK<br/>Prograph<br/>Poplog<br/>BETA<br/>J<br/>Pliant<br/>TclwithitclorXOTclextensions<br/>ECMAScript(ActionScript,E4X,JavaScript,JScript)<br/>Lua<br/>TclwithSnitextension<br/>D(version1.0)<br/>EmbarcaderoDelphi<br/>E<br/>REBOL<br/>ROOP<br/></td></tr></table>>];
+34 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_21</td></tr><tr><td>Con­cur­rent:Yes<br/></td></tr><tr><td>SISAL<br/>ChucK<br/>Io<br/>Fortran<br/>ObjectPascal<br/>Java<br/>C#<br/>VisualBasic.NET<br/></td></tr></table>>];
+42 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_22</td></tr><tr><td>Im­per­at­ive:Yes<br/></td></tr><tr><td>APL<br/>AmigaE<br/>Simula<br/>PointDragon<br/>ChucK<br/>Poplog<br/>BETA<br/>J<br/>Pliant<br/>TclwithitclorXOTclextensions<br/>ECMAScript(ActionScript,E4X,JavaScript,JScript)<br/>Lua<br/>TclwithSnitextension<br/>D(version1.0)<br/>EmbarcaderoDelphi<br/>REBOL<br/>PHP<br/>Ruby<br/>OCaml<br/>Leda<br/>Io<br/>ObjectPascal<br/></td></tr></table>>];
+39 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_23</td></tr><tr><td>Func­tion­al:Yes<br/></td></tr><tr><td>APL<br/>ALF<br/>Dylan<br/>Sather<br/>Claire<br/>Spreadsheets<br/>SISAL<br/>Erlang<br/>Poplog<br/>BETA<br/>J<br/>Pliant<br/>TclwithitclorXOTclextensions<br/>ECMAScript(ActionScript,E4X,JavaScript,JScript)<br/>Lua<br/>TclwithSnitextension<br/>REBOL<br/>PHP<br/>Curry<br/>Ruby<br/>OCaml<br/>Leda<br/>Io<br/>Fortran<br/>Falcon<br/>ObjectPascal<br/>CommonLisp(someotherparadigmsareimplementedaslibraries)<br/>Curl<br/>Oz<br/>LispWorks(version6.0withsupportforsymmetricmulti-processing,rules,logic(Prolog),CORBA)<br/></td></tr></table>>];
+45 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_24</td></tr><tr><td>Ob­ject-ori­ented:Yes<br/></td></tr><tr><td>Dylan<br/>Sather<br/>Claire<br/>AmigaE<br/>Simula<br/>Lava<br/>PointDragon<br/>ChucK<br/>Prograph<br/>BETA<br/>J<br/>Pliant<br/>TclwithitclorXOTclextensions<br/>ECMAScript(ActionScript,E4X,JavaScript,JScript)<br/>Lua<br/>TclwithSnitextension<br/>E<br/>REBOL<br/>Leda<br/>Io<br/>ObjectPascal<br/></td></tr></table>>];
+49 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_31_7</td></tr><tr><td>Oth­erpara­digms:Yes<br/></td></tr><tr><td>Python<br/>C#<br/>VisualBasic.NET<br/>F#<br/></td></tr></table>>];
+	32:p -> 46:p
+	33:p -> 37:p
+	33:p -> 48:p
+	33:p -> 35:p
+	32:p -> 35:p
+	33:p -> 38:p
+	48:p -> 43:p
+	33:p -> 40:p
+	32:p -> 40:p
+	37:p -> 36:p
+	32:p -> 36:p
+	28:p -> 41:p
+	27:p -> 41:p
+	37:p -> 41:p
+	28:p -> 44:p
+	46:p -> 44:p
+	49:p -> 44:p
+	27:p -> 34:p
+	37:p -> 34:p
+	31:p -> 34:p
+	35:p -> 34:p
+	38:p -> 34:p
+	37:p -> 42:p
+	49:p -> 42:p
+	29:p -> 42:p
+	28:p -> 42:p
+	46:p -> 42:p
+	27:p -> 42:p
+	48:p -> 42:p
+	28:p -> 39:p
+	46:p -> 39:p
+	27:p -> 39:p
+	37:p -> 39:p
+	29:p -> 45:p
+	41:p -> 45:p
+	44:p -> 45:p
+	31:p -> 45:p
+	40:p -> 45:p
+}

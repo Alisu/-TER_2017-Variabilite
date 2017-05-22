@@ -1,0 +1,38 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:23,concept number:12,object number:36,attribute number:12"
+5 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_23_0</td></tr><tr><td>IRC:Yes<br/></td></tr><tr><td>Mozilla<br/>Opera<br/>SeaMonkey<br/></td></tr></table>>];
+9 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_23_1</td></tr><tr><td>BitTorrent:Yes<br/></td></tr><tr><td>ELinks<br/>Konqueror<br/>Opera<br/></td></tr></table>>];
+2 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_23_2</td></tr><tr><td>NNTP:Yes<br/></td></tr><tr><td>ELinks<br/>Lynx<br/>Mosaic<br/>Netscape<br/>NetscapeNavigator<br/>WorldWideWeb<br/></td></tr></table>>];
+4 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_23_3</td></tr><tr><td>EV:Yes<br/></td></tr><tr><td>AOLExplorer<br/>Avant<br/>Galeon<br/>GoogleChrome<br/>InternetExplorer<br/>Maxthon<br/>MozillaFirefox<br/>Opera<br/>QupZilla<br/>Safari<br/>SeaMonkey<br/>Sleipnir<br/>surf<br/>Web<br/></td></tr></table>>];
+6 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_23_4</td></tr><tr><td>Gopher:Yes<br/></td></tr><tr><td>Camino<br/>ELinks<br/>Flock<br/>Galeon<br/>InternetExplorerforMac<br/>K-Meleon<br/>Lynx<br/>Mosaic<br/>Mozilla<br/>Netscape<br/>NetscapeNavigator<br/>NetscapeNavigator9<br/>OmniWeb<br/>SeaMonkey<br/>w3m<br/></td></tr></table>>];
+8 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_23_6</td></tr><tr><td>data:URI:Yes<br/></td></tr><tr><td>Camino<br/>Dillo<br/>Flock<br/>Galeon<br/>GoogleChrome<br/>InternetExplorer<br/>K-Meleon<br/>MozillaFirefox<br/>Netscape<br/>NetscapeNavigator9<br/>NetSurf<br/>OmniWeb<br/>QupZilla<br/>Safari<br/>surf<br/>Web<br/></td></tr></table>>];
+7 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_23_7</td></tr><tr><td>IDN:Yes<br/></td></tr><tr><td>Camino<br/>Flock<br/>Galeon<br/>GoogleChrome<br/>iCab<br/>InternetExplorer<br/>K-Meleon<br/>Maxthon<br/>MozillaFirefox<br/>Netscape<br/>NetscapeNavigator9<br/>OmniWeb<br/>QupZilla<br/>Safari<br/>Shiira<br/>Sleipnir<br/>surf<br/>Web<br/></td></tr></table>>];
+10 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_23_8</td></tr><tr><td>IPv6:Yes<br/></td></tr><tr><td>AOLExplorer<br/>Avant<br/>Camino<br/>Dillo<br/>Flock<br/>Galeon<br/>iCab<br/>InternetExplorer<br/>K-Meleon<br/>Lynx<br/>Maxthon<br/>MozillaFirefox<br/>NetscapeNavigator9<br/>NetSurf<br/>OmniWeb<br/>QupZilla<br/>Safari<br/>SeaMonkey<br/>Shiira<br/>Sleipnir<br/>surf<br/>Web<br/>w3m<br/></td></tr></table>>];
+1 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_23_10</td></tr><tr><td>FTP:Yes<br/></td></tr><tr><td>AOLExplorer<br/>Avant<br/>Dillo<br/>GoogleChrome<br/>iCab<br/>InternetExplorer<br/>Links<br/>Maxthon<br/>MozillaFirefox<br/>NetscapeBrowser<br/>NetSurf<br/>QupZilla<br/>Safari<br/>Sleipnir<br/></td></tr></table>>];
+3 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_23_9</td></tr><tr><td>SSL:Yes<br/></td></tr><tr><td>InternetExplorerforMac<br/>NetscapeBrowser<br/>NetscapeNavigator<br/>NetSurf<br/>w3m<br/></td></tr></table>>];
+0 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_23_11</td></tr><tr><td>HTTP:Yes<br/></td></tr><tr><td>Amaya<br/></td></tr></table>>];
+11 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_23_5</td></tr><tr><td>Proxy:Yes<br/></td></tr><tr><td>Galeon<br/>GoogleChrome<br/>InternetExplorer<br/>K-Meleon<br/>Links<br/>Lynx<br/>Maxthon<br/>MozillaFirefox<br/>QupZilla<br/>Safari<br/>surf<br/>Web<br/></td></tr></table>>];
+	5:p -> 2:p
+	5:p -> 8:p
+	9:p -> 8:p
+	5:p -> 7:p
+	9:p -> 7:p
+	9:p -> 10:p
+	2:p -> 1:p
+	9:p -> 1:p
+	6:p -> 1:p
+	7:p -> 3:p
+	4:p -> 3:p
+	11:p -> 3:p
+	1:p -> 0:p
+	8:p -> 0:p
+	10:p -> 0:p
+	3:p -> 0:p
+	9:p -> 11:p
+	5:p -> 11:p
+}

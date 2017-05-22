@@ -1,0 +1,17 @@
+!§! 
+	-Il faut attendre un jour quand vous ajoutez une clé ssh dans vos settings
+	-Utiliser le gitInit.sh dans un dossier parent pour créer le dossier git (nom du porjet TER_2017
+	-Utiliser le push.sh ensuite pour envoyer vos nouveaux fichiers sur le git
+
+!§!
+
+Résumé : L'ingénierie des lignes de produits logiciels propose en général d'organiser les caractéristiques d'une ligne de produits dans un feature model précisant quelles caractéristiques sont obligatoires, facultatives, peuvent être choisies dans un ensemble de caractéristiques, etc. Toutefois, le feature model n'est pas une structure canonique : pour un même ensemble de configurations de caractéristiques, plusieurs feature models peuvent être proposés. L'équipe MaREL travaille à une structure canonique de représentation de la variabilité : l'ECFD (Equivalence Class Feature Diagram). L'ECFD est construit en se basant sur le treillis de concepts construit à partir de la description des configurations. L'objectif du TER est de construire une boîte à outils autour de l'ECFD :
+* proposer un outil de construction de l'ECFD (par utilisation d'outils de construction de treillis puis extraction de l'ECFD)
+* proposer une syntaxe textuelle pour l'ECFD et le parseur associé (par exemple en utilisant EMFText)
+* en permettre une visualisation graphique (pas nécessairement éditable)
+* mettre en place une démarche de guidage de l'expert pour l'élaboration d'un feature model à partir de l'ECFD
+
+Groupe:
+Jules Coulon
+Matthieu Kowalczyk
+Theo Rogliano

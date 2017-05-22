@@ -1,0 +1,22 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:11,concept number:9,object number:33,attribute number:9"
+12 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_11_1</td></tr><tr><td>iOS:Yes<br/></td></tr><tr><td>Ecoute<br/>GuayadequeMusicPlayer<br/>Rhapsody<br/>Spotify<br/></td></tr></table>>];
+13 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_11_2</td></tr><tr><td>Android:Yes<br/></td></tr><tr><td>AIMP<br/>MediaMonkey<br/>Rhapsody<br/>Songbird<br/>Spotify<br/>Winamp<br/></td></tr></table>>];
+16 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_11_3</td></tr><tr><td>OtherUnix:Yes<br/></td></tr><tr><td>Amarok<br/>Audacious<br/>cmus<br/>Clementine<br/>JuK<br/>MusicPlayerDaemon<br/>QuodLibet<br/>Rhythmbox<br/>SMplayer<br/>UMplayer<br/>XMMS<br/>Zinf<br/></td></tr></table>>];
+15 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_11_4</td></tr><tr><td>Solaris:Yes<br/></td></tr><tr><td>aTunes<br/></td></tr></table>>];
+10 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_11_5</td></tr><tr><td>OSX:Yes<br/></td></tr><tr><td>aTunes<br/>Audion<br/>cmus<br/>Cog<br/>Clementine<br/>Ecoute<br/>GuayadequeMusicPlayer<br/>G-Ear<br/>MusicPlayerDaemon<br/>QuodLibet<br/>Songbird<br/>Spotify<br/>UMplayer<br/>XMMS<br/></td></tr></table>>];
+14 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_11_6</td></tr><tr><td>BSDUnix:Yes<br/></td></tr><tr><td>Banshee<br/>Exaile<br/></td></tr></table>>];
+11 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_11_7</td></tr><tr><td>Linux:Yes<br/></td></tr><tr><td>GuayadequeMusicPlayer<br/>Rhapsody<br/>Spotify<br/></td></tr></table>>];
+9 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_11_8</td></tr><tr><td>Windows:Yes<br/></td></tr><tr><td>Amarok<br/>aTunes<br/>Audacious<br/>Clementine<br/>Exaile<br/>foobar2000<br/>MusicPlayerDaemon<br/>MusicBee<br/>MusicmatchJukebox<br/>musikCube<br/>QuodLibet<br/>SMplayer<br/>Sonique<br/>UMplayer<br/>XMPlay<br/>Zinf<br/></td></tr></table>>];
+17 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_11_0</td></tr><tr><td>DOS:Yes<br/></td></tr><tr><td>MPXPLAY<br/></td></tr></table>>];
+	16:p -> 15:p
+	15:p -> 14:p
+	14:p -> 11:p
+	13:p -> 9:p
+	17:p -> 9:p
+}

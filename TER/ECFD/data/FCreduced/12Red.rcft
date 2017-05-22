@@ -1,0 +1,27 @@
+FormalContext 12
+||pback:Yes|Outboundstreaming:Yes|Skinnable:Yes|Mediadatabase:Yes|Gaplessaudiodecoding:Yes|Visualizer:Yes|Remotecontrollable:Yes|Intelligentplaylistsfromdatabase(basedoncriteria):Yes|
+|AIMP||x|x|x|x|x|x||
+|Amarok|x|x|x|x|x|x|x|x|
+|Audacious|||x||x|x|x||
+|Audion|||x|||x|||
+|cmus|||x|x|x||x||
+|Cog|||||x||x||
+|Clementine||||x|x|x|x|x|
+|Exaile||||x|x|||x|
+|foobar2000||x|x|x|x|x|x|x|
+|JuK||||x|||x||
+|MediaMonkey|x|x|x|x|x|x|x|x|
+|MPXPLAY|x||x|x|x|x|x||
+|MusicPlayerDaemon||x|x|x|x|x|x|x|
+|MusicBee|||x|x|x|x|x|x|
+|MusicmatchJukebox|||x|x||x|x||
+|musikCube||||x||x||x|
+|QuodLibet||||x|x||x|x|
+|Rhapsody||||x|||||
+|Rhythmbox||||x|x|x|x|x|
+|Sonique|x||x|||x|||
+|Spotify|||||x||||
+|Winamp|x|x|x|x||x|x|x|
+|XMMS|x|x|x||x|x|x||
+|XMPlay|x|x|x||x|x|||
+|Zinf|||x|x|||||

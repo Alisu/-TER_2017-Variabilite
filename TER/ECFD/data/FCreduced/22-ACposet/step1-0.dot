@@ -1,0 +1,34 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:22,concept number:12,object number:41,attribute number:13"
+21 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_22_0</td></tr><tr><td>VoiceXML/X+V:Yes<br/>CSSPresentation/projectionmode:Yes<br/></td></tr><tr><td>Opera<br/></td></tr></table>>];
+20 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_22_1</td></tr><tr><td>WebForms2.0:Yes<br/></td></tr><tr><td>MozillaFirefox<br/>SeaMonkey<br/></td></tr></table>>];
+23 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_22_2</td></tr><tr><td>VML:Yes<br/></td></tr><tr><td>AOLExplorer<br/>Avant<br/>InternetExplorer<br/>Lunascape<br/>Maxthon<br/>Sleipnir<br/></td></tr></table>>];
+14 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_22_3</td></tr><tr><td>NavLINKs:Yes<br/></td></tr><tr><td>iCab<br/>Konqueror<br/>Links<br/>Lynx<br/>Mozilla<br/>SeaMonkey<br/></td></tr></table>>];
+19 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_22_4</td></tr><tr><td>XForms:Yes<br/></td></tr><tr><td>Arora<br/>Dooble<br/>Flock<br/>Lunascape<br/>MozillaFirefox<br/>NetscapeNavigator9<br/>SeaMonkey<br/>Web<br/></td></tr></table>>];
+22 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_22_5</td></tr><tr><td>SMIL:Yes<br/></td></tr><tr><td><br/></td></tr></table>>];
+18 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_22_6</td></tr><tr><td>MathML:Yes<br/></td></tr><tr><td>Amaya<br/>Camino<br/>Galeon<br/>GoogleChrome<br/>K-Meleon<br/>Mozilla<br/>Netscape<br/></td></tr></table>>];
+16 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_22_7</td></tr><tr><td>XHTML1.0:Yes<br/></td></tr><tr><td>InternetExplorer<br/>Konqueror<br/>Midori<br/>OmniWeb<br/>QupZilla<br/>Safari<br/>Shiira<br/>surf<br/>TorchBrowser<br/>w3m<br/></td></tr></table>>];
+17 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_22_8</td></tr><tr><td>XHTML1.1:Yes<br/></td></tr><tr><td>InternetExplorer<br/>InternetExplorerforMac<br/>Konqueror<br/>Midori<br/>OmniWeb<br/>QupZilla<br/>Safari<br/>Shiira<br/>surf<br/>TorchBrowser<br/></td></tr></table>>];
+15 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_22_9</td></tr><tr><td>XSLT:Yes<br/></td></tr><tr><td>Camino<br/>Galeon<br/>GoogleChrome<br/>InternetExplorerforMac<br/>K-Meleon<br/>Midori<br/>Mozilla<br/>Netscape<br/>NetscapeBrowser<br/>QupZilla<br/>Safari<br/>Shiira<br/>TorchBrowser<br/></td></tr></table>>];
+12 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_22_10</td></tr><tr><td>CSS2.1:Yes<br/></td></tr><tr><td>Dillo<br/>ELinks<br/>iCab<br/>NetSurf<br/></td></tr></table>>];
+13 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_22_11</td></tr><tr><td>Frames:Yes<br/></td></tr><tr><td>Dillo<br/>ELinks<br/>NetscapeNavigator<br/>NetSurf<br/>OmniWeb<br/>surf<br/>w3m<br/></td></tr></table>>];
+	21:p -> 20:p
+	21:p -> 14:p
+	23:p -> 22:p
+	20:p -> 22:p
+	20:p -> 18:p
+	19:p -> 18:p
+	18:p -> 16:p
+	18:p -> 17:p
+	22:p -> 15:p
+	19:p -> 15:p
+	15:p -> 12:p
+	17:p -> 12:p
+	15:p -> 13:p
+	14:p -> 13:p
+}

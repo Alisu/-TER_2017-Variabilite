@@ -1,0 +1,24 @@
+FormalContext 40
+||Visualquerybuilder:Yes|Visualschema/model/E-Rdiagramdesign:Yes|Reverseengineering:Yes|Forwardengineering:Yes|ERdiagramgroupboxes:Yes|
+|Adminer|x|x|x|||
+|AltovaDatabaseSpy|x|x|x|x||
+|DaDaBIK|x|||||
+|DatabaseDeploymentManager|x|x|x|||
+|DBEdit||||||
+|DevgemsDataModeler||x|x|x|x|
+|DeZignforDatabases||x|x|x|x|
+|ModelRight||x|x|x|x|
+|Navicat|x|x|x|x|x|
+|NavicatDataModeler||x|x|x|x|
+|MySQLWorkbench|x|x|x|x|x|
+|OracleSQLDeveloper|x|x|x|x||
+|Orbada||||||
+|pgAdminIII|x|||||
+|phpMyAdmin|x|x|x|||
+|phpPgAdmin||||||
+|SQLServerManagementStudio||x|x|||
+|SQLProSQLClient||||||
+|SQLyog|x|x|x|x||
+|SQuirreLSQL|x|x|x|||
+|Toad|x|x|x|x||
+|ToadDataModeler||x|x|x||

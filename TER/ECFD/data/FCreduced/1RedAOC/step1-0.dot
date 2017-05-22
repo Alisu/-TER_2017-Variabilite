@@ -1,0 +1,268 @@
+digraph G { 
+	rankdir=BT;
+	margin=0;
+	node [margin="0.03,0.03",fontname="DejaVu Sans"];
+	ranksep=0.3;
+	nodesep=0.2;
+//graph[label="name:1,concept number:76,object number:43,attribute number:224"
+100 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_18</td></tr><tr><td>Creator:Microsoft<br/>First public release date:March 2001<br/>Latest stable release:2010<br/>Stable release date:April 22 2010<br/>Data backend:Windows Internal Database<br/></td></tr><tr><td>SharePoint<br/></td></tr></table>>];
+101 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_42</td></tr><tr><td>Creator:Hallo Welt<br/>First public release date:March 31 2011<br/>Latest stable release:2.22.2<br/>Stable release date:May 8 2014<br/></td></tr><tr><td>BlueSpice for MediaWiki<br/></td></tr></table>>];
+102 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_35</td></tr><tr><td>Creator:Foswiki community<br/>First public release date:December 2008<br/>Latest stable release:1.1.8<br/>Stable release date:March 1 2013<br/></td></tr><tr><td>Foswiki<br/></td></tr></table>>];
+103 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_14</td></tr><tr><td>Creator:ThoughtFarmer<br/>First public release date:May 2006<br/>Latest stable release:5.5<br/>Stable release date:June 4 2012<br/></td></tr><tr><td>ThoughtFarmer<br/></td></tr></table>>];
+104 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_2</td></tr><tr><td>Creator:Wikka Development Team<br/>First public release date:May 16 2004<br/>Latest stable release:1.3.3<br/>Stable release date:May 20 2012<br/></td></tr><tr><td>WikkaWiki<br/></td></tr></table>>];
+105 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_8</td></tr><tr><td>Creator:Roman Ivanov<br/>First public release date:March 2003<br/>Latest stable release:5.4.0<br/>Stable release date:April 17 2014<br/></td></tr><tr><td>WackoWiki<br/></td></tr></table>>];
+106 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_23</td></tr><tr><td>Creator:David Weekly<br/>First public release date:May 30 2005<br/>Predecessor:TipiWiki<br/>Data backend:lighttpd<br/>Data backend:Pound<br/>Data backend:Squid<br/></td></tr><tr><td>PBworks<br/></td></tr></table>>];
+107 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_29</td></tr><tr><td>Creator:Wikimedia Foundation<br/>First public release date:January 25 2002<br/>Latest stable release:1.23.1<br/>Stable release date:June 25 2014<br/></td></tr><tr><td>MediaWiki<br/></td></tr></table>>];
+108 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_21</td></tr><tr><td>Creator:Patrick Michaud<br/>First public release date:February 6 2002<br/>Latest stable release:2.2.62<br/>Stable release date:February 28 2014<br/>Data backend:Flat-file. MySQL<br/></td></tr><tr><td>PmWiki<br/></td></tr></table>>];
+109 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_15</td></tr><tr><td>Creator:Jochen Rick<br/>Creator:Mark Guzdial<br/>First public release date:October 1999<br/>Latest stable release:1.5<br/>Stable release date:December 6 2005<br/>Programming language:Squeak<br/></td></tr><tr><td>Swiki<br/></td></tr></table>>];
+110 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_38</td></tr><tr><td>Creator:Matt Wiseley<br/>First public release date:August 2003<br/></td></tr><tr><td>EditMe<br/></td></tr></table>>];
+111 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_3</td></tr><tr><td>Creator:Ward Cunningham<br/>First public release date:1995<br/>Predecessor:Apple HyperCard<br/></td></tr><tr><td>WikiWikiWeb<br/></td></tr></table>>];
+112 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_20</td></tr><tr><td>Creator:Qontext Inc.<br/>First public release date:November 6 2010<br/>Latest stable release:0.144.1<br/>Stable release date:December 12 2010<br/>Data backend:Amazon Cloud<br/></td></tr><tr><td>Qontext<br/></td></tr></table>>];
+113 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_19</td></tr><tr><td>Creator:Threeplicate<br/>Latest stable release:3.0.5.600<br/>Stable release date:June 29 2013<br/>Data backend:Flat Files<br/></td></tr><tr><td>Screwturn Wiki<br/></td></tr></table>>];
+114 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_32</td></tr><tr><td>Creator:Joey Hess et al.<br/>First public release date:April 29 2006<br/>Latest stable release:3.20120725<br/>Stable release date:July 25 2012<br/>Data backend:Subversion<br/></td></tr><tr><td>Ikiwiki<br/></td></tr></table>>];
+115 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_26</td></tr><tr><td>Creator:MindTouch Inc.<br/>First public release date:July 25 2006<br/>Latest stable release:10.1.4<br/>Stable release date:January 22 2013<br/></td></tr><tr><td>MindTouch<br/></td></tr></table>>];
+116 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_22</td></tr><tr><td>Creator:Steve Wainstead<br/>First public release date:December 1999<br/>Latest stable release:1.3.14<br/>Stable release date:July 1 2007<br/>Predecessor:WikiWikiWeb<br/>Data backend:Berkeley DB<br/>Data backend:Firebird<br/></td></tr><tr><td>PhpWiki<br/></td></tr></table>>];
+117 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_6</td></tr><tr><td>Creator:Apple Inc.<br/></td></tr><tr><td>Wiki Server<br/></td></tr></table>>];
+118 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_12</td></tr><tr><td>Creator:Luis Argerich<br/>First public release date:October 9 2002<br/>Latest stable release:12.2 LTS<br/>Stable release date:May 22 2014<br/></td></tr><tr><td>Tiki Wiki CMS Groupware<br/></td></tr></table>>];
+76 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_36</td></tr><tr><td>Creator:David Ornstein<br/>Latest stable release:2.1.0.274<br/>Stable release date:October 20 2008<br/>Software license:CPL<br/></td></tr><tr><td>FlexWiki<br/></td></tr></table>>];
+77 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_11</td></tr><tr><td>Creator:Traction Software<br/>First public release date:December 1 1999<br/>Latest stable release:6.0<br/>Stable release date:June 2 2014<br/>Programming language:Java SE<br/>Data backend:File System<br/></td></tr><tr><td>Traction TeamPage<br/></td></tr></table>>];
+78 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_16</td></tr><tr><td>Creator:Socialtext<br/>First public release date:2003<br/>Latest stable release:5.0.0<br/>Stable release date:September 28 2011<br/>Software license:CPAL<br/></td></tr><tr><td>Socialtext<br/></td></tr></table>>];
+79 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_17</td></tr><tr><td>Creator:SlimWiki<br/>First public release date:July 2014<br/>Latest stable release:2014<br/>Stable release date:2014<br/></td></tr><tr><td>SlimWiki<br/></td></tr></table>>];
+80 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_39</td></tr><tr><td>Creator:Andreas Gohr<br/>First public release date:July 2004<br/>Stable release date:May 5 2014<br/></td></tr><tr><td>DokuWiki<br/></td></tr></table>>];
+81 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_0</td></tr><tr><td>Creator:Simon Michael<br/>First public release date:November 5 1999<br/>Latest stable release:0.61.0<br/>Stable release date:October 28 2008<br/>Data backend:ZODB<br/></td></tr><tr><td>ZWiki<br/></td></tr></table>>];
+82 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_10</td></tr><tr><td>Creator:Peter Thoeny<br/>First public release date:October 1998<br/>Latest stable release:6.0.0<br/>Stable release date:October 14 2013<br/>Predecessor:JosWiki<br/></td></tr><tr><td>TWiki<br/></td></tr></table>>];
+83 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_1</td></tr><tr><td>Creator:Ludovic Dubost<br/>First public release date:February 2004<br/>Latest stable release:6.1<br/>Stable release date:July 8 2014<br/></td></tr><tr><td>XWiki<br/></td></tr></table>>];
+84 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_25</td></tr><tr><td>Creator:Thomas Waldmann<br/>Creator:Jürgen Hermann<br/>First public release date:July 28 2000<br/>Latest stable release:1.9.7<br/>Stable release date:March 17 2013<br/>Predecessor:PikiPiki<br/></td></tr><tr><td>MoinMoin<br/></td></tr></table>>];
+85 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_37</td></tr><tr><td>Creator:eXo Platform<br/>First public release date:2002<br/>Latest stable release:4.0<br/>Stable release date:April 2014<br/></td></tr><tr><td>eXo Platform<br/></td></tr></table>>];
+86 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_41</td></tr><tr><td>Creator:BrainKeeper Inc.<br/>First public release date:September 1 2005<br/>Stable release date:March 1 2010<br/></td></tr><tr><td>BrainKeeper<br/></td></tr></table>>];
+87 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_40</td></tr><tr><td>Creator:Central Desktop Inc.<br/>First public release date:October 1 2005<br/>Stable release date:February 22 2010<br/></td></tr><tr><td>Central Desktop<br/></td></tr></table>>];
+88 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_4</td></tr><tr><td>Creator:Steve Goldman<br/>First public release date:July 20 2004<br/>Latest stable release:5.01<br/>Stable release date:May 29 2008<br/>Predecessor:Wikiwig<br/></td></tr><tr><td>Wikiwig<br/></td></tr></table>>];
+89 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_33</td></tr><tr><td>Creator:IBM<br/>First public release date:June 27 2007<br/>Latest stable release:4.5 CR1<br/>Stable release date:June 26 2013<br/>Data backend:DB2<br/></td></tr><tr><td>IBM Connections<br/></td></tr></table>>];
+90 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_31</td></tr><tr><td>Creator:Jive Software<br/>First public release date:January 7 2007<br/>Latest stable release:5.0.3<br/>Stable release date:April 25 2012<br/>Data backend:SQL<br/>Data backend:LDAP<br/></td></tr><tr><td>Jive<br/></td></tr></table>>];
+91 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_5</td></tr><tr><td>Creator:Tangient LLC<br/>First public release date:March 18 2005<br/></td></tr><tr><td>Wikispaces<br/></td></tr></table>>];
+92 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_9</td></tr><tr><td>Creator:Clifford Adams<br/>First public release date:January 22 2000<br/>Latest stable release:1.0.5<br/>Stable release date:August 28 2009<br/>Predecessor:AtisWiki<br/></td></tr><tr><td>UseModWiki<br/></td></tr></table>>];
+93 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_13</td></tr><tr><td>Creator:Jeremy Ruston<br/>Latest stable release:2.6.5<br/>Stable release date:October 6 2011<br/>Programming language:JavaScript<br/>Data backend:Single file<br/></td></tr><tr><td>TiddlyWiki<br/></td></tr></table>>];
+94 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_30</td></tr><tr><td>Creator:JotSpot<br/>First public release date:October 2004<br/>Stable release date:July 24 2006<br/>Data backend:XML<br/></td></tr><tr><td>JotSpot<br/></td></tr></table>>];
+95 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_7</td></tr><tr><td>Creator:Grass Commons<br/>First public release date:April 2006<br/>Latest stable release:1.12.0<br/>Stable release date:September 11 2013<br/>Predecessor:Instiki<br/></td></tr><tr><td>Wagn<br/></td></tr></table>>];
+96 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_24</td></tr><tr><td>Creator:Marcus Ramberg<br/>First public release date:August 29 2007<br/>Latest stable release:1.09<br/>Stable release date:January 25 2013<br/></td></tr><tr><td>MojoMojo<br/></td></tr></table>>];
+97 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_28</td></tr><tr><td>Creator:Altova<br/>First public release date:May 6 2012<br/>Latest stable release:1.0<br/>Stable release date:May 6 2012<br/>Data backend:Online service<br/></td></tr><tr><td>MetaTeam<br/></td></tr></table>>];
+98 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_27</td></tr><tr><td>Creator:Henri Bergius<br/>First public release date:September 29 2004<br/>Latest stable release:10.05.6<br/>Stable release date:March 6 2012<br/></td></tr><tr><td>Midgard Wiki<br/></td></tr></table>>];
+99 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_34</td></tr><tr><td>Creator:John MacFarlane<br/>First public release date:November 7 2008<br/>Latest stable release:0.10.3.1<br/>Stable release date:March 19 2013<br/>Programming language:Haskell<br/>Data backend:Mercurial<br/>Data backend:Darcs<br/></td></tr><tr><td>Gitit<br/></td></tr></table>>];
+119 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_50</td></tr><tr><td>First public release date:September 2004<br/></td></tr><tr><td><br/></td></tr></table>>];
+120 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_52</td></tr><tr><td>Latest stable release:2.0<br/></td></tr><tr><td><br/></td></tr></table>>];
+121 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_49</td></tr><tr><td>Predecessor:TWiki<br/></td></tr><tr><td><br/></td></tr></table>>];
+122 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_53</td></tr><tr><td>Predecessor:MediaWiki<br/></td></tr><tr><td><br/></td></tr></table>>];
+123 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_43</td></tr><tr><td>Predecessor:WakkaWiki<br/></td></tr><tr><td><br/></td></tr></table>>];
+126 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_44</td></tr><tr><td>Software license:BSD<br/></td></tr><tr><td><br/></td></tr></table>>];
+135 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_45</td></tr><tr><td>Programming language:Ruby<br/></td></tr><tr><td><br/></td></tr></table>>];
+137 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_47</td></tr><tr><td>Programming language:Python<br/></td></tr><tr><td><br/></td></tr></table>>];
+144 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_46</td></tr><tr><td>Data backend:MogileFS<br/></td></tr><tr><td><br/></td></tr></table>>];
+149 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_51</td></tr><tr><td>Data backend:HSQLDB<br/>Data backend:Apache Derby<br/></td></tr><tr><td><br/></td></tr></table>>];
+150 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_48</td></tr><tr><td>Data backend:Git<br/></td></tr><tr><td><br/></td></tr></table>>];
+136 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_56</td></tr><tr><td>Programming language:Java EE<br/></td></tr><tr><td><br/></td></tr></table>>];
+147 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_55</td></tr><tr><td>Data backend:RCS<br/></td></tr><tr><td><br/></td></tr></table>>];
+148 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_54</td></tr><tr><td>Data backend:SQLite<br/></td></tr><tr><td><br/></td></tr></table>>];
+125 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_58</td></tr><tr><td>Software license:LGPL<br/></td></tr><tr><td><br/></td></tr></table>>];
+139 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_57</td></tr><tr><td>Programming language:ASP.NET<br/></td></tr><tr><td><br/></td></tr></table>>];
+142 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_59</td></tr><tr><td>Data backend:File system<br/></td></tr><tr><td><br/></td></tr></table>>];
+128 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_62</td></tr><tr><td>Software license:GPL v2<br/></td></tr><tr><td><br/></td></tr></table>>];
+133 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_60</td></tr><tr><td>Programming language:C#<br/></td></tr><tr><td><br/></td></tr></table>>];
+143 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_61</td></tr><tr><td>Data backend:Oracle<br/></td></tr><tr><td><br/></td></tr></table>>];
+146 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_64</td></tr><tr><td>Data backend:Microsoft SQL Server<br/></td></tr><tr><td><br/></td></tr></table>>];
+151 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_63</td></tr><tr><td>Data backend:Flat-file<br/></td></tr><tr><td><br/></td></tr></table>>];
+131 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_66</td></tr><tr><td>Encoding:ISO8859-1<br/></td></tr><tr><td><br/></td></tr></table>>];
+138 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_65</td></tr><tr><td>Programming language:Perl<br/></td></tr><tr><td><br/></td></tr></table>>];
+140 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_68</td></tr><tr><td>Programming language:Java<br/></td></tr><tr><td><br/></td></tr></table>>];
+141 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_67</td></tr><tr><td>Data backend:PostgreSQL<br/></td></tr><tr><td><br/></td></tr></table>>];
+124 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_69</td></tr><tr><td>Software license:GPL<br/></td></tr><tr><td><br/></td></tr></table>>];
+134 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_70</td></tr><tr><td>Programming language:PHP<br/></td></tr><tr><td><br/></td></tr></table>>];
+127 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_71</td></tr><tr><td>Software license:Proprietary<br/></td></tr><tr><td><br/></td></tr></table>>];
+145 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_72</td></tr><tr><td>Data backend:MySQL<br/></td></tr><tr><td><br/></td></tr></table>>];
+129 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_73</td></tr><tr><td>Open source:Yes<br/></td></tr><tr><td><br/></td></tr></table>>];
+130 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_74</td></tr><tr><td>Encoding:UTF-8<br/></td></tr><tr><td><br/></td></tr></table>>];
+132 [shape=none,label=<<table border="0" cellborder="1" cellspacing="0" port="p"><tr><td>Concept_1_75</td></tr><tr><td>Multilingual:Yes<br/></td></tr><tr><td><br/></td></tr></table>>];
+	93:p -> 119:p
+	76:p -> 119:p
+	94:p -> 120:p
+	87:p -> 120:p
+	83:p -> 121:p
+	102:p -> 121:p
+	115:p -> 122:p
+	101:p -> 122:p
+	105:p -> 123:p
+	104:p -> 123:p
+	105:p -> 126:p
+	93:p -> 126:p
+	79:p -> 135:p
+	95:p -> 135:p
+	84:p -> 137:p
+	81:p -> 137:p
+	91:p -> 144:p
+	106:p -> 144:p
+	85:p -> 149:p
+	83:p -> 149:p
+	114:p -> 150:p
+	99:p -> 150:p
+	89:p -> 136:p
+	86:p -> 136:p
+	90:p -> 136:p
+	98:p -> 147:p
+	82:p -> 147:p
+	102:p -> 147:p
+	96:p -> 148:p
+	107:p -> 148:p
+	108:p -> 148:p
+	98:p -> 125:p
+	118:p -> 125:p
+	149:p -> 125:p
+	100:p -> 139:p
+	103:p -> 139:p
+	113:p -> 139:p
+	76:p -> 139:p
+	76:p -> 142:p
+	94:p -> 142:p
+	80:p -> 142:p
+	109:p -> 142:p
+	101:p -> 128:p
+	113:p -> 128:p
+	107:p -> 128:p
+	114:p -> 128:p
+	80:p -> 128:p
+	115:p -> 133:p
+	139:p -> 133:p
+	89:p -> 143:p
+	77:p -> 143:p
+	116:p -> 143:p
+	149:p -> 143:p
+	116:p -> 146:p
+	89:p -> 146:p
+	139:p -> 146:p
+	84:p -> 151:p
+	92:p -> 151:p
+	102:p -> 151:p
+	77:p -> 151:p
+	116:p -> 151:p
+	82:p -> 151:p
+	102:p -> 131:p
+	116:p -> 131:p
+	104:p -> 131:p
+	82:p -> 131:p
+	110:p -> 131:p
+	108:p -> 131:p
+	90:p -> 131:p
+	92:p -> 138:p
+	102:p -> 138:p
+	78:p -> 138:p
+	82:p -> 138:p
+	111:p -> 138:p
+	96:p -> 138:p
+	114:p -> 138:p
+	77:p -> 140:p
+	136:p -> 140:p
+	110:p -> 140:p
+	112:p -> 140:p
+	94:p -> 140:p
+	149:p -> 140:p
+	78:p -> 141:p
+	116:p -> 141:p
+	107:p -> 141:p
+	96:p -> 141:p
+	87:p -> 141:p
+	135:p -> 141:p
+	149:p -> 141:p
+	92:p -> 124:p
+	102:p -> 124:p
+	116:p -> 124:p
+	104:p -> 124:p
+	82:p -> 124:p
+	95:p -> 124:p
+	108:p -> 124:p
+	137:p -> 124:p
+	109:p -> 124:p
+	88:p -> 124:p
+	99:p -> 124:p
+	116:p -> 134:p
+	118:p -> 134:p
+	107:p -> 134:p
+	108:p -> 134:p
+	98:p -> 134:p
+	144:p -> 134:p
+	122:p -> 134:p
+	80:p -> 134:p
+	87:p -> 134:p
+	123:p -> 134:p
+	88:p -> 134:p
+	103:p -> 127:p
+	77:p -> 127:p
+	120:p -> 127:p
+	115:p -> 127:p
+	100:p -> 127:p
+	97:p -> 127:p
+	112:p -> 127:p
+	79:p -> 127:p
+	136:p -> 127:p
+	78:p -> 127:p
+	110:p -> 127:p
+	144:p -> 127:p
+	117:p -> 127:p
+	116:p -> 145:p
+	107:p -> 145:p
+	110:p -> 145:p
+	95:p -> 145:p
+	86:p -> 145:p
+	144:p -> 145:p
+	122:p -> 145:p
+	126:p -> 145:p
+	96:p -> 145:p
+	123:p -> 145:p
+	88:p -> 145:p
+	125:p -> 145:p
+	147:p -> 129:p
+	150:p -> 129:p
+	148:p -> 129:p
+	124:p -> 129:p
+	121:p -> 129:p
+	119:p -> 129:p
+	126:p -> 129:p
+	128:p -> 129:p
+	123:p -> 129:p
+	125:p -> 129:p
+	103:p -> 130:p
+	121:p -> 130:p
+	97:p -> 130:p
+	135:p -> 130:p
+	99:p -> 130:p
+	113:p -> 130:p
+	118:p -> 130:p
+	82:p -> 130:p
+	100:p -> 130:p
+	122:p -> 130:p
+	112:p -> 130:p
+	80:p -> 130:p
+	90:p -> 130:p
+	137:p -> 130:p
+	78:p -> 130:p
+	148:p -> 130:p
+	93:p -> 130:p
+	143:p -> 130:p
+	144:p -> 130:p
+	103:p -> 132:p
+	121:p -> 132:p
+	97:p -> 132:p
+	135:p -> 132:p
+	136:p -> 132:p
+	118:p -> 132:p
+	82:p -> 132:p
+	100:p -> 132:p
+	122:p -> 132:p
+	112:p -> 132:p
+	128:p -> 132:p
+	137:p -> 132:p
+	88:p -> 132:p
+	150:p -> 132:p
+	148:p -> 132:p
+	143:p -> 132:p
+	91:p -> 132:p
+	126:p -> 132:p
+	123:p -> 132:p
+}

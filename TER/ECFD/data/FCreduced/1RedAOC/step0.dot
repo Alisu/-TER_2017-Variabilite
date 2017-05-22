@@ -1,0 +1,266 @@
+digraph G { 
+	rankdir=BT;
+subgraph 1 { 
+label="1";
+1 [shape=record,label="{Concept_1_36|Creator:David Ornstein\nLatest stable release:2.1.0.274\nStable release date:October 20 2008\nSoftware license:CPL\n|FlexWiki\n}"];
+2 [shape=record,label="{Concept_1_11|Creator:Traction Software\nFirst public release date:December 1 1999\nLatest stable release:6.0\nStable release date:June 2 2014\nProgramming language:Java SE\nData backend:File System\n|Traction TeamPage\n}"];
+3 [shape=record,label="{Concept_1_41|Creator:BrainKeeper Inc.\nFirst public release date:September 1 2005\nStable release date:March 1 2010\n|BrainKeeper\n}"];
+4 [shape=record,label="{Concept_1_40|Creator:Central Desktop Inc.\nFirst public release date:October 1 2005\nStable release date:February 22 2010\n|Central Desktop\n}"];
+5 [shape=record,label="{Concept_1_4|Creator:Steve Goldman\nFirst public release date:July 20 2004\nLatest stable release:5.01\nStable release date:May 29 2008\nPredecessor:Wikiwig\n|Wikiwig\n}"];
+6 [shape=record,label="{Concept_1_33|Creator:IBM\nFirst public release date:June 27 2007\nLatest stable release:4.5 CR1\nStable release date:June 26 2013\nData backend:DB2\n|IBM Connections\n}"];
+7 [shape=record,label="{Concept_1_31|Creator:Jive Software\nFirst public release date:January 7 2007\nLatest stable release:5.0.3\nStable release date:April 25 2012\nData backend:SQL\nData backend:LDAP\n|Jive\n}"];
+8 [shape=record,label="{Concept_1_5|Creator:Tangient LLC\nFirst public release date:March 18 2005\n|Wikispaces\n}"];
+9 [shape=record,label="{Concept_1_9|Creator:Clifford Adams\nFirst public release date:January 22 2000\nLatest stable release:1.0.5\nStable release date:August 28 2009\nPredecessor:AtisWiki\n|UseModWiki\n}"];
+10 [shape=record,label="{Concept_1_13|Creator:Jeremy Ruston\nLatest stable release:2.6.5\nStable release date:October 6 2011\nProgramming language:JavaScript\nData backend:Single file\n|TiddlyWiki\n}"];
+11 [shape=record,label="{Concept_1_30|Creator:JotSpot\nFirst public release date:October 2004\nStable release date:July 24 2006\nData backend:XML\n|JotSpot\n}"];
+12 [shape=record,label="{Concept_1_7|Creator:Grass Commons\nFirst public release date:April 2006\nLatest stable release:1.12.0\nStable release date:September 11 2013\nPredecessor:Instiki\n|Wagn\n}"];
+13 [shape=record,label="{Concept_1_16|Creator:Socialtext\nFirst public release date:2003\nLatest stable release:5.0.0\nStable release date:September 28 2011\nSoftware license:CPAL\n|Socialtext\n}"];
+14 [shape=record,label="{Concept_1_24|Creator:Marcus Ramberg\nFirst public release date:August 29 2007\nLatest stable release:1.09\nStable release date:January 25 2013\n|MojoMojo\n}"];
+15 [shape=record,label="{Concept_1_28|Creator:Altova\nFirst public release date:May 6 2012\nLatest stable release:1.0\nStable release date:May 6 2012\nData backend:Online service\n|MetaTeam\n}"];
+16 [shape=record,label="{Concept_1_27|Creator:Henri Bergius\nFirst public release date:September 29 2004\nLatest stable release:10.05.6\nStable release date:March 6 2012\n|Midgard Wiki\n}"];
+17 [shape=record,label="{Concept_1_34|Creator:John MacFarlane\nFirst public release date:November 7 2008\nLatest stable release:0.10.3.1\nStable release date:March 19 2013\nProgramming language:Haskell\nData backend:Mercurial\nData backend:Darcs\n|Gitit\n}"];
+18 [shape=record,label="{Concept_1_18|Creator:Microsoft\nFirst public release date:March 2001\nLatest stable release:2010\nStable release date:April 22 2010\nData backend:Windows Internal Database\n|SharePoint\n}"];
+19 [shape=record,label="{Concept_1_42|Creator:Hallo Welt\nFirst public release date:March 31 2011\nLatest stable release:2.22.2\nStable release date:May 8 2014\n|BlueSpice for MediaWiki\n}"];
+20 [shape=record,label="{Concept_1_35|Creator:Foswiki community\nFirst public release date:December 2008\nLatest stable release:1.1.8\nStable release date:March 1 2013\n|Foswiki\n}"];
+21 [shape=record,label="{Concept_1_14|Creator:ThoughtFarmer\nFirst public release date:May 2006\nLatest stable release:5.5\nStable release date:June 4 2012\n|ThoughtFarmer\n}"];
+22 [shape=record,label="{Concept_1_2|Creator:Wikka Development Team\nFirst public release date:May 16 2004\nLatest stable release:1.3.3\nStable release date:May 20 2012\n|WikkaWiki\n}"];
+23 [shape=record,label="{Concept_1_8|Creator:Roman Ivanov\nFirst public release date:March 2003\nLatest stable release:5.4.0\nStable release date:April 17 2014\n|WackoWiki\n}"];
+24 [shape=record,label="{Concept_1_17|Creator:SlimWiki\nFirst public release date:July 2014\nLatest stable release:2014\nStable release date:2014\n|SlimWiki\n}"];
+25 [shape=record,label="{Concept_1_23|Creator:David Weekly\nFirst public release date:May 30 2005\nPredecessor:TipiWiki\nData backend:lighttpd\nData backend:Pound\nData backend:Squid\n|PBworks\n}"];
+26 [shape=record,label="{Concept_1_29|Creator:Wikimedia Foundation\nFirst public release date:January 25 2002\nLatest stable release:1.23.1\nStable release date:June 25 2014\n|MediaWiki\n}"];
+27 [shape=record,label="{Concept_1_21|Creator:Patrick Michaud\nFirst public release date:February 6 2002\nLatest stable release:2.2.62\nStable release date:February 28 2014\nData backend:Flat-file. MySQL\n|PmWiki\n}"];
+28 [shape=record,label="{Concept_1_15|Creator:Jochen Rick\nCreator:Mark Guzdial\nFirst public release date:October 1999\nLatest stable release:1.5\nStable release date:December 6 2005\nProgramming language:Squeak\n|Swiki\n}"];
+29 [shape=record,label="{Concept_1_38|Creator:Matt Wiseley\nFirst public release date:August 2003\n|EditMe\n}"];
+30 [shape=record,label="{Concept_1_3|Creator:Ward Cunningham\nFirst public release date:1995\nPredecessor:Apple HyperCard\n|WikiWikiWeb\n}"];
+31 [shape=record,label="{Concept_1_20|Creator:Qontext Inc.\nFirst public release date:November 6 2010\nLatest stable release:0.144.1\nStable release date:December 12 2010\nData backend:Amazon Cloud\n|Qontext\n}"];
+32 [shape=record,label="{Concept_1_19|Creator:Threeplicate\nLatest stable release:3.0.5.600\nStable release date:June 29 2013\nData backend:Flat Files\n|Screwturn Wiki\n}"];
+33 [shape=record,label="{Concept_1_32|Creator:Joey Hess et al.\nFirst public release date:April 29 2006\nLatest stable release:3.20120725\nStable release date:July 25 2012\nData backend:Subversion\n|Ikiwiki\n}"];
+34 [shape=record,label="{Concept_1_26|Creator:MindTouch Inc.\nFirst public release date:July 25 2006\nLatest stable release:10.1.4\nStable release date:January 22 2013\n|MindTouch\n}"];
+35 [shape=record,label="{Concept_1_39|Creator:Andreas Gohr\nFirst public release date:July 2004\nStable release date:May 5 2014\n|DokuWiki\n}"];
+36 [shape=record,label="{Concept_1_22|Creator:Steve Wainstead\nFirst public release date:December 1999\nLatest stable release:1.3.14\nStable release date:July 1 2007\nPredecessor:WikiWikiWeb\nData backend:Berkeley DB\nData backend:Firebird\n|PhpWiki\n}"];
+37 [shape=record,label="{Concept_1_6|Creator:Apple Inc.\n|Wiki Server\n}"];
+38 [shape=record,label="{Concept_1_12|Creator:Luis Argerich\nFirst public release date:October 9 2002\nLatest stable release:12.2 LTS\nStable release date:May 22 2014\n|Tiki Wiki CMS Groupware\n}"];
+39 [shape=record,label="{Concept_1_0|Creator:Simon Michael\nFirst public release date:November 5 1999\nLatest stable release:0.61.0\nStable release date:October 28 2008\nData backend:ZODB\n|ZWiki\n}"];
+40 [shape=record,label="{Concept_1_10|Creator:Peter Thoeny\nFirst public release date:October 1998\nLatest stable release:6.0.0\nStable release date:October 14 2013\nPredecessor:JosWiki\n|TWiki\n}"];
+41 [shape=record,label="{Concept_1_1|Creator:Ludovic Dubost\nFirst public release date:February 2004\nLatest stable release:6.1\nStable release date:July 8 2014\n|XWiki\n}"];
+42 [shape=record,label="{Concept_1_25|Creator:Thomas Waldmann\nCreator:Jürgen Hermann\nFirst public release date:July 28 2000\nLatest stable release:1.9.7\nStable release date:March 17 2013\nPredecessor:PikiPiki\n|MoinMoin\n}"];
+43 [shape=record,label="{Concept_1_37|Creator:eXo Platform\nFirst public release date:2002\nLatest stable release:4.0\nStable release date:April 2014\n|eXo Platform\n}"];
+44 [shape=record,label="{Concept_1_50|First public release date:September 2004\n|}"];
+45 [shape=record,label="{Concept_1_52|Latest stable release:2.0\n|}"];
+46 [shape=record,label="{Concept_1_49|Predecessor:TWiki\n|}"];
+47 [shape=record,label="{Concept_1_53|Predecessor:MediaWiki\n|}"];
+48 [shape=record,label="{Concept_1_43|Predecessor:WakkaWiki\n|}"];
+49 [shape=record,label="{Concept_1_44|Software license:BSD\n|}"];
+50 [shape=record,label="{Concept_1_45|Programming language:Ruby\n|}"];
+51 [shape=record,label="{Concept_1_47|Programming language:Python\n|}"];
+52 [shape=record,label="{Concept_1_46|Data backend:MogileFS\n|}"];
+53 [shape=record,label="{Concept_1_51|Data backend:HSQLDB\nData backend:Apache Derby\n|}"];
+54 [shape=record,label="{Concept_1_48|Data backend:Git\n|}"];
+55 [shape=record,label="{Concept_1_56|Programming language:Java EE\n|}"];
+56 [shape=record,label="{Concept_1_55|Data backend:RCS\n|}"];
+57 [shape=record,label="{Concept_1_54|Data backend:SQLite\n|}"];
+58 [shape=record,label="{Concept_1_58|Software license:LGPL\n|}"];
+59 [shape=record,label="{Concept_1_57|Programming language:ASP.NET\n|}"];
+60 [shape=record,label="{Concept_1_59|Data backend:File system\n|}"];
+61 [shape=record,label="{Concept_1_62|Software license:GPL v2\n|}"];
+62 [shape=record,label="{Concept_1_60|Programming language:C#\n|}"];
+63 [shape=record,label="{Concept_1_61|Data backend:Oracle\n|}"];
+64 [shape=record,label="{Concept_1_64|Data backend:Microsoft SQL Server\n|}"];
+65 [shape=record,label="{Concept_1_63|Data backend:Flat-file\n|}"];
+66 [shape=record,label="{Concept_1_66|Encoding:ISO8859-1\n|}"];
+67 [shape=record,label="{Concept_1_65|Programming language:Perl\n|}"];
+68 [shape=record,label="{Concept_1_68|Programming language:Java\n|}"];
+69 [shape=record,label="{Concept_1_67|Data backend:PostgreSQL\n|}"];
+70 [shape=record,label="{Concept_1_69|Software license:GPL\n|}"];
+71 [shape=record,label="{Concept_1_70|Programming language:PHP\n|}"];
+72 [shape=record,label="{Concept_1_71|Software license:Proprietary\n|}"];
+73 [shape=record,label="{Concept_1_72|Data backend:MySQL\n|}"];
+74 [shape=record,label="{Concept_1_73|Open source:Yes\n|}"];
+75 [shape=record,label="{Concept_1_74|Encoding:UTF-8\n|}"];
+76 [shape=record,label="{Concept_1_75|Multilingual:Yes\n|}"];
+	10 -> 44
+	1 -> 44
+	11 -> 45
+	4 -> 45
+	41 -> 46
+	20 -> 46
+	34 -> 47
+	19 -> 47
+	23 -> 48
+	22 -> 48
+	23 -> 49
+	10 -> 49
+	24 -> 50
+	12 -> 50
+	42 -> 51
+	39 -> 51
+	8 -> 52
+	25 -> 52
+	43 -> 53
+	41 -> 53
+	33 -> 54
+	17 -> 54
+	6 -> 55
+	3 -> 55
+	7 -> 55
+	16 -> 56
+	40 -> 56
+	20 -> 56
+	14 -> 57
+	26 -> 57
+	27 -> 57
+	16 -> 58
+	38 -> 58
+	53 -> 58
+	18 -> 59
+	21 -> 59
+	32 -> 59
+	1 -> 59
+	1 -> 60
+	11 -> 60
+	35 -> 60
+	28 -> 60
+	19 -> 61
+	32 -> 61
+	26 -> 61
+	33 -> 61
+	35 -> 61
+	34 -> 62
+	59 -> 62
+	6 -> 63
+	2 -> 63
+	36 -> 63
+	53 -> 63
+	36 -> 64
+	6 -> 64
+	59 -> 64
+	42 -> 65
+	9 -> 65
+	2 -> 65
+	20 -> 65
+	36 -> 65
+	40 -> 65
+	20 -> 66
+	36 -> 66
+	22 -> 66
+	40 -> 66
+	29 -> 66
+	27 -> 66
+	7 -> 66
+	9 -> 67
+	20 -> 67
+	13 -> 67
+	40 -> 67
+	30 -> 67
+	14 -> 67
+	33 -> 67
+	2 -> 68
+	55 -> 68
+	29 -> 68
+	11 -> 68
+	31 -> 68
+	53 -> 68
+	13 -> 69
+	36 -> 69
+	26 -> 69
+	14 -> 69
+	4 -> 69
+	50 -> 69
+	53 -> 69
+	9 -> 70
+	20 -> 70
+	36 -> 70
+	22 -> 70
+	40 -> 70
+	12 -> 70
+	27 -> 70
+	51 -> 70
+	5 -> 70
+	17 -> 70
+	28 -> 70
+	36 -> 71
+	38 -> 71
+	26 -> 71
+	27 -> 71
+	16 -> 71
+	52 -> 71
+	47 -> 71
+	4 -> 71
+	35 -> 71
+	48 -> 71
+	5 -> 71
+	21 -> 72
+	2 -> 72
+	45 -> 72
+	34 -> 72
+	18 -> 72
+	15 -> 72
+	31 -> 72
+	24 -> 72
+	55 -> 72
+	13 -> 72
+	29 -> 72
+	52 -> 72
+	37 -> 72
+	36 -> 73
+	12 -> 73
+	26 -> 73
+	29 -> 73
+	3 -> 73
+	52 -> 73
+	47 -> 73
+	49 -> 73
+	14 -> 73
+	48 -> 73
+	5 -> 73
+	58 -> 73
+	56 -> 74
+	54 -> 74
+	57 -> 74
+	70 -> 74
+	46 -> 74
+	44 -> 74
+	49 -> 74
+	61 -> 74
+	48 -> 74
+	58 -> 74
+	21 -> 75
+	46 -> 75
+	15 -> 75
+	50 -> 75
+	17 -> 75
+	32 -> 75
+	38 -> 75
+	40 -> 75
+	18 -> 75
+	47 -> 75
+	31 -> 75
+	7 -> 75
+	35 -> 75
+	51 -> 75
+	13 -> 75
+	57 -> 75
+	10 -> 75
+	63 -> 75
+	52 -> 75
+	21 -> 76
+	46 -> 76
+	15 -> 76
+	50 -> 76
+	55 -> 76
+	38 -> 76
+	40 -> 76
+	18 -> 76
+	47 -> 76
+	31 -> 76
+	61 -> 76
+	51 -> 76
+	5 -> 76
+	54 -> 76
+	57 -> 76
+	63 -> 76
+	8 -> 76
+	49 -> 76
+	48 -> 76
+}
+}

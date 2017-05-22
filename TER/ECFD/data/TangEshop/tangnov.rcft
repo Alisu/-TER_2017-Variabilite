@@ -1,0 +1,15 @@
+FormalContext Tang
+||BankTransfer|Catalogue|CreditCard|High|Payment|PublicReport|Search|Security|Standard|Webshop|
+|Tangc0|x|x|x|x|x|||x||x|
+|Tangc1||x|x||x|x|x|x|x|x|
+|Tangc2|x|x|||x|||x|x|x|
+|Tangc3||x|x||x||x|x|x|x|
+|Tangc4|x|x|||x||x|x|x|x|
+|Tangc5|x|x|x||x||x|x|x|x|
+|Tangc6|x|x|||x|x|x|x|x|x|
+|Tangc7||x|x||x|||x|x|x|
+|Tangc8||x|x|x|x|||x||x|
+|Tangc9|x|x|x|x|x||x|x||x|
+|Tangc10||x|x|x|x||x|x||x|
+|Tangc11|x|x|x||x|||x|x|x|
+|Tangc12|x|x|x||x|x|x|x|x|x|

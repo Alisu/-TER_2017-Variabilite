@@ -1,0 +1,32 @@
+digraph G { 
+	rankdir=BT;
+subgraph 22 { 
+label="22";
+1 [shape=record,label="{Concept_22_0|VoiceXML/X+V:Yes\nCSSPresentation/projectionmode:Yes\n|Opera\n}"];
+2 [shape=record,label="{Concept_22_1|WebForms2.0:Yes\n|MozillaFirefox\nSeaMonkey\n}"];
+3 [shape=record,label="{Concept_22_2|VML:Yes\n|AOLExplorer\nAvant\nInternetExplorer\nLunascape\nMaxthon\nSleipnir\n}"];
+4 [shape=record,label="{Concept_22_3|NavLINKs:Yes\n|iCab\nKonqueror\nLinks\nLynx\nMozilla\nSeaMonkey\n}"];
+5 [shape=record,label="{Concept_22_4|XForms:Yes\n|Arora\nDooble\nFlock\nLunascape\nMozillaFirefox\nNetscapeNavigator9\nSeaMonkey\nWeb\n}"];
+6 [shape=record,label="{Concept_22_5|SMIL:Yes\n|}"];
+7 [shape=record,label="{Concept_22_6|MathML:Yes\n|Amaya\nCamino\nGaleon\nGoogleChrome\nK-Meleon\nMozilla\nNetscape\n}"];
+8 [shape=record,label="{Concept_22_7|XHTML1.0:Yes\n|InternetExplorer\nKonqueror\nMidori\nOmniWeb\nQupZilla\nSafari\nShiira\nsurf\nTorchBrowser\nw3m\n}"];
+9 [shape=record,label="{Concept_22_8|XHTML1.1:Yes\n|InternetExplorer\nInternetExplorerforMac\nKonqueror\nMidori\nOmniWeb\nQupZilla\nSafari\nShiira\nsurf\nTorchBrowser\n}"];
+10 [shape=record,label="{Concept_22_9|XSLT:Yes\n|Camino\nGaleon\nGoogleChrome\nInternetExplorerforMac\nK-Meleon\nMidori\nMozilla\nNetscape\nNetscapeBrowser\nQupZilla\nSafari\nShiira\nTorchBrowser\n}"];
+11 [shape=record,label="{Concept_22_10|CSS2.1:Yes\n|Dillo\nELinks\niCab\nNetSurf\n}"];
+12 [shape=record,label="{Concept_22_11|Frames:Yes\n|Dillo\nELinks\nNetscapeNavigator\nNetSurf\nOmniWeb\nsurf\nw3m\n}"];
+	1 -> 2
+	1 -> 4
+	3 -> 6
+	2 -> 6
+	2 -> 7
+	5 -> 7
+	7 -> 8
+	7 -> 9
+	6 -> 10
+	5 -> 10
+	10 -> 11
+	9 -> 11
+	10 -> 12
+	4 -> 12
+}
+}

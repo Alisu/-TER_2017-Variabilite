@@ -1,0 +1,47 @@
+digraph G { 
+	rankdir=BT;
+subgraph 39 { 
+label="39";
+1 [shape=record,label="{Concept_39_0|IntegrationwithIMservice:Yes\n|}"];
+2 [shape=record,label="{Concept_39_1|Interfacescripttechnique:Java\nServerhostedpublickeyring(forencryption):Yes\nSharedkeyencryption:Yes\n|Hushmail\n}"];
+3 [shape=record,label="{Concept_39_2|Addressmodifiers(subaddressing):Yes\n|FastMail.FM\nGmail\nOutlook.com\nRunbox\nYahoo!Mail\nYandexMail\n}"];
+4 [shape=record,label="{Concept_39_3|Interfacescripttechnique:CSS\n|BigfootCommunications\nFastMail.FM\nOutlook.com\nRunbox\nYahoo!Mail\nYandexMail\n}"];
+5 [shape=record,label="{Concept_39_4|Filtersoutemailswithexecutableattachments:Yes\n|GMXMail\nMail.com\nRackspace\n}"];
+6 [shape=record,label="{Concept_39_5|Automaticforwarding:Yes\n|Mail.com\nMail.ru\nRackspace\nSeznam.cz\nZoho\n}"];
+7 [shape=record,label="{Concept_39_6|DomainNamecustomization:Yes\n|BigfootCommunications\nFastMail.FM\nGmail\nGMXMail\nMail.ru\nRackspace\nrediff\nRunbox\nYahoo!Mail\nYandexMail\nZoho\n}"];
+8 [shape=record,label="{Concept_39_9|clientE-mailforotherserver:Yes\n|AOLMail\nGMXMail\nMail.com\nMail.ru\nSeznam.cz\nZoho\n}"];
+9 [shape=record,label="{Concept_39_7|Interfacescripttechnique:HTML\n|Mail.ru\nSeznam.cz\n}"];
+10 [shape=record,label="{Concept_39_8|Interfacescripttechnique:JavaScript\n|AOLMail\nrediff\nSeznam.cz\n}"];
+11 [shape=record,label="{Concept_39_10|Custom"From:"Address:Yes\n|GMXMail\nMail.com\nMail.ru\nrediff\nSeznam.cz\nZoho\n}"];
+12 [shape=record,label="{Concept_39_11|Interfacescripttechnique:Ajax\n|AOLMail\nMail.ru\nrediff\nZoho\n}"];
+13 [shape=record,label="{Concept_39_12|Virusscanning:Yes\n|}"];
+14 [shape=record,label="{Concept_39_13|E-mailclientaccess:Yes\n|}"];
+	1 -> 2
+	1 -> 3
+	1 -> 4
+	3 -> 5
+	3 -> 6
+	4 -> 6
+	2 -> 7
+	3 -> 8
+	4 -> 8
+	5 -> 9
+	4 -> 9
+	2 -> 9
+	5 -> 10
+	4 -> 10
+	3 -> 11
+	4 -> 11
+	2 -> 11
+	5 -> 12
+	4 -> 12
+	6 -> 13
+	12 -> 13
+	10 -> 13
+	8 -> 13
+	7 -> 14
+	9 -> 14
+	11 -> 14
+	13 -> 14
+}
+}
